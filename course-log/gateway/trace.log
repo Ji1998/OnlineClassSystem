@@ -2215,3 +2215,10 @@ Caused by: java.lang.IllegalArgumentException: Unable to find RoutePredicateFact
 2021-01-09 21:13:11.212 INFO  com.course.gateway.GatewayApplication             :23   [32m        [0;39m 启动成功！！
 2021-01-09 21:13:11.212 INFO  com.course.gateway.GatewayApplication             :24   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
 2021-01-09 21:18:10.997 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:23:11.002 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:28:11.007 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:33:11.013 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:38:11.022 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:43:10.975 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:48:10.980 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:53:10.986 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

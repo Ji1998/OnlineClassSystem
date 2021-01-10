@@ -4249,3 +4249,66 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 21:13:42.582 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 21:13:42.587 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 4 ms
 2021-01-09 21:17:45.954 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:22:45.961 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:27:45.966 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:32:45.972 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:37:45.980 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:42:45.933 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:47:45.938 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:52:45.946 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:56:40.060 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-01-09 21:56:40.060 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1610247400060, current=DOWN, previous=UP]
+2021-01-09 21:56:40.061 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-09 21:56:40.063 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 21:56:40.064 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-09 21:56:40.064 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-09 21:56:43.066 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-09 21:56:43.071 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-01-09 21:56:43.081 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-09 21:56:49.411 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 21:56:49.483 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 21:56:49.826 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :166  [32m        [0;39m No MyBatis mapper was found in '[com.course.system]' package. Please check your configuration.
+2021-01-09 21:56:50.014 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=4f11e3b0-3478-34ed-92ac-91aec170e15e
+2021-01-09 21:56:50.094 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 21:56:50.120 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 21:56:50.261 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-01-09 21:56:50.268 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-01-09 21:56:50.268 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-09 21:56:50.269 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-09 21:56:50.358 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-09 21:56:50.359 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 867 ms
+2021-01-09 21:56:50.397 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-09 21:56:50.397 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-09 21:56:50.400 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-09 21:56:50.400 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-09 21:56:50.505 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 21:56:50.883 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-09 21:56:50.908 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-09 21:56:50.963 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-09 21:56:50.985 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-09 21:56:51.158 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-09 21:56:51.158 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-09 21:56:51.233 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-09 21:56:51.234 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-09 21:56:51.328 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-09 21:56:51.337 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-09 21:56:51.338 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-09 21:56:51.338 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-09 21:56:51.338 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-09 21:56:51.338 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-09 21:56:51.338 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-09 21:56:51.338 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-09 21:56:51.426 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-09 21:56:51.428 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-09 21:56:51.430 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-09 21:56:51.432 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1610247411432 with initial instances count: 2
+2021-01-09 21:56:51.434 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-01-09 21:56:51.434 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1610247411434, current=UP, previous=STARTING]
+2021-01-09 21:56:51.436 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-09 21:56:51.444 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-01-09 21:56:51.457 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-09 21:56:51.465 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-01-09 21:56:51.465 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-01-09 21:56:51.470 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.436 seconds (JVM running for 2.944)
+2021-01-09 21:56:51.480 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 21:56:51.480 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
