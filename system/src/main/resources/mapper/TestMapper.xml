@@ -4,7 +4,7 @@
 
 <!--    接口的全路径-->
     <select id="list" resultType="com.course.system.domain.Test">
-        select `id`, `name` from `test`
+        select t.id, t.name from test t
     </select>
 
 </mapper>
