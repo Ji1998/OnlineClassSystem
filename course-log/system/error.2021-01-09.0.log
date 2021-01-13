@@ -73,7 +73,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:20)
+	at com.course.SystemApplication.main(SystemApplication.java:20)
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
@@ -150,7 +150,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:20)
+	at com.course.SystemApplication.main(SystemApplication.java:20)
 2021-01-09 17:51:42.264 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
@@ -1664,7 +1664,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:20)
+	at com.course.SystemApplication.main(SystemApplication.java:20)
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
@@ -1741,7 +1741,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:20)
+	at com.course.SystemApplication.main(SystemApplication.java:20)
 2021-01-09 17:55:40.395 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
@@ -2721,7 +2721,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.SystemApplication.main(SystemApplication.java:22)
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
@@ -2798,7 +2798,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.SystemApplication.main(SystemApplication.java:22)
 2021-01-09 18:04:18.273 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
@@ -3095,8 +3095,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not 
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:16)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:16)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3158,7 +3158,7 @@ Caused by: java.lang.NullPointerException: null
 2021-01-09 22:30:58.909 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 ### The error may exist in file [/Users/Steven/Desktop/慕课网/course/system/target/classes/mapper/TestMapper.xml]
-### The error may involve com.course.system.mapper.TestMapper.list
+### The error may involve com.course.TestMapper.list
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.] with root cause
 java.lang.NullPointerException: null
@@ -3222,8 +3222,8 @@ java.lang.NullPointerException: null
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:16)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:16)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3342,8 +3342,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not 
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3405,7 +3405,7 @@ Caused by: java.lang.NullPointerException: null
 2021-01-09 22:48:28.554 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 ### The error may exist in file [/Users/Steven/Desktop/慕课网/course/system/target/classes/mapper/TestMapper.xml]
-### The error may involve com.course.system.mapper.TestMapper.list
+### The error may involve com.course.TestMapper.list
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.] with root cause
 java.lang.NullPointerException: null
@@ -3469,8 +3469,8 @@ java.lang.NullPointerException: null
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3576,8 +3576,8 @@ java.sql.SQLNonTransientConnectionException: Could not create connection to data
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3651,7 +3651,7 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'courseim
 2021-01-09 22:52:48.657 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 ### The error may exist in file [/Users/Steven/Desktop/慕课网/course/system/target/classes/mapper/TestMapper.xml]
-### The error may involve com.course.system.mapper.TestMapper.list
+### The error may involve com.course.TestMapper.list
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.] with root cause
 com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'localhost' to database 'courseimooc'
@@ -3720,8 +3720,8 @@ com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'local
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4018,8 +4018,8 @@ java.sql.SQLNonTransientConnectionException: Could not create connection to data
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4093,7 +4093,7 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'courseim
 2021-01-09 23:53:49.754 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 ### The error may exist in file [/Users/Steven/Desktop/慕课网/course/system/target/classes/mapper/TestMapper.xml]
-### The error may involve com.course.system.mapper.TestMapper.list
+### The error may involve com.course.TestMapper.list
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.] with root cause
 com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'localhost' (using password: YES)
@@ -4162,8 +4162,8 @@ com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'local
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

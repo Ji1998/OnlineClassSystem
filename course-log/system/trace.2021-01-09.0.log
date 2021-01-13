@@ -1,5 +1,5 @@
 2021-01-09 17:51:40.521 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 17:51:40.612 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 17:51:40.612 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 17:51:41.063 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b2e6935e-4f54-355f-985a-d9663433412b
 2021-01-09 17:51:41.134 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 17:51:41.274 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -104,7 +104,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:20)
+	at com.course.SystemApplication.main(SystemApplication.java:20)
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
@@ -182,7 +182,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:20)
+	at com.course.SystemApplication.main(SystemApplication.java:20)
 2021-01-09 17:51:42.249 WARN  com.netflix.discovery.DiscoveryClient             :297  [32m        [0;39m Using default backup registry implementation which does not do anything.
 2021-01-09 17:51:42.250 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
 2021-01-09 17:51:42.252 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
@@ -276,9 +276,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 17:51:42.267 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-01-09 17:51:42.288 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path ''
 2021-01-09 17:51:42.289 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 17:51:42.295 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.277 seconds (JVM running for 3.034)
-2021-01-09 17:51:42.296 INFO  com.course.system.SystemApplication               :21   [32m        [0;39m 启动成功！！
-2021-01-09 17:51:42.297 INFO  com.course.system.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 17:51:42.295 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.277 seconds (JVM running for 3.034)
+2021-01-09 17:51:42.296 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2021-01-09 17:51:42.297 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 17:51:52.891 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 17:51:52.891 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 17:51:52.896 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms
@@ -1999,7 +1999,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
 2021-01-09 17:55:31.329 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 17:55:38.748 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 17:55:38.832 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 17:55:38.832 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 17:55:39.262 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b1b581e8-1532-3996-b62a-88c08f9143cb
 2021-01-09 17:55:39.321 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 17:55:39.449 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -2104,7 +2104,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:20)
+	at com.course.SystemApplication.main(SystemApplication.java:20)
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
@@ -2182,7 +2182,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:20)
+	at com.course.SystemApplication.main(SystemApplication.java:20)
 2021-01-09 17:55:40.381 WARN  com.netflix.discovery.DiscoveryClient             :297  [32m        [0;39m Using default backup registry implementation which does not do anything.
 2021-01-09 17:55:40.382 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
 2021-01-09 17:55:40.384 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
@@ -2276,9 +2276,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 17:55:40.398 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-01-09 17:55:40.418 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path ''
 2021-01-09 17:55:40.419 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 17:55:40.424 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.092 seconds (JVM running for 2.79)
-2021-01-09 17:55:40.425 INFO  com.course.system.SystemApplication               :21   [32m        [0;39m 启动成功！！
-2021-01-09 17:55:40.425 INFO  com.course.system.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 17:55:40.424 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.092 seconds (JVM running for 2.79)
+2021-01-09 17:55:40.425 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2021-01-09 17:55:40.425 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 17:55:47.503 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 17:55:47.504 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 17:55:47.509 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms
@@ -3342,7 +3342,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
 2021-01-09 17:57:43.897 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 18:04:16.591 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 18:04:16.673 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 18:04:16.673 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 18:04:17.130 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b1b581e8-1532-3996-b62a-88c08f9143cb
 2021-01-09 18:04:17.190 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 18:04:17.325 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -3447,7 +3447,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.SystemApplication.main(SystemApplication.java:22)
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
@@ -3525,7 +3525,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:22)
+	at com.course.SystemApplication.main(SystemApplication.java:22)
 2021-01-09 18:04:18.261 WARN  com.netflix.discovery.DiscoveryClient             :297  [32m        [0;39m Using default backup registry implementation which does not do anything.
 2021-01-09 18:04:18.262 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
 2021-01-09 18:04:18.263 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
@@ -3619,9 +3619,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 18:04:18.276 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-01-09 18:04:18.295 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path ''
 2021-01-09 18:04:18.295 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 18:04:18.300 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.084 seconds (JVM running for 2.622)
-2021-01-09 18:04:18.301 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-01-09 18:04:18.302 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 18:04:18.300 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.084 seconds (JVM running for 2.622)
+2021-01-09 18:04:18.301 INFO  com.course.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 18:04:18.302 INFO  com.course.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 18:04:29.033 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 18:04:29.034 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 18:04:29.038 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 4 ms
@@ -3867,7 +3867,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 18:05:24.451 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 18:05:24.460 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 18:05:50.571 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 18:05:50.634 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 18:05:50.634 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 18:05:51.041 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b1b581e8-1532-3996-b62a-88c08f9143cb
 2021-01-09 18:05:51.094 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 18:05:51.214 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -3907,9 +3907,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 18:05:52.100 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-01-09 18:05:52.120 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path ''
 2021-01-09 18:05:52.121 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 18:05:52.126 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.91 seconds (JVM running for 2.436)
-2021-01-09 18:05:52.127 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-01-09 18:05:52.127 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 18:05:52.126 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.91 seconds (JVM running for 2.436)
+2021-01-09 18:05:52.127 INFO  com.course.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 18:05:52.127 INFO  com.course.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 18:05:52.136 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 18:06:22.089 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
 2021-01-09 18:06:22.089 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
@@ -3934,7 +3934,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 18:34:19.675 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 18:34:19.683 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 18:55:58.962 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 18:55:59.034 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 18:55:59.034 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 18:55:59.419 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b1b581e8-1532-3996-b62a-88c08f9143cb
 2021-01-09 18:55:59.469 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 18:55:59.577 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -3974,9 +3974,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 18:56:00.504 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-01-09 18:56:00.523 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path ''
 2021-01-09 18:56:00.524 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 18:56:00.529 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.909 seconds (JVM running for 2.398)
-2021-01-09 18:56:00.530 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-01-09 18:56:00.530 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 18:56:00.529 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.909 seconds (JVM running for 2.398)
+2021-01-09 18:56:00.530 INFO  com.course.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 18:56:00.530 INFO  com.course.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 18:56:00.539 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 18:56:30.492 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
 2021-01-09 18:56:30.493 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
@@ -3998,7 +3998,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 19:06:41.733 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 19:06:41.741 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 19:06:48.133 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 19:06:48.210 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 19:06:48.210 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 19:06:48.610 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b1b581e8-1532-3996-b62a-88c08f9143cb
 2021-01-09 19:06:48.665 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 19:06:48.781 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -4039,9 +4039,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 19:06:49.683 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 19:06:49.689 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 19:06:49.691 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 19:06:49.695 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.987 seconds (JVM running for 2.726)
-2021-01-09 19:06:49.696 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-01-09 19:06:49.696 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 19:06:49.695 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.987 seconds (JVM running for 2.726)
+2021-01-09 19:06:49.696 INFO  com.course.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 19:06:49.696 INFO  com.course.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 19:10:03.303 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
 2021-01-09 19:10:03.303 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1610237403303, current=DOWN, previous=UP]
 2021-01-09 19:10:03.303 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
@@ -4052,7 +4052,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 19:10:03.313 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 19:10:03.321 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 19:21:47.670 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 19:21:47.744 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 19:21:47.744 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 19:21:48.164 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b1b581e8-1532-3996-b62a-88c08f9143cb
 2021-01-09 19:21:48.209 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 19:21:48.330 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -4092,9 +4092,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 19:21:49.275 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-01-09 19:21:49.294 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 19:21:49.294 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 19:21:49.299 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.021 seconds (JVM running for 2.49)
-2021-01-09 19:21:49.300 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-01-09 19:21:49.301 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 19:21:49.299 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.021 seconds (JVM running for 2.49)
+2021-01-09 19:21:49.300 INFO  com.course.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 19:21:49.301 INFO  com.course.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 19:21:49.311 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 19:22:19.264 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
 2021-01-09 19:22:19.264 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
@@ -4136,7 +4136,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 21:09:22.200 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 21:09:22.208 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 21:09:30.130 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 21:09:30.222 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 21:09:30.222 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 21:09:30.687 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b1b581e8-1532-3996-b62a-88c08f9143cb
 2021-01-09 21:09:30.748 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 21:09:30.893 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -4176,9 +4176,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 21:09:31.856 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-01-09 21:09:31.877 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path ''
 2021-01-09 21:09:31.878 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 21:09:31.883 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.145 seconds (JVM running for 2.875)
-2021-01-09 21:09:31.884 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-01-09 21:09:31.884 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 21:09:31.883 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.145 seconds (JVM running for 2.875)
+2021-01-09 21:09:31.884 INFO  com.course.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 21:09:31.884 INFO  com.course.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 21:09:31.885 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 21:09:38.532 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 21:09:38.532 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
@@ -4201,7 +4201,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 21:12:38.667 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 21:12:38.675 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 21:12:44.390 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 21:12:44.472 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 21:12:44.472 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 21:12:44.903 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b1b581e8-1532-3996-b62a-88c08f9143cb
 2021-01-09 21:12:44.963 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 21:12:45.092 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
@@ -4242,9 +4242,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 21:12:46.065 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 21:12:46.072 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 21:12:46.073 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 21:12:46.078 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.064 seconds (JVM running for 2.528)
-2021-01-09 21:12:46.079 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-01-09 21:12:46.079 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 21:12:46.078 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.064 seconds (JVM running for 2.528)
+2021-01-09 21:12:46.079 INFO  com.course.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 21:12:46.079 INFO  com.course.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 21:13:42.582 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 21:13:42.582 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 21:13:42.587 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 4 ms
@@ -4266,7 +4266,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 21:56:43.071 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 21:56:43.081 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 21:56:49.411 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 21:56:49.483 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 21:56:49.483 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 21:56:49.826 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :166  [32m        [0;39m No MyBatis mapper was found in '[com.course.system]' package. Please check your configuration.
 2021-01-09 21:56:50.014 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=4f11e3b0-3478-34ed-92ac-91aec170e15e
 2021-01-09 21:56:50.094 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -4309,9 +4309,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 21:56:51.457 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 21:56:51.465 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 21:56:51.465 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 21:56:51.470 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.436 seconds (JVM running for 2.944)
-2021-01-09 21:56:51.480 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
-2021-01-09 21:56:51.480 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 21:56:51.470 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.436 seconds (JVM running for 2.944)
+2021-01-09 21:56:51.480 INFO  com.course.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2021-01-09 21:56:51.480 INFO  com.course.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 22:01:51.348 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-01-09 22:06:51.358 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-01-09 22:11:51.407 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
@@ -4328,7 +4328,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 22:28:45.814 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 22:28:45.825 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 22:29:05.839 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 22:29:05.915 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 22:29:05.915 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 22:29:06.438 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f71b20bd-4c16-3acf-ab2f-2514fd06b7b4
 2021-01-09 22:29:06.519 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 22:29:06.543 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -4370,9 +4370,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 22:29:07.992 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 22:29:08.000 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 22:29:08.000 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 22:29:08.005 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.586 seconds (JVM running for 3.355)
-2021-01-09 22:29:08.006 INFO  com.course.system.SystemApplication               :27   [32m        [0;39m 启动成功！！
-2021-01-09 22:29:08.007 INFO  com.course.system.SystemApplication               :28   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 22:29:08.005 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.586 seconds (JVM running for 3.355)
+2021-01-09 22:29:08.006 INFO  com.course.SystemApplication               :27   [32m        [0;39m 启动成功！！
+2021-01-09 22:29:08.007 INFO  com.course.SystemApplication               :28   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 22:30:54.713 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 22:30:54.713 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 22:30:54.719 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms
@@ -4445,8 +4445,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not 
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:16)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:16)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4508,7 +4508,7 @@ Caused by: java.lang.NullPointerException: null
 2021-01-09 22:30:58.909 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 ### The error may exist in file [/Users/Steven/Desktop/慕课网/course/system/target/classes/mapper/TestMapper.xml]
-### The error may involve com.course.system.mapper.TestMapper.list
+### The error may involve com.course.TestMapper.list
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.] with root cause
 java.lang.NullPointerException: null
@@ -4572,8 +4572,8 @@ java.lang.NullPointerException: null
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:16)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:16)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4635,7 +4635,7 @@ java.lang.NullPointerException: null
 2021-01-09 22:36:42.962 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 22:36:42.970 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 22:48:01.029 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 22:48:01.122 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 22:48:01.122 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 22:48:01.639 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f71b20bd-4c16-3acf-ab2f-2514fd06b7b4
 2021-01-09 22:48:01.713 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 22:48:01.737 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -4677,9 +4677,9 @@ java.lang.NullPointerException: null
 2021-01-09 22:48:03.063 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 22:48:03.071 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 22:48:03.072 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 22:48:03.077 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.511 seconds (JVM running for 3.025)
-2021-01-09 22:48:03.079 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
-2021-01-09 22:48:03.079 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 22:48:03.077 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.511 seconds (JVM running for 3.025)
+2021-01-09 22:48:03.079 INFO  com.course.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-09 22:48:03.079 INFO  com.course.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 22:48:24.352 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 22:48:24.353 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 22:48:24.357 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 4 ms
@@ -4752,8 +4752,8 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not 
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4815,7 +4815,7 @@ Caused by: java.lang.NullPointerException: null
 2021-01-09 22:48:28.554 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 ### The error may exist in file [/Users/Steven/Desktop/慕课网/course/system/target/classes/mapper/TestMapper.xml]
-### The error may involve com.course.system.mapper.TestMapper.list
+### The error may involve com.course.TestMapper.list
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.] with root cause
 java.lang.NullPointerException: null
@@ -4879,8 +4879,8 @@ java.lang.NullPointerException: null
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4941,7 +4941,7 @@ java.lang.NullPointerException: null
 2021-01-09 22:51:36.271 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 22:51:36.279 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 22:52:02.928 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 22:52:03.064 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 22:52:03.064 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 22:52:03.643 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f71b20bd-4c16-3acf-ab2f-2514fd06b7b4
 2021-01-09 22:52:03.711 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 22:52:03.730 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -4983,9 +4983,9 @@ java.lang.NullPointerException: null
 2021-01-09 22:52:05.115 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 22:52:05.122 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 22:52:05.123 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 22:52:05.128 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.586 seconds (JVM running for 3.164)
-2021-01-09 22:52:05.129 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
-2021-01-09 22:52:05.129 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 22:52:05.128 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.586 seconds (JVM running for 3.164)
+2021-01-09 22:52:05.129 INFO  com.course.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-09 22:52:05.129 INFO  com.course.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 22:52:44.356 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 22:52:44.356 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 22:52:44.361 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms
@@ -5046,8 +5046,8 @@ java.sql.SQLNonTransientConnectionException: Could not create connection to data
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5121,7 +5121,7 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'courseim
 2021-01-09 22:52:48.657 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 ### The error may exist in file [/Users/Steven/Desktop/慕课网/course/system/target/classes/mapper/TestMapper.xml]
-### The error may involve com.course.system.mapper.TestMapper.list
+### The error may involve com.course.TestMapper.list
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.] with root cause
 com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'localhost' to database 'courseimooc'
@@ -5190,8 +5190,8 @@ com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'local
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5479,7 +5479,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
 2021-01-09 23:08:44.914 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 23:53:36.428 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 23:53:36.506 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 23:53:36.506 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 23:53:36.977 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f71b20bd-4c16-3acf-ab2f-2514fd06b7b4
 2021-01-09 23:53:37.045 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 23:53:37.064 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -5520,9 +5520,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-09 23:53:38.252 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-01-09 23:53:38.271 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 23:53:38.272 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 23:53:38.277 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.225 seconds (JVM running for 2.743)
-2021-01-09 23:53:38.278 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
-2021-01-09 23:53:38.278 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 23:53:38.277 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.225 seconds (JVM running for 2.743)
+2021-01-09 23:53:38.278 INFO  com.course.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-09 23:53:38.278 INFO  com.course.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 23:53:38.279 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 23:53:45.493 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 23:53:45.493 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
@@ -5584,8 +5584,8 @@ java.sql.SQLNonTransientConnectionException: Could not create connection to data
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5659,7 +5659,7 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'courseim
 2021-01-09 23:53:49.754 ERROR o.a.c.c.C.[.[.[/system].[dispatcherServlet]       :175  [32m        [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/system] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
 ### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 ### The error may exist in file [/Users/Steven/Desktop/慕课网/course/system/target/classes/mapper/TestMapper.xml]
-### The error may involve com.course.system.mapper.TestMapper.list
+### The error may involve com.course.TestMapper.list
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.] with root cause
 com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'localhost' (using password: YES)
@@ -5728,8 +5728,8 @@ com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'local
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
 	at com.sun.proxy.$Proxy83.list(Unknown Source)
-	at com.course.system.service.TestService.list(TestService.java:17)
-	at com.course.system.controller.TestController.test(TestController.java:19)
+	at com.course.TestService.list(TestService.java:17)
+	at com.course.TestController.test(TestController.java:19)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -5798,7 +5798,7 @@ com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'local
 2021-01-09 23:54:44.837 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
 2021-01-09 23:54:44.845 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
 2021-01-09 23:54:51.338 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 23:54:51.395 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 23:54:51.395 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 23:54:51.828 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f71b20bd-4c16-3acf-ab2f-2514fd06b7b4
 2021-01-09 23:54:51.891 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 23:54:51.910 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -5840,9 +5840,9 @@ com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'local
 2021-01-09 23:54:53.093 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 23:54:53.100 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 23:54:53.101 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 23:54:53.106 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.104 seconds (JVM running for 2.601)
-2021-01-09 23:54:53.107 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
-2021-01-09 23:54:53.107 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 23:54:53.106 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.104 seconds (JVM running for 2.601)
+2021-01-09 23:54:53.107 INFO  com.course.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-09 23:54:53.107 INFO  com.course.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 23:55:00.742 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 23:55:00.742 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 23:55:00.747 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms
@@ -5861,7 +5861,7 @@ com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'local
 2021-01-09 23:57:21.247 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
 2021-01-09 23:57:21.254 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
 2021-01-09 23:57:30.254 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-01-09 23:57:30.339 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-09 23:57:30.339 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-01-09 23:57:30.930 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=f71b20bd-4c16-3acf-ab2f-2514fd06b7b4
 2021-01-09 23:57:31.016 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2021-01-09 23:57:31.040 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
@@ -5903,9 +5903,9 @@ com.mysql.cj.exceptions.CJException: Access denied for user 'courseimooc'@'local
 2021-01-09 23:57:32.395 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
 2021-01-09 23:57:32.403 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-01-09 23:57:32.404 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-01-09 23:57:32.409 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.514 seconds (JVM running for 3.04)
-2021-01-09 23:57:32.410 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
-2021-01-09 23:57:32.410 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-09 23:57:32.409 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 2.514 seconds (JVM running for 3.04)
+2021-01-09 23:57:32.410 INFO  com.course.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-09 23:57:32.410 INFO  com.course.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
 2021-01-09 23:57:35.227 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-01-09 23:57:35.227 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-01-09 23:57:35.232 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 5 ms

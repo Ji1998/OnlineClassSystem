@@ -3,7 +3,7 @@
 <mapper namespace="com.course.TestMapper" >
 
 <!--    接口的全路径-->
-    <select id="list" resultType="com.course.Test">
+    <select id="list" resultType="com.course.server.domain.Test">
         select t.id, t.name from test t
     </select>
 
