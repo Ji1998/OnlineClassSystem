@@ -441,3 +441,15 @@
 2021-01-22 18:03:47.801 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
 2021-01-22 18:03:52.061 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status UP (replication=false)
 2021-01-22 18:03:52.566 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status UP (replication=true)
+2021-01-22 18:04:47.802 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-01-22 18:05:47.807 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-01-22 18:06:11.866 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status DOWN (replication=false)
+2021-01-22 18:06:12.379 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status DOWN (replication=true)
+2021-01-22 18:06:14.878 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance FILE/192.168.1.11:file:9003 (replication=false)
+2021-01-22 18:06:15.391 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: FILE/192.168.1.11:file:9003
+2021-01-22 18:06:15.392 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): FILE - 192.168.1.11:file:9003
+2021-01-22 18:06:15.392 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task FILE/192.168.1.11:file:9003:Cancel@localhost failed with response code 404
+2021-01-22 18:06:15.392 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m FILE/192.168.1.11:file:9003:Cancel@localhost: missing entry.
+2021-01-22 18:06:21.111 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status UP (replication=false)
+2021-01-22 18:06:21.614 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status UP (replication=true)
+2021-01-22 18:06:47.811 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
