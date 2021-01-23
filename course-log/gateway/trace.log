@@ -1000,3 +1000,30 @@ java.lang.IllegalStateException: Shutdown in progress
 2021-01-23 14:16:28.180 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-01-23 14:21:28.191 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-01-23 14:26:28.202 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 14:31:28.210 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 14:36:28.215 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 14:41:28.166 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 14:46:28.172 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 14:51:28.180 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 14:54:50.095 INFO  com.netflix.config.ChainedDynamicProperty         :115  [32m        [0;39m Flipping property: file.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-23 14:54:50.098 INFO  com.netflix.util.concurrent.ShutdownEnabledTimer  :58   [32m        [0;39m Shutdown hook installed for: NFLoadBalancer-PingTimer-file
+2021-01-23 14:54:50.098 INFO  com.netflix.loadbalancer.BaseLoadBalancer         :197  [32m        [0;39m Client: file instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=file,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-01-23 14:54:50.100 INFO  c.n.loadbalancer.DynamicServerListLoadBalancer    :222  [32m        [0;39m Using serverListUpdater PollingServerListUpdater
+2021-01-23 14:54:50.102 INFO  com.netflix.config.ChainedDynamicProperty         :115  [32m        [0;39m Flipping property: file.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-23 14:54:50.104 INFO  c.n.loadbalancer.DynamicServerListLoadBalancer    :150  [32m        [0;39m DynamicServerListLoadBalancer for client file initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=file,current list of Servers=[192.168.1.11:9003],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.11:9003;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Wed Dec 31 19:00:00 EST 1969;	First connection made: Wed Dec 31 19:00:00 EST 1969;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@12e7152e
+2021-01-23 14:54:51.104 INFO  com.netflix.config.ChainedDynamicProperty         :115  [32m        [0;39m Flipping property: file.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-23 14:56:28.189 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:01:28.196 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:06:28.173 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:11:28.182 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:16:28.189 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:21:28.176 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:26:28.178 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:31:28.187 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:36:28.197 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:41:28.202 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:46:28.212 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:51:28.225 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-23 15:56:28.233 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
