@@ -18,8 +18,8 @@
       <div v-for="teacher in teachers" class="col-md-3 center">
         <div>
           <span class="profile-picture">
-            <img v-show="!teacher.image" class="editable img-responsive editable-click editable-empty" src="/ace/assets/images/avatars/profile-pic.jpg" v-bind:title="teacher.intro"/>
-            <img v-show="teacher.image" class="media-object" v-bind:src="teacher.image" v-bind:title="teacher.intro"/>
+            <img v-show="!teacher.image" class="editable img-responsive editable-click editable-empty" src="/static/image/讲师头像/头像1.jpg" v-bind:title="teacher.intro"/>
+            <img v-show="teacher.image" class="editable img-responsive editable-click editable-empty" v-bind:src="teacher.image" v-bind:title="teacher.intro"/>
           </span>
 
           <div class="space-4"></div>
@@ -83,7 +83,16 @@
               <div class="form-group">
                 <label class="col-sm-2 control-label">头像</label>
                 <div class="col-sm-10">
-                  <input type="file" v-on:change="uploadImage()" id="file-upload-input">
+                  <button type="button" v-on:click="selectImage()" class="btn btn-white btn-default btn-round">
+                    <i class="ace-icon fa fa-upload"></i>
+                    上传头像
+                  </button>
+                  <input class="hidden" type="file" ref="file" v-on:change="uploadImage()" id="file-upload-input">
+                  <div v-show="teacher.image" class="row">
+                    <div class="col-md-4">
+                      <img v-bind:src="teacher.image" class="img-responsive">
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="form-group">
@@ -226,13 +235,38 @@ export default {
     uploadImage () {
       let _this = this;
       let formData = new window.FormData();
+      let file = _this.$refs.file.files[0];
+
+      // 判断文件格式
+      let suffixs = ["jpg", "jpeg", "png"];
+      let fileName = file.name;
+      let suffix = fileName.substring(fileName.lastIndexOf(".") + 1, fileName.length).toLowerCase();
+      let validateSuffix = false;
+      for (let i = 0; i < suffixs.length; i++) {
+        if (suffixs[i].toLowerCase() === suffix) {
+          validateSuffix = true;
+          break;
+        }
+      }
+      if (!validateSuffix) {
+        Toast.warning("文件格式不正确！只支持上传：" + suffixs.join(","));
+        return;
+      }
+
       // key："file"必须和后端controller参数名一致
-      formData.append('file', document.querySelector('#file-upload-input').files[0]);
+      formData.append('file', file);
       Loading.show();
       _this.$ajax.post(process.env.VUE_APP_SERVER + '/file/admin/upload', formData).then((response)=>{
         Loading.hide();
         let resp = response.data;
+        let image = resp.content;
+        console.log("头像地址：", image);
+        _this.teacher.image = image;
       });
+    },
+
+    selectImage () {
+      $("#file-upload-input").trigger("click");
     }
   }
 }

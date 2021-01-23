@@ -3,12 +3,17 @@ package com.course.file.config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.beans.factory.annotation.Value;
 
 @Configuration
 public class SpringMvcConfig implements WebMvcConfigurer {
 
+    @Value("${file.path}")
+    private String FILE_PATH;
+
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/f/**").addResourceLocations("///Users/Steven/Desktop/慕课网/");
+        registry.addResourceHandler("/f/**").addResourceLocations("file:" + FILE_PATH);
     }
 }
