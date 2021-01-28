@@ -1,7 +1,7 @@
 package com.course.server.util;
 
 import org.springframework.web.multipart.MultipartFile;
-import Decoder.BASE64Decoder;
+import java.util.Base64;
 
 import java.io.*;
 
@@ -62,9 +62,9 @@ public class Base64ToMultipartFile implements MultipartFile {
         try {
             String[] baseStrs = base64.split(",");
 
-            BASE64Decoder decoder = new BASE64Decoder();
+            Base64.Decoder decoder = Base64.getDecoder();
             byte[] b = new byte[0];
-            b = decoder.decodeBuffer(baseStrs[1]);
+            b = decoder.decode(baseStrs[1]);
 
             for(int i = 0; i < b.length; ++i) {
                 if (b[i] < 0) {
@@ -73,7 +73,7 @@ public class Base64ToMultipartFile implements MultipartFile {
             }
 
             return new Base64ToMultipartFile(b, baseStrs[0]);
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
