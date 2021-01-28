@@ -1,0 +1,816 @@
+2021-01-27 00:18:27.008 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 00:18:27.188 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:18:27.287 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-27 00:18:28.059 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=7293ae3b-f65c-3ec1-b6fb-93545d969a8b
+2021-01-27 00:18:28.160 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:18:28.270 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:18:28.695 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-27 00:18:28.703 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:18:28.704 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-27 00:18:28.704 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-27 00:18:28.797 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-27 00:18:28.797 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1494 ms
+2021-01-27 00:18:29.274 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-27 00:18:29.274 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-27 00:18:29.279 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-27 00:18:29.279 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-27 00:18:29.473 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:18:29.855 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-27 00:18:29.969 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-27 00:18:30.018 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-27 00:18:30.086 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-27 00:18:30.116 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-27 00:18:30.251 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-27 00:18:30.252 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-27 00:18:30.335 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-27 00:18:30.335 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-27 00:18:30.495 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:18:30.507 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-27 00:18:30.507 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-27 00:18:30.507 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-27 00:18:30.507 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-27 00:18:30.508 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-27 00:18:30.508 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-27 00:18:30.508 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-27 00:18:30.635 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-27 00:18:30.637 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-27 00:18:30.639 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-27 00:18:30.642 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1611724710641 with initial instances count: 2
+2021-01-27 00:18:30.648 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-01-27 00:18:30.648 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611724710648, current=UP, previous=STARTING]
+2021-01-27 00:18:30.649 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:18:30.659 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:18:30.675 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:18:30.682 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-01-27 00:18:30.683 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-01-27 00:18:30.687 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 4.035 seconds (JVM running for 4.698)
+2021-01-27 00:18:30.689 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-01-27 00:18:30.689 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-01-27 00:23:07.291 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 00:23:07.292 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-01-27 00:23:07.301 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
+2021-01-27 00:23:07.330 INFO  com.course.server.config.LogAspect                :76   [32m2zXIAioP[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:23:07.331 INFO  com.course.server.config.LogAspect                :77   [32m2zXIAioP[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/76ArPxgYXSQsyWSYyycu04 GET
+2021-01-27 00:23:07.331 INFO  com.course.server.config.LogAspect                :78   [32m2zXIAioP[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-27 00:23:07.331 INFO  com.course.server.config.LogAspect                :79   [32m2zXIAioP[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:23:07.334 INFO  com.course.server.config.LogAspect                :97   [32m2zXIAioP[0;39m 请求参数: ["76ArPxgYXSQsyWSYyycu04"]
+2021-01-27 00:23:07.337 INFO  com.course.file.controller.admin.UploadController :136  [32m2zXIAioP[0;39m 检查上传分片开始：76ArPxgYXSQsyWSYyycu04
+2021-01-27 00:23:07.386 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m2zXIAioP[0;39m HikariPool-1 - Starting...
+2021-01-27 00:23:07.389 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32m2zXIAioP[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-27 00:23:07.582 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m2zXIAioP[0;39m HikariPool-1 - Start completed.
+2021-01-27 00:23:07.588 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m2zXIAioP[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2021-01-27 00:23:07.610 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m2zXIAioP[0;39m ==> Parameters: 76ArPxgYXSQsyWSYyycu04(String)
+2021-01-27 00:23:07.625 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m2zXIAioP[0;39m <==      Total: 0
+2021-01-27 00:23:07.639 INFO  com.course.server.config.LogAspect                :109  [32m2zXIAioP[0;39m 返回结果: {"success":true}
+2021-01-27 00:23:07.640 INFO  com.course.server.config.LogAspect                :110  [32m2zXIAioP[0;39m ------------- 结束 耗时：313 ms -------------
+2021-01-27 00:23:07.696 INFO  com.course.server.config.LogAspect                :76   [32mALlXN3DS[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:23:07.697 INFO  com.course.server.config.LogAspect                :77   [32mALlXN3DS[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-01-27 00:23:07.697 INFO  com.course.server.config.LogAspect                :78   [32mALlXN3DS[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-01-27 00:23:07.697 INFO  com.course.server.config.LogAspect                :79   [32mALlXN3DS[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:23:07.702 INFO  com.course.server.config.LogAspect                :97   [32mALlXN3DS[0;39m 请求参数: [{"key":"76ArPxgYXSQsyWSYyycu04","name":"IMG_9007.mp4","shardIndex":1,"shardSize":51200,"shardTotal":434,"size":22182730,"suffix":"mp4","use":"C"}]
+2021-01-27 00:23:07.705 INFO  com.course.file.controller.admin.FileController   :53   [32mALlXN3DS[0;39m 上传文件开始
+2021-01-27 00:23:07.716 ERROR o.a.c.c.C.[.[.[/file].[dispatcherServlet]         :175  [32mALlXN3DS[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/file] threw exception [Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: Decoder/BASE64Decoder] with root cause
+java.lang.ClassNotFoundException: Decoder.BASE64Decoder
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at com.course.server.util.Base64ToMultipartFile.base64ToMultipart(Base64ToMultipartFile.java:65)
+	at com.course.file.controller.admin.OssController.fileUpload(OssController.java:60)
+	at com.course.file.controller.admin.OssController$$FastClassBySpringCGLIB$$1dd82726.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.course.server.config.LogAspect.doAround(LogAspect.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.course.file.controller.admin.OssController$$EnhancerBySpringCGLIB$$3cfd1a24.fileUpload(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-27 00:23:30.521 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:23:56.490 INFO  com.course.server.config.LogAspect                :76   [32mvrRX2WGH[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:23:56.491 INFO  com.course.server.config.LogAspect                :77   [32mvrRX2WGH[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/76ArPxgYXSQsyWSYyycu04 GET
+2021-01-27 00:23:56.491 INFO  com.course.server.config.LogAspect                :78   [32mvrRX2WGH[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-27 00:23:56.491 INFO  com.course.server.config.LogAspect                :79   [32mvrRX2WGH[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:23:56.492 INFO  com.course.server.config.LogAspect                :97   [32mvrRX2WGH[0;39m 请求参数: ["76ArPxgYXSQsyWSYyycu04"]
+2021-01-27 00:23:56.492 INFO  com.course.file.controller.admin.UploadController :136  [32mvrRX2WGH[0;39m 检查上传分片开始：76ArPxgYXSQsyWSYyycu04
+2021-01-27 00:23:56.493 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mvrRX2WGH[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2021-01-27 00:23:56.494 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mvrRX2WGH[0;39m ==> Parameters: 76ArPxgYXSQsyWSYyycu04(String)
+2021-01-27 00:23:56.495 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mvrRX2WGH[0;39m <==      Total: 0
+2021-01-27 00:23:56.496 INFO  com.course.server.config.LogAspect                :109  [32mvrRX2WGH[0;39m 返回结果: {"success":true}
+2021-01-27 00:23:56.496 INFO  com.course.server.config.LogAspect                :110  [32mvrRX2WGH[0;39m ------------- 结束 耗时：6 ms -------------
+2021-01-27 00:23:56.513 INFO  com.course.server.config.LogAspect                :76   [32mA8qglzZ4[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:23:56.514 INFO  com.course.server.config.LogAspect                :77   [32mA8qglzZ4[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-01-27 00:23:56.514 INFO  com.course.server.config.LogAspect                :78   [32mA8qglzZ4[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-01-27 00:23:56.514 INFO  com.course.server.config.LogAspect                :79   [32mA8qglzZ4[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:23:56.515 INFO  com.course.server.config.LogAspect                :97   [32mA8qglzZ4[0;39m 请求参数: [{"key":"76ArPxgYXSQsyWSYyycu04","name":"IMG_9007.mp4","shardIndex":1,"shardSize":51200,"shardTotal":434,"size":22182730,"suffix":"mp4","use":"C"}]
+2021-01-27 00:23:56.515 INFO  com.course.file.controller.admin.FileController   :53   [32mA8qglzZ4[0;39m 上传文件开始
+2021-01-27 00:23:56.516 ERROR o.a.c.c.C.[.[.[/file].[dispatcherServlet]         :175  [32mA8qglzZ4[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/file] threw exception [Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: Decoder/BASE64Decoder] with root cause
+java.lang.NoClassDefFoundError: Decoder/BASE64Decoder
+	at com.course.server.util.Base64ToMultipartFile.base64ToMultipart(Base64ToMultipartFile.java:65)
+	at com.course.file.controller.admin.OssController.fileUpload(OssController.java:60)
+	at com.course.file.controller.admin.OssController$$FastClassBySpringCGLIB$$1dd82726.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.course.server.config.LogAspect.doAround(LogAspect.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.course.file.controller.admin.OssController$$EnhancerBySpringCGLIB$$3cfd1a24.fileUpload(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-27 00:27:58.049 INFO  com.course.server.config.LogAspect                :76   [32mFw5jlSV3[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:27:58.050 INFO  com.course.server.config.LogAspect                :77   [32mFw5jlSV3[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-27 00:27:58.050 INFO  com.course.server.config.LogAspect                :78   [32mFw5jlSV3[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-27 00:27:58.050 INFO  com.course.server.config.LogAspect                :79   [32mFw5jlSV3[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:27:58.051 INFO  com.course.server.config.LogAspect                :97   [32mFw5jlSV3[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-27 00:27:58.051 INFO  com.course.file.controller.admin.UploadController :136  [32mFw5jlSV3[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-27 00:27:58.052 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mFw5jlSV3[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2021-01-27 00:27:58.053 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mFw5jlSV3[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-27 00:27:58.053 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mFw5jlSV3[0;39m <==      Total: 0
+2021-01-27 00:27:58.054 INFO  com.course.server.config.LogAspect                :109  [32mFw5jlSV3[0;39m 返回结果: {"success":true}
+2021-01-27 00:27:58.054 INFO  com.course.server.config.LogAspect                :110  [32mFw5jlSV3[0;39m ------------- 结束 耗时：5 ms -------------
+2021-01-27 00:27:58.068 INFO  com.course.server.config.LogAspect                :76   [32mIlceBdve[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:27:58.068 INFO  com.course.server.config.LogAspect                :77   [32mIlceBdve[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-01-27 00:27:58.068 INFO  com.course.server.config.LogAspect                :78   [32mIlceBdve[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-01-27 00:27:58.069 INFO  com.course.server.config.LogAspect                :79   [32mIlceBdve[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:27:58.069 INFO  com.course.server.config.LogAspect                :97   [32mIlceBdve[0;39m 请求参数: [{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","shardIndex":1,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","use":"C"}]
+2021-01-27 00:27:58.069 INFO  com.course.file.controller.admin.FileController   :53   [32mIlceBdve[0;39m 上传文件开始
+2021-01-27 00:27:58.070 ERROR o.a.c.c.C.[.[.[/file].[dispatcherServlet]         :175  [32mIlceBdve[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/file] threw exception [Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: Decoder/BASE64Decoder] with root cause
+java.lang.NoClassDefFoundError: Decoder/BASE64Decoder
+	at com.course.server.util.Base64ToMultipartFile.base64ToMultipart(Base64ToMultipartFile.java:65)
+	at com.course.file.controller.admin.OssController.fileUpload(OssController.java:60)
+	at com.course.file.controller.admin.OssController$$FastClassBySpringCGLIB$$1dd82726.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.course.server.config.LogAspect.doAround(LogAspect.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.course.file.controller.admin.OssController$$EnhancerBySpringCGLIB$$3cfd1a24.fileUpload(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-27 00:28:07.571 WARN  com.zaxxer.hikari.pool.HikariPool                 :779  [32m        [0;39m HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s850ms), soft-evicting connections from pool.
+2021-01-27 00:28:30.378 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:33:30.375 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:35:44.194 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-01-27 00:35:44.194 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611725744194, current=DOWN, previous=UP]
+2021-01-27 00:35:44.194 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:35:44.198 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:35:44.199 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:35:44.201 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-27 00:35:47.203 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-27 00:35:47.208 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - deregister  status: 200
+2021-01-27 00:35:47.220 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-27 00:35:47.220 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-01-27 00:35:47.228 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-01-27 00:35:47.413 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:35:47.453 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-27 00:35:47.741 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=7293ae3b-f65c-3ec1-b6fb-93545d969a8b
+2021-01-27 00:35:47.758 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:35:47.765 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:35:47.824 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-27 00:35:47.845 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-27 00:35:47.845 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:35:47.846 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-27 00:35:47.846 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-27 00:35:47.861 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-27 00:35:47.861 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 405 ms
+2021-01-27 00:35:48.077 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-27 00:35:48.077 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-27 00:35:48.189 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:35:48.401 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-27 00:35:48.467 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-27 00:35:48.484 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-27 00:35:48.508 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-27 00:35:48.511 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-27 00:35:48.512 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-27 00:35:48.512 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-27 00:35:48.512 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-27 00:35:48.512 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-27 00:35:48.543 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:35:48.546 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-27 00:35:48.546 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-27 00:35:48.546 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-27 00:35:48.546 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-27 00:35:48.547 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-27 00:35:48.547 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-27 00:35:48.547 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-27 00:35:48.551 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-27 00:35:48.552 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-27 00:35:48.553 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-27 00:35:48.554 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1611725748554 with initial instances count: 3
+2021-01-27 00:35:48.558 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-01-27 00:35:48.558 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611725748558, current=UP, previous=STARTING]
+2021-01-27 00:35:48.559 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:35:48.563 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:35:48.564 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:35:48.566 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-01-27 00:35:48.566 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-01-27 00:35:48.569 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 1.224 seconds (JVM running for 1042.726)
+2021-01-27 00:35:48.571 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-01-27 00:35:48.571 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-01-27 00:35:48.571 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-01-27 00:40:48.541 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:45:42.690 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-01-27 00:45:42.691 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611726342691, current=DOWN, previous=UP]
+2021-01-27 00:45:42.691 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:45:42.692 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:45:42.693 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-27 00:45:42.694 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:45:42.694 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-27 00:45:42.697 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - deregister  status: 200
+2021-01-27 00:45:42.704 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-27 00:47:10.970 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 00:47:11.153 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:47:11.262 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-27 00:47:11.916 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=7293ae3b-f65c-3ec1-b6fb-93545d969a8b
+2021-01-27 00:47:12.005 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:47:12.087 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:47:12.474 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-27 00:47:12.480 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:47:12.481 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-27 00:47:12.481 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-27 00:47:12.559 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-27 00:47:12.560 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1281 ms
+2021-01-27 00:47:13.002 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-27 00:47:13.003 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-27 00:47:13.005 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-27 00:47:13.006 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-27 00:47:13.177 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:47:13.495 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-27 00:47:13.593 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-27 00:47:13.625 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-27 00:47:13.680 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-27 00:47:13.700 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-27 00:47:13.821 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-27 00:47:13.821 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-27 00:47:13.882 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-27 00:47:13.883 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-27 00:47:14.010 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:47:14.019 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-27 00:47:14.020 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-27 00:47:14.020 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-27 00:47:14.020 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-27 00:47:14.020 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-27 00:47:14.020 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-27 00:47:14.020 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-27 00:47:14.114 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-27 00:47:14.116 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-27 00:47:14.123 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-27 00:47:14.126 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1611726434125 with initial instances count: 1
+2021-01-27 00:47:14.131 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-01-27 00:47:14.132 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611726434132, current=UP, previous=STARTING]
+2021-01-27 00:47:14.133 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:47:14.142 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:47:14.153 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:47:14.162 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-01-27 00:47:14.163 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-01-27 00:47:14.167 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 3.501 seconds (JVM running for 4.122)
+2021-01-27 00:47:14.169 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-01-27 00:47:14.169 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-01-27 00:51:11.464 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 00:51:11.464 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-01-27 00:51:11.472 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 8 ms
+2021-01-27 00:51:11.501 INFO  com.course.server.config.LogAspect                :76   [32mHRAujWlh[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:51:11.502 INFO  com.course.server.config.LogAspect                :77   [32mHRAujWlh[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-27 00:51:11.503 INFO  com.course.server.config.LogAspect                :78   [32mHRAujWlh[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-27 00:51:11.503 INFO  com.course.server.config.LogAspect                :79   [32mHRAujWlh[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:51:11.505 INFO  com.course.server.config.LogAspect                :97   [32mHRAujWlh[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-27 00:51:11.509 INFO  com.course.file.controller.admin.UploadController :136  [32mHRAujWlh[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-27 00:51:11.556 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mHRAujWlh[0;39m HikariPool-1 - Starting...
+2021-01-27 00:51:11.558 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mHRAujWlh[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-27 00:51:11.756 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mHRAujWlh[0;39m HikariPool-1 - Start completed.
+2021-01-27 00:51:11.763 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mHRAujWlh[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2021-01-27 00:51:11.784 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mHRAujWlh[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-27 00:51:11.802 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mHRAujWlh[0;39m <==      Total: 0
+2021-01-27 00:51:11.816 INFO  com.course.server.config.LogAspect                :109  [32mHRAujWlh[0;39m 返回结果: {"success":true}
+2021-01-27 00:51:11.817 INFO  com.course.server.config.LogAspect                :110  [32mHRAujWlh[0;39m ------------- 结束 耗时：320 ms -------------
+2021-01-27 00:51:11.872 INFO  com.course.server.config.LogAspect                :76   [32m0MzdM3y3[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:51:11.872 INFO  com.course.server.config.LogAspect                :77   [32m0MzdM3y3[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-01-27 00:51:11.872 INFO  com.course.server.config.LogAspect                :78   [32m0MzdM3y3[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-01-27 00:51:11.873 INFO  com.course.server.config.LogAspect                :79   [32m0MzdM3y3[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:51:11.877 INFO  com.course.server.config.LogAspect                :97   [32m0MzdM3y3[0;39m 请求参数: [{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","shardIndex":1,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","use":"C"}]
+2021-01-27 00:51:11.881 INFO  com.course.file.controller.admin.FileController   :53   [32m0MzdM3y3[0;39m 上传文件开始
+2021-01-27 00:51:12.260 INFO  com.course.file.controller.admin.FileController   :133  [32m0MzdM3y3[0;39m 保存文件记录开始
+2021-01-27 00:51:12.266 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m0MzdM3y3[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2021-01-27 00:51:12.267 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m0MzdM3y3[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-27 00:51:12.268 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m0MzdM3y3[0;39m <==      Total: 0
+2021-01-27 00:51:12.269 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32m0MzdM3y3[0;39m ==>  Preparing: insert into file (id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2021-01-27 00:51:12.270 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32m0MzdM3y3[0;39m ==> Parameters: rMMliWr5(String), course/1qXx1b8WAEI4kKWUAoQueK.mp4(String), zoom_0.mp4(String), mp4(String), 109698(Integer), C(String), 2021-01-27 00:51:12.268(Timestamp), 2021-01-27 00:51:12.268(Timestamp), 1(Integer), 51200(Integer), 3(Integer), 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-27 00:51:12.273 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32m0MzdM3y3[0;39m <==    Updates: 1
+2021-01-27 00:51:12.273 INFO  com.course.server.config.LogAspect                :109  [32m0MzdM3y3[0;39m 返回结果: {"content":{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":1,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","use":"C"},"success":true}
+2021-01-27 00:51:12.273 INFO  com.course.server.config.LogAspect                :110  [32m0MzdM3y3[0;39m ------------- 结束 耗时：401 ms -------------
+2021-01-27 00:51:12.296 INFO  com.course.server.config.LogAspect                :76   [32mKUrByCis[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:51:12.296 INFO  com.course.server.config.LogAspect                :77   [32mKUrByCis[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-01-27 00:51:12.296 INFO  com.course.server.config.LogAspect                :78   [32mKUrByCis[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-01-27 00:51:12.297 INFO  com.course.server.config.LogAspect                :79   [32mKUrByCis[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:51:12.297 INFO  com.course.server.config.LogAspect                :97   [32mKUrByCis[0;39m 请求参数: [{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","shardIndex":2,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","use":"C"}]
+2021-01-27 00:51:12.297 INFO  com.course.file.controller.admin.FileController   :53   [32mKUrByCis[0;39m 上传文件开始
+2021-01-27 00:51:12.481 INFO  com.course.file.controller.admin.FileController   :133  [32mKUrByCis[0;39m 保存文件记录开始
+2021-01-27 00:51:12.483 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mKUrByCis[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2021-01-27 00:51:12.483 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mKUrByCis[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-27 00:51:12.484 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mKUrByCis[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2021-01-27 00:51:12.485 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mKUrByCis[0;39m <==        Row: rMMliWr5, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-27 00:51:12.268, 2021-01-27 00:51:12.268, 1, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK
+2021-01-27 00:51:12.487 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mKUrByCis[0;39m <==      Total: 1
+2021-01-27 00:51:12.488 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKUrByCis[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ? where id = ? 
+2021-01-27 00:51:12.488 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKUrByCis[0;39m ==> Parameters: course/1qXx1b8WAEI4kKWUAoQueK.mp4(String), zoom_0.mp4(String), mp4(String), 109698(Integer), C(String), 2021-01-27 00:51:12.268(Timestamp), 2021-01-27 00:51:12.487(Timestamp), 2(Integer), 51200(Integer), 3(Integer), 1qXx1b8WAEI4kKWUAoQueK(String), rMMliWr5(String)
+2021-01-27 00:51:12.490 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKUrByCis[0;39m <==    Updates: 1
+2021-01-27 00:51:12.491 INFO  com.course.server.config.LogAspect                :109  [32mKUrByCis[0;39m 返回结果: {"content":{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":2,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","use":"C"},"success":true}
+2021-01-27 00:51:12.491 INFO  com.course.server.config.LogAspect                :110  [32mKUrByCis[0;39m ------------- 结束 耗时：196 ms -------------
+2021-01-27 00:51:12.506 INFO  com.course.server.config.LogAspect                :76   [32m4Kx6Qi1M[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-27 00:51:12.506 INFO  com.course.server.config.LogAspect                :77   [32m4Kx6Qi1M[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-01-27 00:51:12.506 INFO  com.course.server.config.LogAspect                :78   [32m4Kx6Qi1M[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-01-27 00:51:12.506 INFO  com.course.server.config.LogAspect                :79   [32m4Kx6Qi1M[0;39m 远程地址: 192.168.1.11
+2021-01-27 00:51:12.507 INFO  com.course.server.config.LogAspect                :97   [32m4Kx6Qi1M[0;39m 请求参数: [{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","use":"C"}]
+2021-01-27 00:51:12.507 INFO  com.course.file.controller.admin.FileController   :53   [32m4Kx6Qi1M[0;39m 上传文件开始
+2021-01-27 00:51:12.627 INFO  com.course.file.controller.admin.FileController   :133  [32m4Kx6Qi1M[0;39m 保存文件记录开始
+2021-01-27 00:51:12.628 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m4Kx6Qi1M[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key` from file WHERE ( `key` = ? ) 
+2021-01-27 00:51:12.629 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m4Kx6Qi1M[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-27 00:51:12.630 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32m4Kx6Qi1M[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key
+2021-01-27 00:51:12.630 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32m4Kx6Qi1M[0;39m <==        Row: rMMliWr5, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-27 00:51:12.268, 2021-01-27 00:51:12.487, 2, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK
+2021-01-27 00:51:12.631 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m4Kx6Qi1M[0;39m <==      Total: 1
+2021-01-27 00:51:12.632 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32m4Kx6Qi1M[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ? where id = ? 
+2021-01-27 00:51:12.633 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32m4Kx6Qi1M[0;39m ==> Parameters: course/1qXx1b8WAEI4kKWUAoQueK.mp4(String), zoom_0.mp4(String), mp4(String), 109698(Integer), C(String), 2021-01-27 00:51:12.268(Timestamp), 2021-01-27 00:51:12.632(Timestamp), 3(Integer), 51200(Integer), 3(Integer), 1qXx1b8WAEI4kKWUAoQueK(String), rMMliWr5(String)
+2021-01-27 00:51:12.634 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32m4Kx6Qi1M[0;39m <==    Updates: 1
+2021-01-27 00:51:12.635 INFO  com.course.server.config.LogAspect                :109  [32m4Kx6Qi1M[0;39m 返回结果: {"content":{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","use":"C"},"success":true}
+2021-01-27 00:51:12.635 INFO  com.course.server.config.LogAspect                :110  [32m4Kx6Qi1M[0;39m ------------- 结束 耗时：129 ms -------------
+2021-01-27 00:52:14.031 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:55:06.885 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-01-27 00:55:06.885 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611726906885, current=DOWN, previous=UP]
+2021-01-27 00:55:06.886 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:55:06.889 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:55:06.889 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:55:06.891 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-27 00:55:09.893 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-27 00:55:09.897 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - deregister  status: 200
+2021-01-27 00:55:09.906 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-27 00:55:09.906 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-01-27 00:55:09.912 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-01-27 00:55:10.260 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:55:10.291 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-27 00:55:10.564 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=7293ae3b-f65c-3ec1-b6fb-93545d969a8b
+2021-01-27 00:55:10.580 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:55:10.586 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:55:10.646 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-27 00:55:10.664 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-27 00:55:10.665 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:55:10.665 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-27 00:55:10.665 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-27 00:55:10.683 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-27 00:55:10.683 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 389 ms
+2021-01-27 00:55:10.886 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-27 00:55:10.886 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-27 00:55:10.997 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:55:11.185 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-27 00:55:11.258 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-27 00:55:11.278 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-27 00:55:11.303 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-27 00:55:11.305 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-27 00:55:11.306 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-27 00:55:11.307 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-27 00:55:11.307 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-27 00:55:11.307 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-27 00:55:11.336 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:55:11.340 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-27 00:55:11.340 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-27 00:55:11.340 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-27 00:55:11.340 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-27 00:55:11.341 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-27 00:55:11.341 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-27 00:55:11.341 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-27 00:55:11.350 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-27 00:55:11.351 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-27 00:55:11.351 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-27 00:55:11.352 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1611726911352 with initial instances count: 3
+2021-01-27 00:55:11.356 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-01-27 00:55:11.357 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611726911357, current=UP, previous=STARTING]
+2021-01-27 00:55:11.357 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:55:11.361 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:55:11.363 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:55:11.365 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-01-27 00:55:11.365 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-01-27 00:55:11.368 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 1.38 seconds (JVM running for 481.313)
+2021-01-27 00:55:11.369 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-01-27 00:55:11.370 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-01-27 00:55:11.370 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-01-27 00:56:00.082 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-01-27 00:56:00.082 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611726960082, current=DOWN, previous=UP]
+2021-01-27 00:56:00.083 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:56:00.084 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:56:00.085 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-27 00:56:00.086 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:56:00.086 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-27 00:56:00.089 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - deregister  status: 200
+2021-01-27 00:56:00.094 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-27 00:56:00.220 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:56:00.253 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-27 00:56:00.488 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=7293ae3b-f65c-3ec1-b6fb-93545d969a8b
+2021-01-27 00:56:00.501 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:56:00.510 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-27 00:56:00.560 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-27 00:56:00.575 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-27 00:56:00.576 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:56:00.576 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-27 00:56:00.576 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-27 00:56:00.589 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-27 00:56:00.589 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 334 ms
+2021-01-27 00:56:00.741 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-27 00:56:00.741 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-27 00:56:00.844 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 00:56:01.034 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-27 00:56:01.105 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-27 00:56:01.125 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-27 00:56:01.145 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-27 00:56:01.147 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-27 00:56:01.148 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-27 00:56:01.148 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-27 00:56:01.148 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-27 00:56:01.148 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-27 00:56:01.180 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 00:56:01.180 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-27 00:56:01.181 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-27 00:56:01.181 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-27 00:56:01.181 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-27 00:56:01.181 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-27 00:56:01.181 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-27 00:56:01.181 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-27 00:56:01.183 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-27 00:56:01.184 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-27 00:56:01.184 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-27 00:56:01.185 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1611726961185 with initial instances count: 2
+2021-01-27 00:56:01.189 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-01-27 00:56:01.189 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611726961189, current=UP, previous=STARTING]
+2021-01-27 00:56:01.190 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 00:56:01.193 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 00:56:01.194 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-01-27 00:56:01.196 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-01-27 00:56:01.196 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-01-27 00:56:01.199 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 1.034 seconds (JVM running for 531.143)
+2021-01-27 00:56:01.200 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-01-27 00:56:01.200 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-01-27 00:56:01.200 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-01-27 02:07:00.900 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 04:07:55.953 INFO  com.netflix.discovery.DiscoveryClient             :868  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - Re-registering apps/FILE
+2021-01-27 04:07:55.954 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 04:07:55.956 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 05:08:51.340 INFO  com.netflix.discovery.DiscoveryClient             :868  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - Re-registering apps/FILE
+2021-01-27 05:08:51.340 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 05:08:51.343 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 07:10:42.480 INFO  com.netflix.discovery.DiscoveryClient             :868  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - Re-registering apps/FILE
+2021-01-27 07:10:42.482 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-27 07:10:42.488 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-27 08:11:35.637 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 10:40:12.180 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 10:45:12.179 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 10:50:12.179 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 10:55:12.177 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:00:12.178 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:05:12.185 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:10:12.191 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:15:12.197 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:20:12.206 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:25:12.216 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:30:12.226 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:35:12.234 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:40:12.261 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:45:12.275 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:50:12.285 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 11:55:12.303 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:00:12.324 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:05:12.343 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:10:12.329 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:15:12.336 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:20:12.348 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:25:12.329 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:30:12.339 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:35:12.356 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:40:12.404 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:45:12.421 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:50:12.436 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 12:55:12.481 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:00:12.500 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:05:12.510 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:10:12.502 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:15:12.512 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:20:12.527 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:25:12.540 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:30:12.551 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:35:12.562 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:40:12.547 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:45:12.556 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:50:12.571 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 13:55:12.581 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:00:12.591 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:05:12.604 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:10:12.588 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:15:12.594 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:20:12.605 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:25:12.506 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:30:12.509 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:35:12.514 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:40:12.436 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:45:12.434 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:50:12.435 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 14:55:12.447 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:00:12.449 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:05:12.458 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:10:12.570 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:15:12.585 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:20:12.602 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:25:12.631 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:30:12.649 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:35:12.667 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:40:12.713 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:45:12.732 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:50:12.746 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 15:55:12.762 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:00:12.777 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:05:12.788 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:10:12.618 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:15:12.617 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:20:12.616 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:25:12.688 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:30:12.695 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:35:12.707 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:40:12.696 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:45:12.699 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:50:12.704 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 16:55:12.667 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:00:12.663 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:05:12.668 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:10:12.693 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:15:12.706 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:20:12.713 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:25:12.791 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:30:12.802 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:35:12.812 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:40:12.807 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:45:12.820 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:50:12.836 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 17:55:12.884 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:00:12.912 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:05:12.929 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:10:12.922 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:15:12.931 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:20:12.951 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:25:12.943 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:30:12.951 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:35:12.962 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:40:12.950 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:45:12.955 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:50:12.975 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 18:55:12.970 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:00:12.982 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:05:12.997 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:10:12.960 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:15:12.969 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:20:12.985 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:25:12.967 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:30:12.973 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:35:12.980 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:40:12.996 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:45:13.012 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:50:13.026 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 19:55:12.953 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:00:12.958 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:05:12.964 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:10:12.996 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:15:13.013 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:20:13.025 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:25:13.022 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:30:13.036 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:35:13.056 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:40:13.076 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:45:13.087 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:50:13.103 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 20:55:13.099 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:00:13.114 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:05:13.126 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:10:13.152 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:15:13.167 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:20:13.179 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:25:13.129 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:30:13.144 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:35:13.154 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:40:13.155 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:45:13.167 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:50:13.180 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 21:55:13.181 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:00:13.192 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:05:13.212 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:10:13.247 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:15:13.267 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:20:13.277 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:25:13.257 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:30:13.259 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:35:13.271 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:40:13.282 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:45:13.293 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:50:13.308 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 22:55:13.297 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:00:13.308 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:05:13.323 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:10:13.311 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:15:13.325 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:20:13.335 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:25:13.327 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:30:13.330 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:35:13.341 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:40:13.366 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:45:13.380 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:50:13.390 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-27 23:55:13.393 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
