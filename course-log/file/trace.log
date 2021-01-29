@@ -2156,3 +2156,674 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'os
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 20 common frames omitted
+2021-01-28 22:40:39.025 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:40:39.051 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 22:40:39.291 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 22:40:39.304 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:40:39.309 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:40:39.354 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-28 22:40:39.374 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 22:40:39.374 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 22:40:39.374 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 22:40:39.374 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 22:40:39.389 INFO  o.a.c.c.C.[Tomcat-16].[localhost].[/file]         :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 22:40:39.389 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 336 ms
+2021-01-28 22:40:39.501 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+2021-01-28 22:40:39.502 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-01-28 22:40:39.507 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 22:40:39.508 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.file.config.FileApplication.main(FileApplication.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 20 common frames omitted
+2021-01-28 22:40:51.530 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:40:51.556 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 22:40:51.907 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 22:40:51.927 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:40:51.933 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:40:51.991 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-28 22:40:52.011 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 22:40:52.011 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 22:40:52.012 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 22:40:52.012 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 22:40:52.034 INFO  o.a.c.c.C.[Tomcat-17].[localhost].[/file]         :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 22:40:52.034 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 476 ms
+2021-01-28 22:40:52.195 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+2021-01-28 22:40:52.195 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-01-28 22:40:52.202 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 22:40:52.203 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.file.config.FileApplication.main(FileApplication.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 20 common frames omitted
+2021-01-28 22:41:00.156 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:00.176 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 22:41:00.404 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 22:41:00.419 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:00.425 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:00.476 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-28 22:41:00.491 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 22:41:00.492 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 22:41:00.492 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 22:41:00.492 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 22:41:00.510 INFO  o.a.c.c.C.[Tomcat-18].[localhost].[/file]         :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 22:41:00.511 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 334 ms
+2021-01-28 22:41:00.626 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+2021-01-28 22:41:00.626 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-01-28 22:41:00.631 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 22:41:00.632 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.file.config.FileApplication.main(FileApplication.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 20 common frames omitted
+2021-01-28 22:41:17.296 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:17.322 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 22:41:17.655 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 22:41:17.670 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:17.676 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:17.728 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-28 22:41:17.743 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 22:41:17.744 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 22:41:17.744 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 22:41:17.744 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 22:41:17.759 INFO  o.a.c.c.C.[Tomcat-19].[localhost].[/file]         :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 22:41:17.759 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 435 ms
+2021-01-28 22:41:17.864 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+2021-01-28 22:41:17.864 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-01-28 22:41:17.869 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 22:41:17.870 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.file.config.FileApplication.main(FileApplication.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 20 common frames omitted
+2021-01-28 22:41:37.559 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:37.580 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 22:41:37.798 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 22:41:37.814 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:37.820 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:37.891 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-28 22:41:37.908 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 22:41:37.909 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 22:41:37.909 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 22:41:37.909 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 22:41:37.925 INFO  o.a.c.c.C.[Tomcat-20].[localhost].[/file]         :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 22:41:37.926 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 344 ms
+2021-01-28 22:41:38.049 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+2021-01-28 22:41:38.049 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-01-28 22:41:38.055 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 22:41:38.055 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.file.config.FileApplication.main(FileApplication.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 20 common frames omitted
+2021-01-28 22:41:47.005 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:47.030 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 22:41:47.290 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 22:41:47.304 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:47.310 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:41:47.364 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-28 22:41:47.380 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 22:41:47.381 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 22:41:47.381 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 22:41:47.381 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 22:41:47.395 INFO  o.a.c.c.C.[Tomcat-21].[localhost].[/file]         :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 22:41:47.396 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 365 ms
+2021-01-28 22:41:47.518 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+2021-01-28 22:41:47.518 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-01-28 22:41:47.523 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 22:41:47.524 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.file.config.FileApplication.main(FileApplication.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 20 common frames omitted
+2021-01-28 22:42:55.938 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:42:55.962 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 22:42:56.223 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 22:42:56.239 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:42:56.245 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:42:56.301 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-28 22:42:56.318 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 22:42:56.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 22:42:56.319 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 22:42:56.319 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 22:42:56.335 INFO  o.a.c.c.C.[Tomcat-22].[localhost].[/file]         :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 22:42:56.335 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 372 ms
+2021-01-28 22:42:56.466 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+2021-01-28 22:42:56.467 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-01-28 22:42:56.472 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 22:42:56.473 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.file.config.FileApplication.main(FileApplication.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 20 common frames omitted
+2021-01-28 22:59:19.314 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-01-28 22:59:19.316 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-01-28 22:59:19.317 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-28 22:59:19.465 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:59:19.553 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 22:59:20.267 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 22:59:20.354 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:59:20.451 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 22:59:20.821 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 22:59:20.829 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 22:59:20.829 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 22:59:20.829 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 22:59:20.911 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 22:59:20.912 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1342 ms
+2021-01-28 22:59:21.321 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+2021-01-28 22:59:21.322 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-01-28 22:59:21.336 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 22:59:21.345 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.file.config.FileApplication.main(FileApplication.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'oss.domain' in value "${oss.domain}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 20 common frames omitted
+2021-01-28 23:00:12.335 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-01-28 23:00:12.338 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-01-28 23:00:12.338 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-28 23:00:12.505 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 23:00:12.618 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-28 23:00:13.372 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ebf4c624-897c-3649-90c4-d540760e8499
+2021-01-28 23:00:13.476 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 23:00:13.550 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-28 23:00:14.006 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-01-28 23:00:14.014 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-01-28 23:00:14.015 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-28 23:00:14.015 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-28 23:00:14.112 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-28 23:00:14.113 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1477 ms
+2021-01-28 23:00:14.640 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-28 23:00:14.640 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-28 23:00:14.643 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-28 23:00:14.643 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-28 23:00:14.837 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-28 23:00:15.230 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-28 23:00:15.345 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-28 23:00:15.390 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-28 23:00:15.467 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-28 23:00:15.492 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-28 23:00:15.628 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-28 23:00:15.628 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-28 23:00:15.716 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-28 23:00:15.716 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-28 23:00:15.905 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-28 23:00:15.916 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-28 23:00:15.916 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-28 23:00:15.916 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-28 23:00:15.916 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-28 23:00:15.917 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-28 23:00:15.917 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-28 23:00:15.917 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-28 23:00:16.041 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-28 23:00:16.044 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-28 23:00:16.046 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-28 23:00:16.049 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1611892816049 with initial instances count: 2
+2021-01-28 23:00:16.055 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-01-28 23:00:16.056 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1611892816056, current=UP, previous=STARTING]
+2021-01-28 23:00:16.057 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-01-28 23:00:16.066 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-01-28 23:00:16.079 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-01-28 23:00:16.087 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-01-28 23:00:16.087 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-01-28 23:00:16.092 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 4.113 seconds (JVM running for 4.872)
+2021-01-28 23:00:16.093 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-01-28 23:00:16.094 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-01-28 23:00:50.689 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-28 23:00:50.690 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-01-28 23:00:50.699 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
+2021-01-28 23:00:50.725 INFO  com.course.server.config.LogAspect                :76   [32mCcWvMzol[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:00:50.726 INFO  com.course.server.config.LogAspect                :77   [32mCcWvMzol[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:00:50.727 INFO  com.course.server.config.LogAspect                :78   [32mCcWvMzol[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:00:50.727 INFO  com.course.server.config.LogAspect                :79   [32mCcWvMzol[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:00:50.731 INFO  com.course.server.config.LogAspect                :97   [32mCcWvMzol[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:00:50.735 INFO  com.course.file.controller.admin.UploadController :147  [32mCcWvMzol[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:00:50.781 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mCcWvMzol[0;39m HikariPool-1 - Starting...
+2021-01-28 23:00:50.783 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mCcWvMzol[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-28 23:00:50.987 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mCcWvMzol[0;39m HikariPool-1 - Start completed.
+2021-01-28 23:00:50.993 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mCcWvMzol[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:00:51.014 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mCcWvMzol[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:00:51.031 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mCcWvMzol[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:00:51.033 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mCcWvMzol[0;39m <==        Row: Pdwq57YQ, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 16:25:28.649, 2021-01-28 16:25:28.935, 3, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK, null
+2021-01-28 23:00:51.034 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mCcWvMzol[0;39m <==      Total: 1
+2021-01-28 23:00:51.057 INFO  com.course.server.config.LogAspect                :109  [32mCcWvMzol[0;39m 返回结果: {"content":{"createdAt":1611869128649,"id":"Pdwq57YQ","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://127.0.0.1:9000/file/f/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","updatedAt":1611869128935,"use":"C"},"success":true}
+2021-01-28 23:00:51.057 INFO  com.course.server.config.LogAspect                :110  [32mCcWvMzol[0;39m ------------- 结束 耗时：335 ms -------------
+2021-01-28 23:01:10.033 INFO  com.course.server.config.LogAspect                :76   [32mvCur3Lsl[0;39m ------------- 【VOD上传】操作开始 -------------
+2021-01-28 23:01:10.034 INFO  com.course.server.config.LogAspect                :77   [32mvCur3Lsl[0;39m 请求地址: http://192.168.1.11:9003/file/admin/get-auth/null GET
+2021-01-28 23:01:10.034 INFO  com.course.server.config.LogAspect                :78   [32mvCur3Lsl[0;39m 类名方法: com.course.file.controller.admin.VodController.getAuth
+2021-01-28 23:01:10.034 INFO  com.course.server.config.LogAspect                :79   [32mvCur3Lsl[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:01:10.035 INFO  com.course.server.config.LogAspect                :97   [32mvCur3Lsl[0;39m 请求参数: ["null"]
+2021-01-28 23:01:10.037 INFO  com.course.file.controller.admin.FileController   :125  [32mvCur3Lsl[0;39m 获取播放授权开始: 
+2021-01-28 23:01:11.097 INFO  com.course.file.controller.admin.FileController   :138  [32mvCur3Lsl[0;39m 获取播放授权结束
+2021-01-28 23:01:11.097 INFO  com.course.server.config.LogAspect                :109  [32mvCur3Lsl[0;39m 返回结果: {"success":true}
+2021-01-28 23:01:11.097 INFO  com.course.server.config.LogAspect                :110  [32mvCur3Lsl[0;39m ------------- 结束 耗时：1064 ms -------------
+2021-01-28 23:01:20.759 INFO  com.course.server.config.LogAspect                :76   [32mEnfDX9Wg[0;39m ------------- 【VOD上传】操作开始 -------------
+2021-01-28 23:01:20.759 INFO  com.course.server.config.LogAspect                :77   [32mEnfDX9Wg[0;39m 请求地址: http://192.168.1.11:9003/file/admin/get-auth/null GET
+2021-01-28 23:01:20.759 INFO  com.course.server.config.LogAspect                :78   [32mEnfDX9Wg[0;39m 类名方法: com.course.file.controller.admin.VodController.getAuth
+2021-01-28 23:01:20.760 INFO  com.course.server.config.LogAspect                :79   [32mEnfDX9Wg[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:01:20.760 INFO  com.course.server.config.LogAspect                :97   [32mEnfDX9Wg[0;39m 请求参数: ["null"]
+2021-01-28 23:01:20.761 INFO  com.course.file.controller.admin.FileController   :125  [32mEnfDX9Wg[0;39m 获取播放授权开始: 
+2021-01-28 23:01:21.503 INFO  com.course.file.controller.admin.FileController   :138  [32mEnfDX9Wg[0;39m 获取播放授权结束
+2021-01-28 23:01:21.504 INFO  com.course.server.config.LogAspect                :109  [32mEnfDX9Wg[0;39m 返回结果: {"success":true}
+2021-01-28 23:01:21.504 INFO  com.course.server.config.LogAspect                :110  [32mEnfDX9Wg[0;39m ------------- 结束 耗时：745 ms -------------
+2021-01-28 23:02:26.267 INFO  com.course.server.config.LogAspect                :76   [32mcseaehCu[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:02:26.268 INFO  com.course.server.config.LogAspect                :77   [32mcseaehCu[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:02:26.269 INFO  com.course.server.config.LogAspect                :78   [32mcseaehCu[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:02:26.269 INFO  com.course.server.config.LogAspect                :79   [32mcseaehCu[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:02:26.269 INFO  com.course.server.config.LogAspect                :97   [32mcseaehCu[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:02:26.269 INFO  com.course.file.controller.admin.UploadController :147  [32mcseaehCu[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:02:26.271 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mcseaehCu[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:02:26.271 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mcseaehCu[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:02:26.273 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mcseaehCu[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:02:26.273 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mcseaehCu[0;39m <==        Row: Pdwq57YQ, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 16:25:28.649, 2021-01-28 16:25:28.935, 3, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK, null
+2021-01-28 23:02:26.275 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mcseaehCu[0;39m <==      Total: 1
+2021-01-28 23:02:26.275 INFO  com.course.server.config.LogAspect                :109  [32mcseaehCu[0;39m 返回结果: {"content":{"createdAt":1611869128649,"id":"Pdwq57YQ","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://127.0.0.1:9000/file/f/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","updatedAt":1611869128935,"use":"C"},"success":true}
+2021-01-28 23:02:26.275 INFO  com.course.server.config.LogAspect                :110  [32mcseaehCu[0;39m ------------- 结束 耗时：8 ms -------------
+2021-01-28 23:03:12.713 INFO  com.course.server.config.LogAspect                :76   [32mhKoG9yRu[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:03:12.714 INFO  com.course.server.config.LogAspect                :77   [32mhKoG9yRu[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:03:12.714 INFO  com.course.server.config.LogAspect                :78   [32mhKoG9yRu[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:03:12.714 INFO  com.course.server.config.LogAspect                :79   [32mhKoG9yRu[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:03:12.715 INFO  com.course.server.config.LogAspect                :97   [32mhKoG9yRu[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:03:12.715 INFO  com.course.file.controller.admin.UploadController :147  [32mhKoG9yRu[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:03:12.716 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mhKoG9yRu[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:03:12.717 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mhKoG9yRu[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:03:12.718 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mhKoG9yRu[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:03:12.719 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mhKoG9yRu[0;39m <==        Row: Pdwq57YQ, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 16:25:28.649, 2021-01-28 16:25:28.935, 3, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK, null
+2021-01-28 23:03:12.720 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mhKoG9yRu[0;39m <==      Total: 1
+2021-01-28 23:03:12.721 INFO  com.course.server.config.LogAspect                :109  [32mhKoG9yRu[0;39m 返回结果: {"content":{"createdAt":1611869128649,"id":"Pdwq57YQ","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://127.0.0.1:9000/file/f/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","updatedAt":1611869128935,"use":"C"},"success":true}
+2021-01-28 23:03:12.721 INFO  com.course.server.config.LogAspect                :110  [32mhKoG9yRu[0;39m ------------- 结束 耗时：8 ms -------------
+2021-01-28 23:03:56.060 INFO  com.course.server.config.LogAspect                :76   [32mLS1MAvXJ[0;39m ------------- 【VOD上传】操作开始 -------------
+2021-01-28 23:03:56.061 INFO  com.course.server.config.LogAspect                :77   [32mLS1MAvXJ[0;39m 请求地址: http://192.168.1.11:9003/file/admin/get-auth/null GET
+2021-01-28 23:03:56.061 INFO  com.course.server.config.LogAspect                :78   [32mLS1MAvXJ[0;39m 类名方法: com.course.file.controller.admin.VodController.getAuth
+2021-01-28 23:03:56.061 INFO  com.course.server.config.LogAspect                :79   [32mLS1MAvXJ[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:03:56.061 INFO  com.course.server.config.LogAspect                :97   [32mLS1MAvXJ[0;39m 请求参数: ["null"]
+2021-01-28 23:03:56.062 INFO  com.course.file.controller.admin.FileController   :125  [32mLS1MAvXJ[0;39m 获取播放授权开始: 
+2021-01-28 23:03:56.718 INFO  com.course.file.controller.admin.FileController   :138  [32mLS1MAvXJ[0;39m 获取播放授权结束
+2021-01-28 23:03:56.718 INFO  com.course.server.config.LogAspect                :109  [32mLS1MAvXJ[0;39m 返回结果: {"success":true}
+2021-01-28 23:03:56.718 INFO  com.course.server.config.LogAspect                :110  [32mLS1MAvXJ[0;39m ------------- 结束 耗时：658 ms -------------
+2021-01-28 23:04:21.103 INFO  com.course.server.config.LogAspect                :76   [32mzRoBFhi6[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:04:21.103 INFO  com.course.server.config.LogAspect                :77   [32mzRoBFhi6[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:04:21.103 INFO  com.course.server.config.LogAspect                :78   [32mzRoBFhi6[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:04:21.104 INFO  com.course.server.config.LogAspect                :79   [32mzRoBFhi6[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:04:21.104 INFO  com.course.server.config.LogAspect                :97   [32mzRoBFhi6[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:04:21.104 INFO  com.course.file.controller.admin.UploadController :147  [32mzRoBFhi6[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:04:21.105 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mzRoBFhi6[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:04:21.106 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mzRoBFhi6[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:04:21.107 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mzRoBFhi6[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:04:21.108 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mzRoBFhi6[0;39m <==        Row: Pdwq57YQ, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 16:25:28.649, 2021-01-28 16:25:28.935, 3, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK, null
+2021-01-28 23:04:21.109 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mzRoBFhi6[0;39m <==      Total: 1
+2021-01-28 23:04:21.110 INFO  com.course.server.config.LogAspect                :109  [32mzRoBFhi6[0;39m 返回结果: {"content":{"createdAt":1611869128649,"id":"Pdwq57YQ","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://127.0.0.1:9000/file/f/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","updatedAt":1611869128935,"use":"C"},"success":true}
+2021-01-28 23:04:21.110 INFO  com.course.server.config.LogAspect                :110  [32mzRoBFhi6[0;39m ------------- 结束 耗时：7 ms -------------
+2021-01-28 23:05:15.927 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-28 23:09:47.046 INFO  com.course.server.config.LogAspect                :76   [32mIaGpOKYp[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:09:47.047 INFO  com.course.server.config.LogAspect                :77   [32mIaGpOKYp[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:09:47.047 INFO  com.course.server.config.LogAspect                :78   [32mIaGpOKYp[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:09:47.047 INFO  com.course.server.config.LogAspect                :79   [32mIaGpOKYp[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:09:47.048 INFO  com.course.server.config.LogAspect                :97   [32mIaGpOKYp[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:09:47.048 INFO  com.course.file.controller.admin.UploadController :147  [32mIaGpOKYp[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:09:47.049 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mIaGpOKYp[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:09:47.049 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mIaGpOKYp[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:09:47.051 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mIaGpOKYp[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:09:47.051 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mIaGpOKYp[0;39m <==        Row: Pdwq57YQ, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 16:25:28.649, 2021-01-28 16:25:28.935, 3, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK, null
+2021-01-28 23:09:47.052 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mIaGpOKYp[0;39m <==      Total: 1
+2021-01-28 23:09:47.052 INFO  com.course.server.config.LogAspect                :109  [32mIaGpOKYp[0;39m 返回结果: {"content":{"createdAt":1611869128649,"id":"Pdwq57YQ","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://127.0.0.1:9000/file/f/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","updatedAt":1611869128935,"use":"C"},"success":true}
+2021-01-28 23:09:47.052 INFO  com.course.server.config.LogAspect                :110  [32mIaGpOKYp[0;39m ------------- 结束 耗时：6 ms -------------
+2021-01-28 23:10:15.960 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-28 23:10:48.802 INFO  com.course.server.config.LogAspect                :76   [32manseRztm[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:10:48.802 INFO  com.course.server.config.LogAspect                :77   [32manseRztm[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:10:48.802 INFO  com.course.server.config.LogAspect                :78   [32manseRztm[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:10:48.802 INFO  com.course.server.config.LogAspect                :79   [32manseRztm[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:10:48.802 INFO  com.course.server.config.LogAspect                :97   [32manseRztm[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:10:48.803 INFO  com.course.file.controller.admin.UploadController :147  [32manseRztm[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:10:48.804 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32manseRztm[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:10:48.804 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32manseRztm[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:10:48.805 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32manseRztm[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:10:48.806 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32manseRztm[0;39m <==        Row: Pdwq57YQ, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 16:25:28.649, 2021-01-28 16:25:28.935, 3, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK, null
+2021-01-28 23:10:48.807 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32manseRztm[0;39m <==      Total: 1
+2021-01-28 23:10:48.807 INFO  com.course.server.config.LogAspect                :109  [32manseRztm[0;39m 返回结果: {"content":{"createdAt":1611869128649,"id":"Pdwq57YQ","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://127.0.0.1:9000/file/f/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","updatedAt":1611869128935,"use":"C"},"success":true}
+2021-01-28 23:10:48.807 INFO  com.course.server.config.LogAspect                :110  [32manseRztm[0;39m ------------- 结束 耗时：6 ms -------------
+2021-01-28 23:15:15.973 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-28 23:15:18.177 INFO  com.course.server.config.LogAspect                :76   [32mrXIyvCPb[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:15:18.177 INFO  com.course.server.config.LogAspect                :77   [32mrXIyvCPb[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:15:18.178 INFO  com.course.server.config.LogAspect                :78   [32mrXIyvCPb[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:15:18.178 INFO  com.course.server.config.LogAspect                :79   [32mrXIyvCPb[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:15:18.178 INFO  com.course.server.config.LogAspect                :97   [32mrXIyvCPb[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:15:18.178 INFO  com.course.file.controller.admin.UploadController :147  [32mrXIyvCPb[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:15:18.179 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mrXIyvCPb[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:15:18.180 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mrXIyvCPb[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:15:18.181 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mrXIyvCPb[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:15:18.182 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mrXIyvCPb[0;39m <==        Row: Pdwq57YQ, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 16:25:28.649, 2021-01-28 16:25:28.935, 3, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK, null
+2021-01-28 23:15:18.182 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mrXIyvCPb[0;39m <==      Total: 1
+2021-01-28 23:15:18.183 INFO  com.course.server.config.LogAspect                :109  [32mrXIyvCPb[0;39m 返回结果: {"content":{"createdAt":1611869128649,"id":"Pdwq57YQ","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://127.0.0.1:9000/file/f/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","updatedAt":1611869128935,"use":"C"},"success":true}
+2021-01-28 23:15:18.183 INFO  com.course.server.config.LogAspect                :110  [32mrXIyvCPb[0;39m ------------- 结束 耗时：6 ms -------------
+2021-01-28 23:20:15.988 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-28 23:20:36.367 INFO  com.course.server.config.LogAspect                :76   [32mF6iJZ5vf[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:20:36.367 INFO  com.course.server.config.LogAspect                :77   [32mF6iJZ5vf[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:20:36.367 INFO  com.course.server.config.LogAspect                :78   [32mF6iJZ5vf[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:20:36.367 INFO  com.course.server.config.LogAspect                :79   [32mF6iJZ5vf[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:20:36.368 INFO  com.course.server.config.LogAspect                :97   [32mF6iJZ5vf[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:20:36.368 INFO  com.course.file.controller.admin.UploadController :147  [32mF6iJZ5vf[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:20:36.369 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mF6iJZ5vf[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:20:36.370 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mF6iJZ5vf[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:20:36.371 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mF6iJZ5vf[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:20:36.371 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mF6iJZ5vf[0;39m <==        Row: Pdwq57YQ, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 16:25:28.649, 2021-01-28 16:25:28.935, 3, 51200, 3, 1qXx1b8WAEI4kKWUAoQueK, null
+2021-01-28 23:20:36.372 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mF6iJZ5vf[0;39m <==      Total: 1
+2021-01-28 23:20:36.373 INFO  com.course.server.config.LogAspect                :109  [32mF6iJZ5vf[0;39m 返回结果: {"content":{"createdAt":1611869128649,"id":"Pdwq57YQ","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"http://127.0.0.1:9000/file/f/course/1qXx1b8WAEI4kKWUAoQueK.mp4","shardIndex":3,"shardSize":51200,"shardTotal":3,"size":109698,"suffix":"mp4","updatedAt":1611869128935,"use":"C"},"success":true}
+2021-01-28 23:20:36.373 INFO  com.course.server.config.LogAspect                :110  [32mF6iJZ5vf[0;39m ------------- 结束 耗时：7 ms -------------
+2021-01-28 23:22:43.798 INFO  com.course.server.config.LogAspect                :76   [32m2G8PkL6h[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:22:43.800 INFO  com.course.server.config.LogAspect                :77   [32m2G8PkL6h[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:22:43.800 INFO  com.course.server.config.LogAspect                :78   [32m2G8PkL6h[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:22:43.801 INFO  com.course.server.config.LogAspect                :79   [32m2G8PkL6h[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:22:43.801 INFO  com.course.server.config.LogAspect                :97   [32m2G8PkL6h[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:22:43.801 INFO  com.course.file.controller.admin.UploadController :147  [32m2G8PkL6h[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:22:43.803 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m2G8PkL6h[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:22:43.803 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m2G8PkL6h[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:22:43.805 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m2G8PkL6h[0;39m <==      Total: 0
+2021-01-28 23:22:43.806 INFO  com.course.server.config.LogAspect                :109  [32m2G8PkL6h[0;39m 返回结果: {"success":true}
+2021-01-28 23:22:43.806 INFO  com.course.server.config.LogAspect                :110  [32m2G8PkL6h[0;39m ------------- 结束 耗时：8 ms -------------
+2021-01-28 23:22:43.843 INFO  com.course.server.config.LogAspect                :76   [32mmZmnQvJ7[0;39m ------------- 【VOD上传】操作开始 -------------
+2021-01-28 23:22:43.843 INFO  com.course.server.config.LogAspect                :77   [32mmZmnQvJ7[0;39m 请求地址: http://192.168.1.11:9003/file/admin/vod POST
+2021-01-28 23:22:43.844 INFO  com.course.server.config.LogAspect                :78   [32mmZmnQvJ7[0;39m 类名方法: com.course.file.controller.admin.VodController.fileUpload
+2021-01-28 23:22:43.844 INFO  com.course.server.config.LogAspect                :79   [32mmZmnQvJ7[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:22:43.844 INFO  com.course.server.config.LogAspect                :97   [32mmZmnQvJ7[0;39m 请求参数: [{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","shardIndex":1,"shardSize":1048576000,"shardTotal":1,"size":109698,"suffix":"mp4","use":"C"}]
+2021-01-28 23:22:43.844 INFO  com.course.file.controller.admin.FileController   :45   [32mmZmnQvJ7[0;39m 上传文件开始
+2021-01-28 23:22:47.680 INFO  com.course.file.controller.admin.FileController   :96   [32mmZmnQvJ7[0;39m 上传视频成功, vod : b53ab3ba0f574bdcab594a991ae0a771
+2021-01-28 23:22:48.088 INFO  com.course.file.controller.admin.FileController   :108  [32mmZmnQvJ7[0;39m 保存文件记录开始
+2021-01-28 23:22:48.089 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mmZmnQvJ7[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:22:48.089 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mmZmnQvJ7[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:22:48.090 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mmZmnQvJ7[0;39m <==      Total: 0
+2021-01-28 23:22:48.091 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32mmZmnQvJ7[0;39m ==>  Preparing: insert into file (id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2021-01-28 23:22:48.092 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32mmZmnQvJ7[0;39m ==> Parameters: 9hKmYub2(String), course/1qXx1b8WAEI4kKWUAoQueK.mp4(String), zoom_0.mp4(String), mp4(String), 109698(Integer), C(String), 2021-01-28 23:22:48.091(Timestamp), 2021-01-28 23:22:48.091(Timestamp), 1(Integer), 1048576000(Integer), 1(Integer), 1qXx1b8WAEI4kKWUAoQueK(String), b53ab3ba0f574bdcab594a991ae0a771(String)
+2021-01-28 23:22:48.095 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32mmZmnQvJ7[0;39m <==    Updates: 1
+2021-01-28 23:22:48.095 INFO  com.course.server.config.LogAspect                :109  [32mmZmnQvJ7[0;39m 返回结果: {"content":{"key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"https://outin-25ea2190612411ebae8900163e1a625e.oss-cn-shanghai.aliyuncs.com/customerTrans/5bfbed5620f8cbb2ce057dac368b80e5/1a91bbff-1774c610cd1-0003-bd58-43c-459f5.mp4?Expires=1611897768&OSSAccessKeyId=LTAIxSaOfEzCnBOj&Signature=pcZIX8x2JxXCV7PcioBWcxO7Kvs%3D","shardIndex":1,"shardSize":1048576000,"shardTotal":1,"size":109698,"suffix":"mp4","use":"C","vod":"b53ab3ba0f574bdcab594a991ae0a771"},"success":true}
+2021-01-28 23:22:48.095 INFO  com.course.server.config.LogAspect                :110  [32mmZmnQvJ7[0;39m ------------- 结束 耗时：4252 ms -------------
+2021-01-28 23:22:57.651 INFO  com.course.server.config.LogAspect                :76   [32m6WvhFaYY[0;39m ------------- 【VOD上传】操作开始 -------------
+2021-01-28 23:22:57.652 INFO  com.course.server.config.LogAspect                :77   [32m6WvhFaYY[0;39m 请求地址: http://192.168.1.11:9003/file/admin/get-auth/b53ab3ba0f574bdcab594a991ae0a771 GET
+2021-01-28 23:22:57.652 INFO  com.course.server.config.LogAspect                :78   [32m6WvhFaYY[0;39m 类名方法: com.course.file.controller.admin.VodController.getAuth
+2021-01-28 23:22:57.652 INFO  com.course.server.config.LogAspect                :79   [32m6WvhFaYY[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:22:57.652 INFO  com.course.server.config.LogAspect                :97   [32m6WvhFaYY[0;39m 请求参数: ["b53ab3ba0f574bdcab594a991ae0a771"]
+2021-01-28 23:22:57.652 INFO  com.course.file.controller.admin.FileController   :125  [32m6WvhFaYY[0;39m 获取播放授权开始: 
+2021-01-28 23:22:58.683 INFO  com.course.file.controller.admin.FileController   :131  [32m6WvhFaYY[0;39m 授权码 = eyJTZWN1cml0eVRva2VuIjoiQ0FJU2h3TjFxNkZ0NUIyeWZTaklyNVdHSU5Id3IrcEo1WUdnZGhMNXNVVXpidlZwZ0xYNHRUejJJSGhKZVhOdkJPMGV0ZjQrbVdCWTdQY1lsck1xRThJZkd4V2RNcEVwdnNnS3ExaitKcExGc3QySjZyOEpqc1V2aytBZmwxaXBzdlhKYXNEVkVmbDJFNVhFTWlJUi8wMGU2TC8rY2lyWXBUWEhWYlNDbFo5Z2FQa09Rd0M4ZGtBb0xkeEtKd3hrMnQxNFVtWFdPYVNDUHdMU2htUEJMVXhtdldnR2wyUnp1NHV5M3ZPZDVoZlpwMXI4eE80YXhlTDBQb1AyVjgxbExacGxlc3FwM0k0U2M3YmFnaFpVNGdscjhxbHg3c3BCNVN5Vmt0eVdHVWhKL3phTElvaXQ3TnBqZmlCMGVvUUFQb3BGcC9YNmp2QWF3UExVbTliWXhncGhCOFIrWGo3RFpZYXV4N0d6ZW9XVE84MCthS3p3TmxuVXo5bUxMZU9WaVE0L1ptOEJQdzQ0RUxoSWFGMElVRUJ6RUc2Q2QvWDRvZ21hT2xmeUZaTG9pdjltamNCSHFIeno1c2VQS2xTMVJMR1U3RDBWSUpkVWJUbHpiME5MaHpPOEwvZGRLVjBSSXdNOVZ1eVBNYXgzYlFGRHI1M3ZzVGJiWHpaYjBtcHR1UG56ZHp0ZlB4elo3Q09WR29BQkMvMzAzM0xYTHJ4UUpVcllQb25LODBPMjF5NWp3aUVHNjk4UmtROGdnaS8vbUNGM0U2QloySXpVcUQzdGJjK3JMZ0xQakF5djJER2lWTlpqbXhva3ZUSElJU0ZzWm93bnNzcW1VZEVnTGdrMTFlS21ySTh2UXNYZXdrZ0JWeHUzaDJISE9YdTAyVUlheFUvMmk3bjVtcE9oYnRFbGVYT0pRQ0I5OEJ5dE9Kaz0iLCJBdXRoSW5mbyI6IntcIkNJXCI6XCJyNmRPMW9ZZjBWT2VUVnJHMGdZV3BNU0xrRWlwcFlTWHFBMGpwd3ZEOVZRV3A3YWp0LzJFellwdXNzL0RlbSt0c0NFdjRjclgwL0FsWVE2MUlqRjVzc0J5Y0ZNdlNma0FyUW14eUZ4T1E0Yz1cIixcIkNhbGxlclwiOlwieHBtSDR4VmJBaHhmc2hrWTMvNFVBVE9vRTAyOGZJM09XZ1pUUThLZUtxbz1cIixcIkV4cGlyZVRpbWVcIjpcIjIwMjEtMDEtMjlUMDQ6MjQ6MzhaXCIsXCJNZWRpYUlkXCI6XCJiNTNhYjNiYTBmNTc0YmRjYWI1OTRhOTkxYWUwYTc3MVwiLFwiU2lnbmF0dXJlXCI6XCJPdkRna2haK0U0d1h1OFpJbXUzSi9tc3dmZHc9XCJ9IiwiVmlkZW9NZXRhIjp7IlN0YXR1cyI6Ik5vcm1hbCIsIlZpZGVvSWQiOiJiNTNhYjNiYTBmNTc0YmRjYWI1OTRhOTkxYWUwYTc3MSIsIlRpdGxlIjoiY291cnNlLzFxWHgxYjhXQUVJNGtLV1VBb1F1ZUsubXA0IiwiQ292ZXJVUkwiOiJodHRwOi8vb3V0aW4tMjVlYTIxOTA2MTI0MTFlYmFlODkwMDE2M2UxYTYyNWUub3NzLWNuLXNoYW5naGFpLmFsaXl1bmNzLmNvbS9iNTNhYjNiYTBmNTc0YmRjYWI1OTRhOTkxYWUwYTc3MS9zbmFwc2hvdHMvNTE3ODYyYTgyMjJmNDY3MmIwMTU4ZDI1NTkwOTg5MzMtMDAwMDEuanBnP0V4cGlyZXM9MTYxMTg5Nzc3OCZPU1NBY2Nlc3NLZXlJZD1MVEFJeFNhT2ZFekNuQk9qJlNpZ25hdHVyZT1JcTdmRGs5RUNuejlSR3dvc09WUGJ1dmgyVjQlM0QiLCJEdXJhdGlvbiI6NS45Mn0sIkFjY2Vzc0tleUlkIjoiU1RTLk5WM2trREI1aFJDS3Q0SFVFZmJ6RW9wU1ciLCJBY2Nlc3NLZXlTZWNyZXQiOiJCUlRQYkxwQUVKWVlhU1ZOVkFCbmR2N1ZVQVltbm9hTXA0QmdlQWRwcWZEcSIsIlJlZ2lvbiI6ImNuLXNoYW5naGFpIiwiQ3VzdG9tZXJJZCI6MTA1MjYxMTcyMTg0NTIzN30=
+2021-01-28 23:22:58.686 INFO  com.course.file.controller.admin.FileController   :134  [32m6WvhFaYY[0;39m VideoMeta = {"coverURL":"http://outin-25ea2190612411ebae8900163e1a625e.oss-cn-shanghai.aliyuncs.com/b53ab3ba0f574bdcab594a991ae0a771/snapshots/517862a8222f4672b0158d2559098933-00001.jpg?Expires=1611897778&OSSAccessKeyId=LTAIxSaOfEzCnBOj&Signature=Iq7fDk9ECnz9RGwosOVPbuvh2V4%3D","duration":5.92,"status":"Normal","title":"course/1qXx1b8WAEI4kKWUAoQueK.mp4","videoId":"b53ab3ba0f574bdcab594a991ae0a771"}
+2021-01-28 23:22:58.686 INFO  com.course.file.controller.admin.FileController   :138  [32m6WvhFaYY[0;39m 获取播放授权结束
+2021-01-28 23:22:58.686 INFO  com.course.server.config.LogAspect                :109  [32m6WvhFaYY[0;39m 返回结果: {"content":"eyJTZWN1cml0eVRva2VuIjoiQ0FJU2h3TjFxNkZ0NUIyeWZTaklyNVdHSU5Id3IrcEo1WUdnZGhMNXNVVXpidlZwZ0xYNHRUejJJSGhKZVhOdkJPMGV0ZjQrbVdCWTdQY1lsck1xRThJZkd4V2RNcEVwdnNnS3ExaitKcExGc3QySjZyOEpqc1V2aytBZmwxaXBzdlhKYXNEVkVmbDJFNVhFTWlJUi8wMGU2TC8rY2lyWXBUWEhWYlNDbFo5Z2FQa09Rd0M4ZGtBb0xkeEtKd3hrMnQxNFVtWFdPYVNDUHdMU2htUEJMVXhtdldnR2wyUnp1NHV5M3ZPZDVoZlpwMXI4eE80YXhlTDBQb1AyVjgxbExacGxlc3FwM0k0U2M3YmFnaFpVNGdscjhxbHg3c3BCNVN5Vmt0eVdHVWhKL3phTElvaXQ3TnBqZmlCMGVvUUFQb3BGcC9YNmp2QWF3UExVbTliWXhncGhCOFIrWGo3RFpZYXV4N0d6ZW9XVE84MCthS3p3TmxuVXo5bUxMZU9WaVE0L1ptOEJQdzQ0RUxoSWFGMElVRUJ6RUc2Q2QvWDRvZ21hT2xmeUZaTG9pdjltamNCSHFIeno1c2VQS2xTMVJMR1U3RDBWSUpkVWJUbHpiME5MaHpPOEwvZGRLVjBSSXdNOVZ1eVBNYXgzYlFGRHI1M3ZzVGJiWHpaYjBtcHR1UG56ZHp0ZlB4elo3Q09WR29BQkMvMzAzM0xYTHJ4UUpVcllQb25LODBPMjF5NWp3aUVHNjk4UmtROGdnaS8vbUNGM0U2QloySXpVcUQzdGJjK3JMZ0xQakF5djJER2lWTlpqbXhva3ZUSElJU0ZzWm93bnNzcW1VZEVnTGdrMTFlS21ySTh2UXNYZXdrZ0JWeHUzaDJISE9YdTAyVUlheFUvMmk3bjVtcE9oYnRFbGVYT0pRQ0I5OEJ5dE9Kaz0iLCJBdXRoSW5mbyI6IntcIkNJXCI6XCJyNmRPMW9ZZjBWT2VUVnJHMGdZV3BNU0xrRWlwcFlTWHFBMGpwd3ZEOVZRV3A3YWp0LzJFellwdXNzL0RlbSt0c0NFdjRjclgwL0FsWVE2MUlqRjVzc0J5Y0ZNdlNma0FyUW14eUZ4T1E0Yz1cIixcIkNhbGxlclwiOlwieHBtSDR4VmJBaHhmc2hrWTMvNFVBVE9vRTAyOGZJM09XZ1pUUThLZUtxbz1cIixcIkV4cGlyZVRpbWVcIjpcIjIwMjEtMDEtMjlUMDQ6MjQ6MzhaXCIsXCJNZWRpYUlkXCI6XCJiNTNhYjNiYTBmNTc0YmRjYWI1OTRhOTkxYWUwYTc3MVwiLFwiU2lnbmF0dXJlXCI6XCJPdkRna2haK0U0d1h1OFpJbXUzSi9tc3dmZHc9XCJ9IiwiVmlkZW9NZXRhIjp7IlN0YXR1cyI6Ik5vcm1hbCIsIlZpZGVvSWQiOiJiNTNhYjNiYTBmNTc0YmRjYWI1OTRhOTkxYWUwYTc3MSIsIlRpdGxlIjoiY291cnNlLzFxWHgxYjhXQUVJNGtLV1VBb1F1ZUsubXA0IiwiQ292ZXJVUkwiOiJodHRwOi8vb3V0aW4tMjVlYTIxOTA2MTI0MTFlYmFlODkwMDE2M2UxYTYyNWUub3NzLWNuLXNoYW5naGFpLmFsaXl1bmNzLmNvbS9iNTNhYjNiYTBmNTc0YmRjYWI1OTRhOTkxYWUwYTc3MS9zbmFwc2hvdHMvNTE3ODYyYTgyMjJmNDY3MmIwMTU4ZDI1NTkwOTg5MzMtMDAwMDEuanBnP0V4cGlyZXM9MTYxMTg5Nzc3OCZPU1NBY2Nlc3NLZXlJZD1MVEFJeFNhT2ZFekNuQk9qJlNpZ25hdHVyZT1JcTdmRGs5RUNuejlSR3dvc09WUGJ1dmgyVjQlM0QiLCJEdXJhdGlvbiI6NS45Mn0sIkFjY2Vzc0tleUlkIjoiU1RTLk5WM2trREI1aFJDS3Q0SFVFZmJ6RW9wU1ciLCJBY2Nlc3NLZXlTZWNyZXQiOiJCUlRQYkxwQUVKWVlhU1ZOVkFCbmR2N1ZVQVltbm9hTXA0QmdlQWRwcWZEcSIsIlJlZ2lvbiI6ImNuLXNoYW5naGFpIiwiQ3VzdG9tZXJJZCI6MTA1MjYxMTcyMTg0NTIzN30=","success":true}
+2021-01-28 23:22:58.686 INFO  com.course.server.config.LogAspect                :110  [32m6WvhFaYY[0;39m ------------- 结束 耗时：1035 ms -------------
+2021-01-28 23:25:15.942 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-28 23:30:15.948 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-28 23:35:13.167 INFO  com.course.server.config.LogAspect                :76   [32mvsFLMirP[0;39m ------------- 【文件上传】操作开始 -------------
+2021-01-28 23:35:13.168 INFO  com.course.server.config.LogAspect                :77   [32mvsFLMirP[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-01-28 23:35:13.168 INFO  com.course.server.config.LogAspect                :78   [32mvsFLMirP[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-01-28 23:35:13.169 INFO  com.course.server.config.LogAspect                :79   [32mvsFLMirP[0;39m 远程地址: 192.168.1.11
+2021-01-28 23:35:13.169 INFO  com.course.server.config.LogAspect                :97   [32mvsFLMirP[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-01-28 23:35:13.169 INFO  com.course.file.controller.admin.UploadController :147  [32mvsFLMirP[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-01-28 23:35:13.171 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mvsFLMirP[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-01-28 23:35:13.171 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mvsFLMirP[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-01-28 23:35:13.172 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mvsFLMirP[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-01-28 23:35:13.173 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mvsFLMirP[0;39m <==        Row: 9hKmYub2, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 23:22:48.091, 2021-01-28 23:22:48.091, 1, 1048576000, 1, 1qXx1b8WAEI4kKWUAoQueK, b53ab3ba0f574bdcab594a991ae0a771
+2021-01-28 23:35:13.174 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mvsFLMirP[0;39m <==      Total: 1
+2021-01-28 23:35:14.097 INFO  com.course.server.config.LogAspect                :109  [32mvsFLMirP[0;39m 返回结果: {"content":{"createdAt":1611894168091,"id":"9hKmYub2","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"https://outin-25ea2190612411ebae8900163e1a625e.oss-cn-shanghai.aliyuncs.com/customerTrans/5bfbed5620f8cbb2ce057dac368b80e5/1a91bbff-1774c610cd1-0003-bd58-43c-459f5.mp4?Expires=1611898514&OSSAccessKeyId=LTAIxSaOfEzCnBOj&Signature=HTR6zNkwZjUH09y4%2BJtGvGfJqe0%3D","shardIndex":1,"shardSize":1048576000,"shardTotal":1,"size":109698,"suffix":"mp4","updatedAt":1611894168091,"use":"C","vod":"b53ab3ba0f574bdcab594a991ae0a771"},"success":true}
+2021-01-28 23:35:14.097 INFO  com.course.server.config.LogAspect                :110  [32mvsFLMirP[0;39m ------------- 结束 耗时：930 ms -------------
+2021-01-28 23:35:15.960 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
