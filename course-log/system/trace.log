@@ -387,3 +387,94 @@ Caused by: java.lang.ClassNotFoundException: com.course.server.service.UserServi
 2021-01-29 00:43:19.939 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mPDYKpjgK[0;39m <==      Total: 1
 2021-01-29 00:43:19.942 ERROR c.c.system.controller.ControllerExceptionHandler  :22   [32mPDYKpjgK[0;39m 业务异常：登录名已存在
 2021-01-29 00:43:19.943 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32mPDYKpjgK[0;39m Resolved [com.course.server.exception.BusinessException: 登录名已存在]
+2021-01-29 00:48:01.524 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-29 00:49:05.606 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=54s426ms).
+2021-01-29 00:58:13.695 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8m38s78ms).
+2021-01-29 01:58:39.158 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h25s463ms).
+2021-01-29 02:59:36.341 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h27s200ms).
+2021-01-29 04:00:31.811 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h25s454ms).
+2021-01-29 05:01:18.540 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-29 05:01:28.256 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h26s443ms).
+2021-01-29 06:01:53.728 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h25s472ms).
+2021-01-29 07:02:49.124 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h25s358ms).
+2021-01-29 08:03:45.705 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h26s579ms).
+2021-01-29 09:04:43.242 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h27s513ms).
+2021-01-29 10:05:09.724 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h26s482ms).
+2021-01-29 10:29:15.972 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-29 10:29:25.758 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=23m46s19ms).
+2021-01-29 10:34:16.007 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-29 10:39:16.009 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-29 10:43:19.586 INFO  com.course.server.config.LogAspect                :76   [32moIGpAUAL[0;39m ------------- 【用户】查询开始 -------------
+2021-01-29 10:43:19.587 INFO  com.course.server.config.LogAspect                :77   [32moIGpAUAL[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-01-29 10:43:19.587 INFO  com.course.server.config.LogAspect                :78   [32moIGpAUAL[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-01-29 10:43:19.587 INFO  com.course.server.config.LogAspect                :79   [32moIGpAUAL[0;39m 远程地址: 127.0.0.1
+2021-01-29 10:43:19.587 INFO  com.course.server.config.LogAspect                :97   [32moIGpAUAL[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-01-29 10:43:19.589 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32moIGpAUAL[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-01-29 10:43:19.589 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32moIGpAUAL[0;39m ==> Parameters: 
+2021-01-29 10:43:19.591 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32moIGpAUAL[0;39m <==    Columns: count(0)
+2021-01-29 10:43:19.591 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32moIGpAUAL[0;39m <==        Row: 2
+2021-01-29 10:43:19.591 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32moIGpAUAL[0;39m <==      Total: 1
+2021-01-29 10:43:19.592 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32moIGpAUAL[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-01-29 10:43:19.593 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32moIGpAUAL[0;39m ==> Parameters: 5(Integer)
+2021-01-29 10:43:19.594 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32moIGpAUAL[0;39m <==    Columns: id, login_name, name, password
+2021-01-29 10:43:19.594 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32moIGpAUAL[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-01-29 10:43:19.594 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32moIGpAUAL[0;39m <==        Row: V6toLJWU, 1, 1, 1
+2021-01-29 10:43:19.594 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32moIGpAUAL[0;39m <==      Total: 2
+2021-01-29 10:43:19.595 INFO  com.course.server.config.LogAspect                :109  [32moIGpAUAL[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"V6toLJWU","loginName":"1","name":"1"}],"page":1,"size":5,"total":2},"success":true}
+2021-01-29 10:43:19.595 INFO  com.course.server.config.LogAspect                :110  [32moIGpAUAL[0;39m ------------- 结束 耗时：9 ms -------------
+2021-01-29 10:43:56.036 INFO  com.course.server.config.LogAspect                :76   [32mdwt7UxY1[0;39m ------------- 【用户】查询开始 -------------
+2021-01-29 10:43:56.036 INFO  com.course.server.config.LogAspect                :77   [32mdwt7UxY1[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-01-29 10:43:56.036 INFO  com.course.server.config.LogAspect                :78   [32mdwt7UxY1[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-01-29 10:43:56.036 INFO  com.course.server.config.LogAspect                :79   [32mdwt7UxY1[0;39m 远程地址: 127.0.0.1
+2021-01-29 10:43:56.037 INFO  com.course.server.config.LogAspect                :97   [32mdwt7UxY1[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-01-29 10:43:56.038 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mdwt7UxY1[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-01-29 10:43:56.038 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mdwt7UxY1[0;39m ==> Parameters: 
+2021-01-29 10:43:56.040 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mdwt7UxY1[0;39m <==    Columns: count(0)
+2021-01-29 10:43:56.040 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mdwt7UxY1[0;39m <==        Row: 2
+2021-01-29 10:43:56.040 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mdwt7UxY1[0;39m <==      Total: 1
+2021-01-29 10:43:56.041 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mdwt7UxY1[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-01-29 10:43:56.041 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mdwt7UxY1[0;39m ==> Parameters: 5(Integer)
+2021-01-29 10:43:56.042 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mdwt7UxY1[0;39m <==    Columns: id, login_name, name, password
+2021-01-29 10:43:56.042 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mdwt7UxY1[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-01-29 10:43:56.042 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mdwt7UxY1[0;39m <==        Row: V6toLJWU, 1, 1, 1
+2021-01-29 10:43:56.042 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mdwt7UxY1[0;39m <==      Total: 2
+2021-01-29 10:43:56.043 INFO  com.course.server.config.LogAspect                :109  [32mdwt7UxY1[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"V6toLJWU","loginName":"1","name":"1"}],"page":1,"size":5,"total":2},"success":true}
+2021-01-29 10:43:56.043 INFO  com.course.server.config.LogAspect                :110  [32mdwt7UxY1[0;39m ------------- 结束 耗时：7 ms -------------
+2021-01-29 10:44:16.014 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-29 10:47:45.308 INFO  com.course.server.config.LogAspect                :76   [32mKoKjJluG[0;39m ------------- 【用户】查询开始 -------------
+2021-01-29 10:47:45.308 INFO  com.course.server.config.LogAspect                :77   [32mKoKjJluG[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-01-29 10:47:45.308 INFO  com.course.server.config.LogAspect                :78   [32mKoKjJluG[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-01-29 10:47:45.308 INFO  com.course.server.config.LogAspect                :79   [32mKoKjJluG[0;39m 远程地址: 127.0.0.1
+2021-01-29 10:47:45.309 INFO  com.course.server.config.LogAspect                :97   [32mKoKjJluG[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-01-29 10:47:45.310 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mKoKjJluG[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-01-29 10:47:45.311 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mKoKjJluG[0;39m ==> Parameters: 
+2021-01-29 10:47:45.312 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mKoKjJluG[0;39m <==    Columns: count(0)
+2021-01-29 10:47:45.312 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mKoKjJluG[0;39m <==        Row: 2
+2021-01-29 10:47:45.312 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mKoKjJluG[0;39m <==      Total: 1
+2021-01-29 10:47:45.313 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mKoKjJluG[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-01-29 10:47:45.313 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mKoKjJluG[0;39m ==> Parameters: 5(Integer)
+2021-01-29 10:47:45.314 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mKoKjJluG[0;39m <==    Columns: id, login_name, name, password
+2021-01-29 10:47:45.314 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mKoKjJluG[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-01-29 10:47:45.314 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mKoKjJluG[0;39m <==        Row: V6toLJWU, 1, 1, 1
+2021-01-29 10:47:45.315 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mKoKjJluG[0;39m <==      Total: 2
+2021-01-29 10:47:45.316 INFO  com.course.server.config.LogAspect                :109  [32mKoKjJluG[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"V6toLJWU","loginName":"1","name":"1"}],"page":1,"size":5,"total":2},"success":true}
+2021-01-29 10:47:45.316 INFO  com.course.server.config.LogAspect                :110  [32mKoKjJluG[0;39m ------------- 结束 耗时：8 ms -------------
+2021-01-29 10:47:51.298 INFO  com.course.server.config.LogAspect                :76   [32mSYrxQnZT[0;39m ------------- 【用户】查询开始 -------------
+2021-01-29 10:47:51.298 INFO  com.course.server.config.LogAspect                :77   [32mSYrxQnZT[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-01-29 10:47:51.299 INFO  com.course.server.config.LogAspect                :78   [32mSYrxQnZT[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-01-29 10:47:51.299 INFO  com.course.server.config.LogAspect                :79   [32mSYrxQnZT[0;39m 远程地址: 127.0.0.1
+2021-01-29 10:47:51.299 INFO  com.course.server.config.LogAspect                :97   [32mSYrxQnZT[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-01-29 10:47:51.300 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mSYrxQnZT[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-01-29 10:47:51.300 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mSYrxQnZT[0;39m ==> Parameters: 
+2021-01-29 10:47:51.302 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mSYrxQnZT[0;39m <==    Columns: count(0)
+2021-01-29 10:47:51.302 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mSYrxQnZT[0;39m <==        Row: 2
+2021-01-29 10:47:51.302 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mSYrxQnZT[0;39m <==      Total: 1
+2021-01-29 10:47:51.303 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mSYrxQnZT[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-01-29 10:47:51.304 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mSYrxQnZT[0;39m ==> Parameters: 5(Integer)
+2021-01-29 10:47:51.305 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mSYrxQnZT[0;39m <==    Columns: id, login_name, name, password
+2021-01-29 10:47:51.305 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mSYrxQnZT[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-01-29 10:47:51.305 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mSYrxQnZT[0;39m <==        Row: V6toLJWU, 1, 1, 1
+2021-01-29 10:47:51.305 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mSYrxQnZT[0;39m <==      Total: 2
+2021-01-29 10:47:51.306 INFO  com.course.server.config.LogAspect                :109  [32mSYrxQnZT[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"V6toLJWU","loginName":"1","name":"1"}],"page":1,"size":5,"total":2},"success":true}
+2021-01-29 10:47:51.306 INFO  com.course.server.config.LogAspect                :110  [32mSYrxQnZT[0;39m ------------- 结束 耗时：8 ms -------------
+2021-01-29 10:49:16.018 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
