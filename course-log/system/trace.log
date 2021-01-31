@@ -83,3 +83,849 @@
 2021-01-31 16:26:54.190 INFO  com.course.server.config.LogAspect                :97   [32mIl5EGMAZ[0;39m 请求参数: ["M6p3kgjy",null,null]
 2021-01-31 16:26:54.195 INFO  com.course.server.config.LogAspect                :109  [32mIl5EGMAZ[0;39m 返回结果: null
 2021-01-31 16:26:54.196 INFO  com.course.server.config.LogAspect                :110  [32mIl5EGMAZ[0;39m ------------- 结束 耗时：8 ms -------------
+2021-01-31 16:28:27.397 ERROR com.course.server.config.LogAspect                :70   [32mUKUMe38K[0;39m 未获取到业务名称
+2021-01-31 16:28:27.397 INFO  com.course.server.config.LogAspect                :76   [32mUKUMe38K[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:28:27.398 INFO  com.course.server.config.LogAspect                :77   [32mUKUMe38K[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/e7xQ4TeM GET
+2021-01-31 16:28:27.398 INFO  com.course.server.config.LogAspect                :78   [32mUKUMe38K[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:28:27.399 INFO  com.course.server.config.LogAspect                :79   [32mUKUMe38K[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:28:27.399 INFO  com.course.server.config.LogAspect                :97   [32mUKUMe38K[0;39m 请求参数: ["e7xQ4TeM",null,null]
+2021-01-31 16:28:27.406 INFO  com.course.server.config.LogAspect                :109  [32mUKUMe38K[0;39m 返回结果: null
+2021-01-31 16:28:27.406 INFO  com.course.server.config.LogAspect                :110  [32mUKUMe38K[0;39m ------------- 结束 耗时：10 ms -------------
+2021-01-31 16:28:42.599 ERROR com.course.server.config.LogAspect                :70   [32mG6RZd7oi[0;39m 未获取到业务名称
+2021-01-31 16:28:42.599 INFO  com.course.server.config.LogAspect                :76   [32mG6RZd7oi[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:28:42.600 INFO  com.course.server.config.LogAspect                :77   [32mG6RZd7oi[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/RG4dxZVi GET
+2021-01-31 16:28:42.600 INFO  com.course.server.config.LogAspect                :78   [32mG6RZd7oi[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:28:42.600 INFO  com.course.server.config.LogAspect                :79   [32mG6RZd7oi[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:28:42.600 INFO  com.course.server.config.LogAspect                :97   [32mG6RZd7oi[0;39m 请求参数: ["RG4dxZVi",null,null]
+2021-01-31 16:28:42.605 INFO  com.course.server.config.LogAspect                :109  [32mG6RZd7oi[0;39m 返回结果: null
+2021-01-31 16:28:42.605 INFO  com.course.server.config.LogAspect                :110  [32mG6RZd7oi[0;39m ------------- 结束 耗时：6 ms -------------
+2021-01-31 16:29:09.694 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-01-31 16:29:09.694 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612128549694, current=DOWN, previous=UP]
+2021-01-31 16:29:09.695 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 16:29:09.699 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 16:29:09.699 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 16:29:09.701 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-31 16:29:12.701 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-31 16:29:12.706 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-01-31 16:29:12.712 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-31 16:29:12.856 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 16:29:12.891 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-31 16:29:13.223 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b736ee0d-d5e1-3250-a5b7-7646950d2c41
+2021-01-31 16:29:13.248 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 16:29:13.259 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 16:29:13.329 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-31 16:29:13.348 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-01-31 16:29:13.349 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-01-31 16:29:13.349 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-31 16:29:13.349 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-31 16:29:13.367 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-31 16:29:13.367 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 473 ms
+2021-01-31 16:29:13.605 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 16:29:13.605 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 16:29:13.722 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 16:29:13.938 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-01-31 16:29:14.018 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-31 16:29:14.040 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-31 16:29:14.067 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-31 16:29:14.069 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-31 16:29:14.071 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-31 16:29:14.071 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-31 16:29:14.071 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-31 16:29:14.071 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-31 16:29:14.120 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 16:29:14.124 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-31 16:29:14.124 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-31 16:29:14.124 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-31 16:29:14.124 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-31 16:29:14.124 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-31 16:29:14.124 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-31 16:29:14.124 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-31 16:29:14.130 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-31 16:29:14.131 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-31 16:29:14.131 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-31 16:29:14.132 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612128554132 with initial instances count: 4
+2021-01-31 16:29:14.136 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-01-31 16:29:14.136 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612128554136, current=UP, previous=STARTING]
+2021-01-31 16:29:14.137 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 16:29:14.141 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 16:29:14.142 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-01-31 16:29:14.143 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-01-31 16:29:14.144 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-01-31 16:29:14.146 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.348 seconds (JVM running for 193.91)
+2021-01-31 16:29:14.148 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-01-31 16:29:14.148 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-31 16:29:14.148 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-31 16:29:31.527 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-01-31 16:29:31.527 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612128571527, current=DOWN, previous=UP]
+2021-01-31 16:29:31.528 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 16:29:31.530 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 16:29:31.531 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-31 16:29:31.533 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 16:29:31.534 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-31 16:29:31.538 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-01-31 16:29:31.545 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-31 16:29:31.659 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 16:29:31.755 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-31 16:29:32.068 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b736ee0d-d5e1-3250-a5b7-7646950d2c41
+2021-01-31 16:29:32.083 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 16:29:32.090 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 16:29:32.141 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-31 16:29:32.157 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-01-31 16:29:32.158 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-01-31 16:29:32.158 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-31 16:29:32.158 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-31 16:29:32.177 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-31 16:29:32.177 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 421 ms
+2021-01-31 16:29:32.358 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 16:29:32.358 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 16:29:32.465 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 16:29:32.643 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-01-31 16:29:32.708 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-31 16:29:32.727 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-31 16:29:32.752 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-31 16:29:32.754 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-31 16:29:32.755 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-31 16:29:32.755 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-31 16:29:32.755 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-31 16:29:32.756 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-31 16:29:32.817 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 16:29:32.819 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-31 16:29:32.819 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-31 16:29:32.819 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-31 16:29:32.819 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-31 16:29:32.820 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-31 16:29:32.820 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-31 16:29:32.820 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-31 16:29:32.824 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-31 16:29:32.825 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-31 16:29:32.826 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-31 16:29:32.826 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612128572826 with initial instances count: 4
+2021-01-31 16:29:32.832 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-01-31 16:29:32.832 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612128572832, current=UP, previous=STARTING]
+2021-01-31 16:29:32.832 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 16:29:32.838 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 16:29:32.838 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-01-31 16:29:32.841 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-01-31 16:29:32.841 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-01-31 16:29:32.844 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.228 seconds (JVM running for 212.607)
+2021-01-31 16:29:32.847 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-01-31 16:29:32.847 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-31 16:29:32.847 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-31 16:34:32.826 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 16:39:32.833 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 16:44:32.840 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 16:49:32.849 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 16:54:32.861 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 16:57:54.506 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 16:57:54.506 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-01-31 16:57:54.515 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
+2021-01-31 16:57:54.519 ERROR com.course.server.config.LogAspect                :70   [32mJe81uTRd[0;39m 未获取到业务名称
+2021-01-31 16:57:54.520 INFO  com.course.server.config.LogAspect                :76   [32mJe81uTRd[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:57:54.520 INFO  com.course.server.config.LogAspect                :77   [32mJe81uTRd[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/murKBVm7 GET
+2021-01-31 16:57:54.520 INFO  com.course.server.config.LogAspect                :78   [32mJe81uTRd[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:57:54.520 INFO  com.course.server.config.LogAspect                :79   [32mJe81uTRd[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:57:54.521 INFO  com.course.server.config.LogAspect                :97   [32mJe81uTRd[0;39m 请求参数: ["murKBVm7",null,null]
+2021-01-31 16:57:54.529 INFO  com.course.server.config.LogAspect                :109  [32mJe81uTRd[0;39m 返回结果: null
+2021-01-31 16:57:54.529 INFO  com.course.server.config.LogAspect                :110  [32mJe81uTRd[0;39m ------------- 结束 耗时：12 ms -------------
+2021-01-31 16:58:03.685 ERROR com.course.server.config.LogAspect                :70   [32mg5it4Rpj[0;39m 未获取到业务名称
+2021-01-31 16:58:03.686 INFO  com.course.server.config.LogAspect                :76   [32mg5it4Rpj[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:58:03.686 INFO  com.course.server.config.LogAspect                :77   [32mg5it4Rpj[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/dXpOFivj GET
+2021-01-31 16:58:03.686 INFO  com.course.server.config.LogAspect                :78   [32mg5it4Rpj[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:58:03.686 INFO  com.course.server.config.LogAspect                :79   [32mg5it4Rpj[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:58:03.687 INFO  com.course.server.config.LogAspect                :97   [32mg5it4Rpj[0;39m 请求参数: ["dXpOFivj",null,null]
+2021-01-31 16:58:03.693 INFO  com.course.server.config.LogAspect                :109  [32mg5it4Rpj[0;39m 返回结果: null
+2021-01-31 16:58:03.693 INFO  com.course.server.config.LogAspect                :110  [32mg5it4Rpj[0;39m ------------- 结束 耗时：8 ms -------------
+2021-01-31 16:58:11.689 ERROR com.course.server.config.LogAspect                :70   [32m4zSnSLOl[0;39m 未获取到业务名称
+2021-01-31 16:58:11.690 INFO  com.course.server.config.LogAspect                :76   [32m4zSnSLOl[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:58:11.690 INFO  com.course.server.config.LogAspect                :77   [32m4zSnSLOl[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/AhcDWPYY GET
+2021-01-31 16:58:11.690 INFO  com.course.server.config.LogAspect                :78   [32m4zSnSLOl[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:58:11.691 INFO  com.course.server.config.LogAspect                :79   [32m4zSnSLOl[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:58:11.691 INFO  com.course.server.config.LogAspect                :97   [32m4zSnSLOl[0;39m 请求参数: ["AhcDWPYY",null,null]
+2021-01-31 16:58:11.701 INFO  com.course.server.config.LogAspect                :109  [32m4zSnSLOl[0;39m 返回结果: null
+2021-01-31 16:58:11.702 INFO  com.course.server.config.LogAspect                :110  [32m4zSnSLOl[0;39m ------------- 结束 耗时：14 ms -------------
+2021-01-31 16:58:13.766 INFO  com.course.server.config.LogAspect                :76   [32mMz7zCnC8[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 16:58:13.766 INFO  com.course.server.config.LogAspect                :77   [32mMz7zCnC8[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 16:58:13.766 INFO  com.course.server.config.LogAspect                :78   [32mMz7zCnC8[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 16:58:13.766 INFO  com.course.server.config.LogAspect                :79   [32mMz7zCnC8[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:58:13.770 INFO  com.course.server.config.LogAspect                :97   [32mMz7zCnC8[0;39m 请求参数: [{"imageCode":"ccc2","imageCodeToken":"AhcDWPYY","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-01-31 16:58:13.772 INFO  com.course.system.controller.admin.UserController :81   [32mMz7zCnC8[0;39m 用户登录开始
+2021-01-31 16:58:13.772 INFO  com.course.system.controller.admin.UserController :90   [32mMz7zCnC8[0;39m 用户登录失败，验证码已过期
+2021-01-31 16:58:13.773 INFO  com.course.server.config.LogAspect                :109  [32mMz7zCnC8[0;39m 返回结果: {"message":"验证码已过期","success":false}
+2021-01-31 16:58:13.773 INFO  com.course.server.config.LogAspect                :110  [32mMz7zCnC8[0;39m ------------- 结束 耗时：7 ms -------------
+2021-01-31 16:58:13.812 ERROR com.course.server.config.LogAspect                :70   [32milYxPl6j[0;39m 未获取到业务名称
+2021-01-31 16:58:13.812 INFO  com.course.server.config.LogAspect                :76   [32milYxPl6j[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:58:13.812 INFO  com.course.server.config.LogAspect                :77   [32milYxPl6j[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/OhPzI6CS GET
+2021-01-31 16:58:13.812 INFO  com.course.server.config.LogAspect                :78   [32milYxPl6j[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:58:13.812 INFO  com.course.server.config.LogAspect                :79   [32milYxPl6j[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:58:13.813 INFO  com.course.server.config.LogAspect                :97   [32milYxPl6j[0;39m 请求参数: ["OhPzI6CS",null,null]
+2021-01-31 16:58:13.816 INFO  com.course.server.config.LogAspect                :109  [32milYxPl6j[0;39m 返回结果: null
+2021-01-31 16:58:13.817 INFO  com.course.server.config.LogAspect                :110  [32milYxPl6j[0;39m ------------- 结束 耗时：6 ms -------------
+2021-01-31 16:58:24.494 ERROR com.course.server.config.LogAspect                :70   [32mYSOisSHJ[0;39m 未获取到业务名称
+2021-01-31 16:58:24.494 INFO  com.course.server.config.LogAspect                :76   [32mYSOisSHJ[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:58:24.494 INFO  com.course.server.config.LogAspect                :77   [32mYSOisSHJ[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/X4sz31HB GET
+2021-01-31 16:58:24.495 INFO  com.course.server.config.LogAspect                :78   [32mYSOisSHJ[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:58:24.495 INFO  com.course.server.config.LogAspect                :79   [32mYSOisSHJ[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:58:24.495 INFO  com.course.server.config.LogAspect                :97   [32mYSOisSHJ[0;39m 请求参数: ["X4sz31HB",null,null]
+2021-01-31 16:58:24.498 INFO  com.course.server.config.LogAspect                :109  [32mYSOisSHJ[0;39m 返回结果: null
+2021-01-31 16:58:24.498 INFO  com.course.server.config.LogAspect                :110  [32mYSOisSHJ[0;39m ------------- 结束 耗时：4 ms -------------
+2021-01-31 16:58:24.992 ERROR com.course.server.config.LogAspect                :70   [32mLustmjXb[0;39m 未获取到业务名称
+2021-01-31 16:58:24.992 INFO  com.course.server.config.LogAspect                :76   [32mLustmjXb[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:58:24.993 INFO  com.course.server.config.LogAspect                :77   [32mLustmjXb[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/qQkQNdfI GET
+2021-01-31 16:58:24.993 INFO  com.course.server.config.LogAspect                :78   [32mLustmjXb[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:58:24.993 INFO  com.course.server.config.LogAspect                :79   [32mLustmjXb[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:58:24.993 INFO  com.course.server.config.LogAspect                :97   [32mLustmjXb[0;39m 请求参数: ["qQkQNdfI",null,null]
+2021-01-31 16:58:24.997 INFO  com.course.server.config.LogAspect                :109  [32mLustmjXb[0;39m 返回结果: null
+2021-01-31 16:58:24.997 INFO  com.course.server.config.LogAspect                :110  [32mLustmjXb[0;39m ------------- 结束 耗时：5 ms -------------
+2021-01-31 16:58:29.068 INFO  com.course.server.config.LogAspect                :76   [32mwVQ6A6Ck[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 16:58:29.068 INFO  com.course.server.config.LogAspect                :77   [32mwVQ6A6Ck[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 16:58:29.068 INFO  com.course.server.config.LogAspect                :78   [32mwVQ6A6Ck[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 16:58:29.069 INFO  com.course.server.config.LogAspect                :79   [32mwVQ6A6Ck[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:58:29.069 INFO  com.course.server.config.LogAspect                :97   [32mwVQ6A6Ck[0;39m 请求参数: [{"imageCode":"3xey","imageCodeToken":"qQkQNdfI","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-01-31 16:58:29.069 INFO  com.course.system.controller.admin.UserController :81   [32mwVQ6A6Ck[0;39m 用户登录开始
+2021-01-31 16:58:29.069 INFO  com.course.system.controller.admin.UserController :90   [32mwVQ6A6Ck[0;39m 用户登录失败，验证码已过期
+2021-01-31 16:58:29.069 INFO  com.course.server.config.LogAspect                :109  [32mwVQ6A6Ck[0;39m 返回结果: {"message":"验证码已过期","success":false}
+2021-01-31 16:58:29.069 INFO  com.course.server.config.LogAspect                :110  [32mwVQ6A6Ck[0;39m ------------- 结束 耗时：1 ms -------------
+2021-01-31 16:58:29.084 ERROR com.course.server.config.LogAspect                :70   [32mzGqaqOfH[0;39m 未获取到业务名称
+2021-01-31 16:58:29.084 INFO  com.course.server.config.LogAspect                :76   [32mzGqaqOfH[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:58:29.084 INFO  com.course.server.config.LogAspect                :77   [32mzGqaqOfH[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/wRtsemNC GET
+2021-01-31 16:58:29.084 INFO  com.course.server.config.LogAspect                :78   [32mzGqaqOfH[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:58:29.084 INFO  com.course.server.config.LogAspect                :79   [32mzGqaqOfH[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:58:29.084 INFO  com.course.server.config.LogAspect                :97   [32mzGqaqOfH[0;39m 请求参数: ["wRtsemNC",null,null]
+2021-01-31 16:58:29.087 INFO  com.course.server.config.LogAspect                :109  [32mzGqaqOfH[0;39m 返回结果: null
+2021-01-31 16:58:29.087 INFO  com.course.server.config.LogAspect                :110  [32mzGqaqOfH[0;39m ------------- 结束 耗时：3 ms -------------
+2021-01-31 16:59:32.830 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 16:59:49.205 ERROR com.course.server.config.LogAspect                :70   [32mPTqgr5cy[0;39m 未获取到业务名称
+2021-01-31 16:59:49.205 INFO  com.course.server.config.LogAspect                :76   [32mPTqgr5cy[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:59:49.205 INFO  com.course.server.config.LogAspect                :77   [32mPTqgr5cy[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/f7AK3uqQ GET
+2021-01-31 16:59:49.206 INFO  com.course.server.config.LogAspect                :78   [32mPTqgr5cy[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:59:49.206 INFO  com.course.server.config.LogAspect                :79   [32mPTqgr5cy[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:59:49.206 INFO  com.course.server.config.LogAspect                :97   [32mPTqgr5cy[0;39m 请求参数: ["f7AK3uqQ",null,null]
+2021-01-31 16:59:49.210 INFO  com.course.server.config.LogAspect                :109  [32mPTqgr5cy[0;39m 返回结果: null
+2021-01-31 16:59:49.210 INFO  com.course.server.config.LogAspect                :110  [32mPTqgr5cy[0;39m ------------- 结束 耗时：6 ms -------------
+2021-01-31 16:59:57.441 ERROR com.course.server.config.LogAspect                :70   [32mlZjqX7Ds[0;39m 未获取到业务名称
+2021-01-31 16:59:57.441 INFO  com.course.server.config.LogAspect                :76   [32mlZjqX7Ds[0;39m ------------- 【】操作开始 -------------
+2021-01-31 16:59:57.441 INFO  com.course.server.config.LogAspect                :77   [32mlZjqX7Ds[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/C8MfnHuW GET
+2021-01-31 16:59:57.441 INFO  com.course.server.config.LogAspect                :78   [32mlZjqX7Ds[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 16:59:57.441 INFO  com.course.server.config.LogAspect                :79   [32mlZjqX7Ds[0;39m 远程地址: 127.0.0.1
+2021-01-31 16:59:57.441 INFO  com.course.server.config.LogAspect                :97   [32mlZjqX7Ds[0;39m 请求参数: ["C8MfnHuW",null,null]
+2021-01-31 16:59:57.445 INFO  com.course.server.config.LogAspect                :109  [32mlZjqX7Ds[0;39m 返回结果: null
+2021-01-31 16:59:57.445 INFO  com.course.server.config.LogAspect                :110  [32mlZjqX7Ds[0;39m ------------- 结束 耗时：5 ms -------------
+2021-01-31 17:00:00.384 INFO  com.course.server.config.LogAspect                :76   [32mH5v0W5bY[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 17:00:00.384 INFO  com.course.server.config.LogAspect                :77   [32mH5v0W5bY[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 17:00:00.384 INFO  com.course.server.config.LogAspect                :78   [32mH5v0W5bY[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 17:00:00.384 INFO  com.course.server.config.LogAspect                :79   [32mH5v0W5bY[0;39m 远程地址: 127.0.0.1
+2021-01-31 17:00:00.384 INFO  com.course.server.config.LogAspect                :97   [32mH5v0W5bY[0;39m 请求参数: [{"imageCode":"42fw","imageCodeToken":"C8MfnHuW","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-01-31 17:00:00.385 INFO  com.course.system.controller.admin.UserController :81   [32mH5v0W5bY[0;39m 用户登录开始
+2021-01-31 17:00:00.385 INFO  com.course.system.controller.admin.UserController :90   [32mH5v0W5bY[0;39m 用户登录失败，验证码已过期
+2021-01-31 17:00:00.385 INFO  com.course.server.config.LogAspect                :109  [32mH5v0W5bY[0;39m 返回结果: {"message":"验证码已过期","success":false}
+2021-01-31 17:00:00.385 INFO  com.course.server.config.LogAspect                :110  [32mH5v0W5bY[0;39m ------------- 结束 耗时：2 ms -------------
+2021-01-31 17:00:00.402 ERROR com.course.server.config.LogAspect                :70   [32miTLMKklv[0;39m 未获取到业务名称
+2021-01-31 17:00:00.403 INFO  com.course.server.config.LogAspect                :76   [32miTLMKklv[0;39m ------------- 【】操作开始 -------------
+2021-01-31 17:00:00.403 INFO  com.course.server.config.LogAspect                :77   [32miTLMKklv[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/LYONSfNC GET
+2021-01-31 17:00:00.403 INFO  com.course.server.config.LogAspect                :78   [32miTLMKklv[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 17:00:00.403 INFO  com.course.server.config.LogAspect                :79   [32miTLMKklv[0;39m 远程地址: 127.0.0.1
+2021-01-31 17:00:00.403 INFO  com.course.server.config.LogAspect                :97   [32miTLMKklv[0;39m 请求参数: ["LYONSfNC",null,null]
+2021-01-31 17:00:00.407 INFO  com.course.server.config.LogAspect                :109  [32miTLMKklv[0;39m 返回结果: null
+2021-01-31 17:00:00.407 INFO  com.course.server.config.LogAspect                :110  [32miTLMKklv[0;39m ------------- 结束 耗时：5 ms -------------
+2021-01-31 17:00:06.396 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-01-31 17:00:06.397 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612130406397, current=DOWN, previous=UP]
+2021-01-31 17:00:06.397 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 17:00:06.399 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 17:00:06.399 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-31 17:00:06.402 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :91   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 28 common frames omitted
+2021-01-31 17:00:06.403 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: java.net.ConnectException: Connection refused
+2021-01-31 17:00:06.404 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 common frames omitted
+2021-01-31 17:00:06.404 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: java.net.ConnectException: Connection refused
+2021-01-31 17:00:06.405 WARN  com.netflix.discovery.DiscoveryClient             :849  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-31 17:00:06.405 WARN  com.netflix.discovery.InstanceInfoReplicator      :125  [32m        [0;39m There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:847)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-01-31 17:00:06.405 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-31 17:00:06.406 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:941)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:919)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 42 common frames omitted
+2021-01-31 17:00:06.406 WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient     :130  [32m        [0;39m Request execution failed with message: java.net.ConnectException: Connection refused
+2021-01-31 17:00:06.407 ERROR com.netflix.discovery.DiscoveryClient             :944  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:941)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:919)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2021-01-31 17:00:06.412 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-31 17:01:39.670 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-01-31 17:01:39.673 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-01-31 17:01:39.674 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-31 17:01:39.832 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 17:01:39.926 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-31 17:01:40.570 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b736ee0d-d5e1-3250-a5b7-7646950d2c41
+2021-01-31 17:01:40.657 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 17:01:40.733 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 17:01:41.101 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-01-31 17:01:41.108 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-01-31 17:01:41.108 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-31 17:01:41.108 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-31 17:01:41.184 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-31 17:01:41.184 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1241 ms
+2021-01-31 17:01:41.621 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 17:01:41.622 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 17:01:41.624 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 17:01:41.624 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 17:01:41.818 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 17:01:42.224 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-31 17:01:42.342 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-31 17:01:42.379 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-31 17:01:42.442 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-31 17:01:42.460 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-31 17:01:42.573 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-31 17:01:42.573 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-31 17:01:42.643 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-31 17:01:42.643 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-31 17:01:42.801 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:01:42.811 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-31 17:01:42.811 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-31 17:01:42.811 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-31 17:01:42.812 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-31 17:01:42.812 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-31 17:01:42.812 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-31 17:01:42.812 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-31 17:01:42.905 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-31 17:01:42.907 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-31 17:01:42.909 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-31 17:01:42.912 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612130502911 with initial instances count: 1
+2021-01-31 17:01:42.917 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-01-31 17:01:42.917 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612130502917, current=UP, previous=STARTING]
+2021-01-31 17:01:42.919 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 17:01:42.927 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-01-31 17:01:42.939 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 17:01:42.955 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-01-31 17:01:42.956 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-01-31 17:01:42.960 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 3.606 seconds (JVM running for 4.274)
+2021-01-31 17:01:42.961 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-31 17:01:42.961 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-31 17:02:15.198 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 17:02:15.198 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-01-31 17:02:15.207 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
+2021-01-31 17:02:15.236 ERROR com.course.server.config.LogAspect                :70   [32m0NHx5L1L[0;39m 未获取到业务名称
+2021-01-31 17:02:15.237 INFO  com.course.server.config.LogAspect                :76   [32m0NHx5L1L[0;39m ------------- 【】操作开始 -------------
+2021-01-31 17:02:15.237 INFO  com.course.server.config.LogAspect                :77   [32m0NHx5L1L[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/uRlgh3Zt GET
+2021-01-31 17:02:15.237 INFO  com.course.server.config.LogAspect                :78   [32m0NHx5L1L[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 17:02:15.238 INFO  com.course.server.config.LogAspect                :79   [32m0NHx5L1L[0;39m 远程地址: 127.0.0.1
+2021-01-31 17:02:15.240 INFO  com.course.server.config.LogAspect                :97   [32m0NHx5L1L[0;39m 请求参数: ["uRlgh3Zt",null,null]
+2021-01-31 17:02:16.468 INFO  com.course.server.config.LogAspect                :109  [32m0NHx5L1L[0;39m 返回结果: null
+2021-01-31 17:02:16.469 INFO  com.course.server.config.LogAspect                :110  [32m0NHx5L1L[0;39m ------------- 结束 耗时：1237 ms -------------
+2021-01-31 17:02:22.592 ERROR com.course.server.config.LogAspect                :70   [32mR3wtzdMg[0;39m 未获取到业务名称
+2021-01-31 17:02:22.593 INFO  com.course.server.config.LogAspect                :76   [32mR3wtzdMg[0;39m ------------- 【】操作开始 -------------
+2021-01-31 17:02:22.594 INFO  com.course.server.config.LogAspect                :77   [32mR3wtzdMg[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/sWHZmFUz GET
+2021-01-31 17:02:22.594 INFO  com.course.server.config.LogAspect                :78   [32mR3wtzdMg[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 17:02:22.594 INFO  com.course.server.config.LogAspect                :79   [32mR3wtzdMg[0;39m 远程地址: 127.0.0.1
+2021-01-31 17:02:22.595 INFO  com.course.server.config.LogAspect                :97   [32mR3wtzdMg[0;39m 请求参数: ["sWHZmFUz",null,null]
+2021-01-31 17:02:22.601 INFO  com.course.server.config.LogAspect                :109  [32mR3wtzdMg[0;39m 返回结果: null
+2021-01-31 17:02:22.601 INFO  com.course.server.config.LogAspect                :110  [32mR3wtzdMg[0;39m ------------- 结束 耗时：9 ms -------------
+2021-01-31 17:02:25.904 INFO  com.course.server.config.LogAspect                :76   [32mHXpFkM6S[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 17:02:25.904 INFO  com.course.server.config.LogAspect                :77   [32mHXpFkM6S[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 17:02:25.905 INFO  com.course.server.config.LogAspect                :78   [32mHXpFkM6S[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 17:02:25.905 INFO  com.course.server.config.LogAspect                :79   [32mHXpFkM6S[0;39m 远程地址: 127.0.0.1
+2021-01-31 17:02:25.913 INFO  com.course.server.config.LogAspect                :97   [32mHXpFkM6S[0;39m 请求参数: [{"imageCode":"ya36","imageCodeToken":"sWHZmFUz","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-01-31 17:02:25.916 INFO  com.course.system.controller.admin.UserController :81   [32mHXpFkM6S[0;39m 用户登录开始
+2021-01-31 17:02:25.917 INFO  com.course.system.controller.admin.UserController :90   [32mHXpFkM6S[0;39m 用户登录失败，验证码已过期
+2021-01-31 17:02:25.920 INFO  com.course.server.config.LogAspect                :109  [32mHXpFkM6S[0;39m 返回结果: {"message":"验证码已过期","success":false}
+2021-01-31 17:02:25.920 INFO  com.course.server.config.LogAspect                :110  [32mHXpFkM6S[0;39m ------------- 结束 耗时：16 ms -------------
+2021-01-31 17:02:25.949 ERROR com.course.server.config.LogAspect                :70   [32mYnwppXrr[0;39m 未获取到业务名称
+2021-01-31 17:02:25.950 INFO  com.course.server.config.LogAspect                :76   [32mYnwppXrr[0;39m ------------- 【】操作开始 -------------
+2021-01-31 17:02:25.950 INFO  com.course.server.config.LogAspect                :77   [32mYnwppXrr[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/6plPDlGf GET
+2021-01-31 17:02:25.950 INFO  com.course.server.config.LogAspect                :78   [32mYnwppXrr[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 17:02:25.950 INFO  com.course.server.config.LogAspect                :79   [32mYnwppXrr[0;39m 远程地址: 127.0.0.1
+2021-01-31 17:02:25.951 INFO  com.course.server.config.LogAspect                :97   [32mYnwppXrr[0;39m 请求参数: ["6plPDlGf",null,null]
+2021-01-31 17:02:25.955 INFO  com.course.server.config.LogAspect                :109  [32mYnwppXrr[0;39m 返回结果: null
+2021-01-31 17:02:25.956 INFO  com.course.server.config.LogAspect                :110  [32mYnwppXrr[0;39m ------------- 结束 耗时：7 ms -------------
+2021-01-31 17:06:42.823 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:11:42.845 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:16:42.856 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:21:42.867 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:26:42.866 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:31:42.883 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:36:42.896 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:41:42.856 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:46:42.866 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:51:42.878 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 17:56:42.913 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:01:42.927 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:06:42.937 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:07:50.719 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-01-31 18:07:50.719 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612134470719, current=DOWN, previous=UP]
+2021-01-31 18:07:50.719 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 18:07:50.726 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 18:07:50.727 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 18:07:50.728 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-31 18:07:53.729 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-31 18:07:53.739 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-01-31 18:07:53.746 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-31 18:07:53.920 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:07:53.955 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-31 18:07:54.327 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b736ee0d-d5e1-3250-a5b7-7646950d2c41
+2021-01-31 18:07:54.347 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:07:54.357 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:07:54.414 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-31 18:07:54.435 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-01-31 18:07:54.436 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-01-31 18:07:54.436 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-31 18:07:54.437 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-31 18:07:54.456 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-31 18:07:54.456 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 499 ms
+2021-01-31 18:07:54.725 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 18:07:54.726 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 18:07:54.894 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 18:07:55.153 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-31 18:07:55.236 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-31 18:07:55.254 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-31 18:07:55.279 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-31 18:07:55.282 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-31 18:07:55.283 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-31 18:07:55.284 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-31 18:07:55.284 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-31 18:07:55.284 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-31 18:07:55.331 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:07:55.336 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-31 18:07:55.336 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-31 18:07:55.336 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-31 18:07:55.336 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-31 18:07:55.336 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-31 18:07:55.336 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-31 18:07:55.337 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-31 18:07:55.341 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-31 18:07:55.342 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-31 18:07:55.342 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-31 18:07:55.343 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612134475343 with initial instances count: 4
+2021-01-31 18:07:55.347 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-01-31 18:07:55.348 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612134475348, current=UP, previous=STARTING]
+2021-01-31 18:07:55.348 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 18:07:55.352 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 18:07:55.353 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-01-31 18:07:55.355 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-01-31 18:07:55.356 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-01-31 18:07:55.358 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.492 seconds (JVM running for 3976.606)
+2021-01-31 18:07:55.360 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-01-31 18:07:55.361 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-31 18:07:55.361 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-31 18:09:34.713 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-01-31 18:09:34.714 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612134574714, current=DOWN, previous=UP]
+2021-01-31 18:09:34.714 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 18:09:34.716 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 18:09:34.717 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 18:09:34.717 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-31 18:09:37.718 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-31 18:09:37.721 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-01-31 18:09:37.727 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-31 18:09:37.840 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:09:37.866 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-31 18:09:38.118 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=b736ee0d-d5e1-3250-a5b7-7646950d2c41
+2021-01-31 18:09:38.134 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:09:38.140 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:09:38.196 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-01-31 18:09:38.212 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-01-31 18:09:38.213 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-01-31 18:09:38.213 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-31 18:09:38.213 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-31 18:09:38.230 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-31 18:09:38.230 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 362 ms
+2021-01-31 18:09:38.407 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 18:09:38.407 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 18:09:38.512 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 18:09:38.704 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-31 18:09:38.766 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-31 18:09:38.785 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-31 18:09:38.804 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-31 18:09:38.806 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-31 18:09:38.807 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-31 18:09:38.807 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-31 18:09:38.807 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-31 18:09:38.807 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-31 18:09:38.853 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:09:38.854 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-31 18:09:38.854 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-31 18:09:38.854 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-31 18:09:38.854 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-31 18:09:38.854 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-31 18:09:38.854 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-31 18:09:38.854 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-31 18:09:38.859 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-31 18:09:38.859 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-31 18:09:38.860 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-31 18:09:38.860 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612134578860 with initial instances count: 4
+2021-01-31 18:09:38.865 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-01-31 18:09:38.865 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612134578865, current=UP, previous=STARTING]
+2021-01-31 18:09:38.865 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 18:09:38.869 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 18:09:38.870 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-01-31 18:09:38.872 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-01-31 18:09:38.872 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-01-31 18:09:38.875 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 1.08 seconds (JVM running for 4080.119)
+2021-01-31 18:09:38.876 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-01-31 18:09:38.876 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-31 18:09:38.876 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-31 18:14:38.837 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:16:02.628 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-01-31 18:16:02.628 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612134962628, current=DOWN, previous=UP]
+2021-01-31 18:16:02.629 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 18:16:02.630 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 18:16:02.631 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-31 18:16:02.631 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 18:16:02.632 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-31 18:16:02.635 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-01-31 18:16:02.640 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-31 18:16:18.749 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-01-31 18:16:18.754 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-01-31 18:16:18.755 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-31 18:16:18.952 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:16:19.080 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-31 18:16:19.780 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-31 18:16:19.783 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-31 18:16:19.813 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2021-01-31 18:16:20.052 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=3716215a-ab90-39f6-a93c-efca3354a74e
+2021-01-31 18:16:20.156 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:16:20.265 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:16:20.675 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-01-31 18:16:20.684 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-01-31 18:16:20.684 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-31 18:16:20.685 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-31 18:16:20.796 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-31 18:16:20.797 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1694 ms
+2021-01-31 18:16:21.711 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 18:16:21.711 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 18:16:21.714 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 18:16:21.715 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 18:16:22.004 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 18:16:22.540 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-31 18:16:22.661 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-31 18:16:22.705 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-31 18:16:22.775 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-31 18:16:22.798 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-31 18:16:22.939 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-31 18:16:22.940 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-31 18:16:23.018 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-31 18:16:23.019 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-31 18:16:23.186 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:16:23.197 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-31 18:16:23.198 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-31 18:16:23.198 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-31 18:16:23.198 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-31 18:16:23.198 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-31 18:16:23.198 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-31 18:16:23.199 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-31 18:16:23.301 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-31 18:16:23.303 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-31 18:16:23.305 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-31 18:16:23.308 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612134983307 with initial instances count: 4
+2021-01-31 18:16:23.314 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-01-31 18:16:23.314 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612134983314, current=UP, previous=STARTING]
+2021-01-31 18:16:23.316 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 18:16:23.326 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-01-31 18:16:23.337 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 18:16:23.347 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-01-31 18:16:23.348 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-01-31 18:16:23.352 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 5.01 seconds (JVM running for 5.757)
+2021-01-31 18:16:23.354 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-31 18:16:23.354 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-31 18:16:41.549 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 18:16:41.549 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-01-31 18:16:41.558 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
+2021-01-31 18:16:41.584 ERROR com.course.server.config.LogAspect                :70   [32mNSYtor8u[0;39m 未获取到业务名称
+2021-01-31 18:16:41.585 INFO  com.course.server.config.LogAspect                :76   [32mNSYtor8u[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:16:41.586 INFO  com.course.server.config.LogAspect                :77   [32mNSYtor8u[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/5oiJqUc5 GET
+2021-01-31 18:16:41.586 INFO  com.course.server.config.LogAspect                :78   [32mNSYtor8u[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:16:41.586 INFO  com.course.server.config.LogAspect                :79   [32mNSYtor8u[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:16:41.589 INFO  com.course.server.config.LogAspect                :97   [32mNSYtor8u[0;39m 请求参数: ["5oiJqUc5",null,null]
+2021-01-31 18:16:41.703 INFO  io.lettuce.core.EpollProvider                     :68   [32mNSYtor8u[0;39m Starting without optional epoll library
+2021-01-31 18:16:41.705 INFO  io.lettuce.core.KqueueProvider                    :70   [32mNSYtor8u[0;39m Starting without optional kqueue library
+2021-01-31 18:16:44.193 INFO  com.course.server.config.LogAspect                :109  [32mNSYtor8u[0;39m 返回结果: null
+2021-01-31 18:16:44.193 INFO  com.course.server.config.LogAspect                :110  [32mNSYtor8u[0;39m ------------- 结束 耗时：2612 ms -------------
+2021-01-31 18:16:52.949 ERROR com.course.server.config.LogAspect                :70   [32mx85psLGy[0;39m 未获取到业务名称
+2021-01-31 18:16:52.949 INFO  com.course.server.config.LogAspect                :76   [32mx85psLGy[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:16:52.950 INFO  com.course.server.config.LogAspect                :77   [32mx85psLGy[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/PIl8DM1v GET
+2021-01-31 18:16:52.950 INFO  com.course.server.config.LogAspect                :78   [32mx85psLGy[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:16:52.950 INFO  com.course.server.config.LogAspect                :79   [32mx85psLGy[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:16:52.950 INFO  com.course.server.config.LogAspect                :97   [32mx85psLGy[0;39m 请求参数: ["PIl8DM1v",null,null]
+2021-01-31 18:16:53.175 INFO  com.course.server.config.LogAspect                :109  [32mx85psLGy[0;39m 返回结果: null
+2021-01-31 18:16:53.175 INFO  com.course.server.config.LogAspect                :110  [32mx85psLGy[0;39m ------------- 结束 耗时：226 ms -------------
+2021-01-31 18:16:53.981 ERROR com.course.server.config.LogAspect                :70   [32mZzVgBIHI[0;39m 未获取到业务名称
+2021-01-31 18:16:53.981 INFO  com.course.server.config.LogAspect                :76   [32mZzVgBIHI[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:16:53.982 INFO  com.course.server.config.LogAspect                :77   [32mZzVgBIHI[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/9WfoX2Rp GET
+2021-01-31 18:16:53.982 INFO  com.course.server.config.LogAspect                :78   [32mZzVgBIHI[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:16:53.982 INFO  com.course.server.config.LogAspect                :79   [32mZzVgBIHI[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:16:53.983 INFO  com.course.server.config.LogAspect                :97   [32mZzVgBIHI[0;39m 请求参数: ["9WfoX2Rp",null,null]
+2021-01-31 18:16:54.263 INFO  com.course.server.config.LogAspect                :109  [32mZzVgBIHI[0;39m 返回结果: null
+2021-01-31 18:16:54.264 INFO  com.course.server.config.LogAspect                :110  [32mZzVgBIHI[0;39m ------------- 结束 耗时：283 ms -------------
+2021-01-31 18:16:57.673 INFO  com.course.server.config.LogAspect                :76   [32mB7reats2[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 18:16:57.674 INFO  com.course.server.config.LogAspect                :77   [32mB7reats2[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 18:16:57.674 INFO  com.course.server.config.LogAspect                :78   [32mB7reats2[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 18:16:57.674 INFO  com.course.server.config.LogAspect                :79   [32mB7reats2[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:16:57.683 INFO  com.course.server.config.LogAspect                :97   [32mB7reats2[0;39m 请求参数: [{"imageCode":"bybf","imageCodeToken":"9WfoX2Rp","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-01-31 18:16:57.686 INFO  com.course.system.controller.admin.UserController :85   [32mB7reats2[0;39m 用户登录开始
+2021-01-31 18:16:57.897 INFO  com.course.system.controller.admin.UserController :92   [32mB7reats2[0;39m 从redis中获取到的验证码：bybf
+2021-01-31 18:16:57.952 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mB7reats2[0;39m HikariPool-1 - Starting...
+2021-01-31 18:16:57.954 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mB7reats2[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-31 18:16:58.126 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mB7reats2[0;39m HikariPool-1 - Start completed.
+2021-01-31 18:16:58.132 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mB7reats2[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? ) 
+2021-01-31 18:16:58.153 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mB7reats2[0;39m ==> Parameters: yuran(String)
+2021-01-31 18:16:58.170 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mB7reats2[0;39m <==    Columns: id, login_name, name, password
+2021-01-31 18:16:58.170 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mB7reats2[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-01-31 18:16:58.171 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mB7reats2[0;39m <==      Total: 1
+2021-01-31 18:16:58.184 INFO  com.course.server.config.LogAspect                :109  [32mB7reats2[0;39m 返回结果: {"content":{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},"success":true}
+2021-01-31 18:16:58.185 INFO  com.course.server.config.LogAspect                :110  [32mB7reats2[0;39m ------------- 结束 耗时：512 ms -------------
+2021-01-31 18:17:03.028 ERROR com.course.server.config.LogAspect                :70   [32mbP2qGLkk[0;39m 未获取到业务名称
+2021-01-31 18:17:03.029 INFO  com.course.server.config.LogAspect                :76   [32mbP2qGLkk[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:17:03.029 INFO  com.course.server.config.LogAspect                :77   [32mbP2qGLkk[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/EXFz4KbD GET
+2021-01-31 18:17:03.030 INFO  com.course.server.config.LogAspect                :78   [32mbP2qGLkk[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:17:03.030 INFO  com.course.server.config.LogAspect                :79   [32mbP2qGLkk[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:17:03.030 INFO  com.course.server.config.LogAspect                :97   [32mbP2qGLkk[0;39m 请求参数: ["EXFz4KbD",null,null]
+2021-01-31 18:17:03.249 INFO  com.course.server.config.LogAspect                :109  [32mbP2qGLkk[0;39m 返回结果: null
+2021-01-31 18:17:03.250 INFO  com.course.server.config.LogAspect                :110  [32mbP2qGLkk[0;39m ------------- 结束 耗时：222 ms -------------
+2021-01-31 18:17:17.055 INFO  com.course.server.config.LogAspect                :76   [32mbzHhuVDa[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 18:17:17.056 INFO  com.course.server.config.LogAspect                :77   [32mbzHhuVDa[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 18:17:17.056 INFO  com.course.server.config.LogAspect                :78   [32mbzHhuVDa[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 18:17:17.056 INFO  com.course.server.config.LogAspect                :79   [32mbzHhuVDa[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:17:17.056 INFO  com.course.server.config.LogAspect                :97   [32mbzHhuVDa[0;39m 请求参数: [{"imageCode":"3432","imageCodeToken":"EXFz4KbD","loginName":"yuran","password":"b52b1949dbba4fe86a8ed14c2341644d"},null]
+2021-01-31 18:17:17.057 INFO  com.course.system.controller.admin.UserController :85   [32mbzHhuVDa[0;39m 用户登录开始
+2021-01-31 18:17:17.275 INFO  com.course.system.controller.admin.UserController :92   [32mbzHhuVDa[0;39m 从redis中获取到的验证码：343a
+2021-01-31 18:17:17.276 INFO  com.course.system.controller.admin.UserController :102  [32mbzHhuVDa[0;39m 用户登录失败，验证码不对
+2021-01-31 18:17:17.276 INFO  com.course.server.config.LogAspect                :109  [32mbzHhuVDa[0;39m 返回结果: {"message":"验证码不对","success":false}
+2021-01-31 18:17:17.276 INFO  com.course.server.config.LogAspect                :110  [32mbzHhuVDa[0;39m ------------- 结束 耗时：221 ms -------------
+2021-01-31 18:17:17.297 ERROR com.course.server.config.LogAspect                :70   [32mIMuMBF4c[0;39m 未获取到业务名称
+2021-01-31 18:17:17.297 INFO  com.course.server.config.LogAspect                :76   [32mIMuMBF4c[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:17:17.297 INFO  com.course.server.config.LogAspect                :77   [32mIMuMBF4c[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/KvhyByhB GET
+2021-01-31 18:17:17.298 INFO  com.course.server.config.LogAspect                :78   [32mIMuMBF4c[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:17:17.298 INFO  com.course.server.config.LogAspect                :79   [32mIMuMBF4c[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:17:17.298 INFO  com.course.server.config.LogAspect                :97   [32mIMuMBF4c[0;39m 请求参数: ["KvhyByhB",null,null]
+2021-01-31 18:17:17.512 INFO  com.course.server.config.LogAspect                :109  [32mIMuMBF4c[0;39m 返回结果: null
+2021-01-31 18:17:17.512 INFO  com.course.server.config.LogAspect                :110  [32mIMuMBF4c[0;39m ------------- 结束 耗时：215 ms -------------
+2021-01-31 18:17:23.386 INFO  com.course.server.config.LogAspect                :76   [32mKxYeS4kw[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 18:17:23.386 INFO  com.course.server.config.LogAspect                :77   [32mKxYeS4kw[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 18:17:23.386 INFO  com.course.server.config.LogAspect                :78   [32mKxYeS4kw[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 18:17:23.386 INFO  com.course.server.config.LogAspect                :79   [32mKxYeS4kw[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:17:23.386 INFO  com.course.server.config.LogAspect                :97   [32mKxYeS4kw[0;39m 请求参数: [{"imageCode":"mb2w","imageCodeToken":"KvhyByhB","loginName":"yuran","password":"b52b1949dbba4fe86a8ed14c2341644d"},null]
+2021-01-31 18:17:23.387 INFO  com.course.system.controller.admin.UserController :85   [32mKxYeS4kw[0;39m 用户登录开始
+2021-01-31 18:17:23.591 INFO  com.course.system.controller.admin.UserController :92   [32mKxYeS4kw[0;39m 从redis中获取到的验证码：mb2w
+2021-01-31 18:17:23.593 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mKxYeS4kw[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? ) 
+2021-01-31 18:17:23.593 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mKxYeS4kw[0;39m ==> Parameters: yuran(String)
+2021-01-31 18:17:23.594 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mKxYeS4kw[0;39m <==    Columns: id, login_name, name, password
+2021-01-31 18:17:23.594 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mKxYeS4kw[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-01-31 18:17:23.594 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mKxYeS4kw[0;39m <==      Total: 1
+2021-01-31 18:17:23.595 INFO  com.course.server.service.UserService             :125  [32mKxYeS4kw[0;39m 密码不对, 输入密码：2aae03f4eff64c2261930e805829b184, 数据库密码：5ebbac3df174b3270e3305b23eb74ca0
+2021-01-31 18:17:23.598 ERROR c.c.system.controller.ControllerExceptionHandler  :22   [32mKxYeS4kw[0;39m 业务异常：用户名或密码不存在
+2021-01-31 18:17:23.599 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32mKxYeS4kw[0;39m Resolved [com.course.server.exception.BusinessException: 用户名或密码不存在]
+2021-01-31 18:17:23.611 ERROR com.course.server.config.LogAspect                :70   [32mDwQm60Uz[0;39m 未获取到业务名称
+2021-01-31 18:17:23.612 INFO  com.course.server.config.LogAspect                :76   [32mDwQm60Uz[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:17:23.612 INFO  com.course.server.config.LogAspect                :77   [32mDwQm60Uz[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/aXCzaxdb GET
+2021-01-31 18:17:23.612 INFO  com.course.server.config.LogAspect                :78   [32mDwQm60Uz[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:17:23.612 INFO  com.course.server.config.LogAspect                :79   [32mDwQm60Uz[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:17:23.612 INFO  com.course.server.config.LogAspect                :97   [32mDwQm60Uz[0;39m 请求参数: ["aXCzaxdb",null,null]
+2021-01-31 18:17:23.835 INFO  com.course.server.config.LogAspect                :109  [32mDwQm60Uz[0;39m 返回结果: null
+2021-01-31 18:17:23.835 INFO  com.course.server.config.LogAspect                :110  [32mDwQm60Uz[0;39m ------------- 结束 耗时：224 ms -------------
