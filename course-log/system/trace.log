@@ -929,3 +929,242 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-01-31 18:17:23.612 INFO  com.course.server.config.LogAspect                :97   [32mDwQm60Uz[0;39m 请求参数: ["aXCzaxdb",null,null]
 2021-01-31 18:17:23.835 INFO  com.course.server.config.LogAspect                :109  [32mDwQm60Uz[0;39m 返回结果: null
 2021-01-31 18:17:23.835 INFO  com.course.server.config.LogAspect                :110  [32mDwQm60Uz[0;39m ------------- 结束 耗时：224 ms -------------
+2021-01-31 18:21:23.209 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:26:23.168 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:31:23.179 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:34:27.905 ERROR com.course.server.config.LogAspect                :70   [32mgtcBYJre[0;39m 未获取到业务名称
+2021-01-31 18:34:27.906 INFO  com.course.server.config.LogAspect                :76   [32mgtcBYJre[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:34:27.906 INFO  com.course.server.config.LogAspect                :77   [32mgtcBYJre[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/o4Ws7LtR GET
+2021-01-31 18:34:27.906 INFO  com.course.server.config.LogAspect                :78   [32mgtcBYJre[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:34:27.906 INFO  com.course.server.config.LogAspect                :79   [32mgtcBYJre[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:34:27.906 INFO  com.course.server.config.LogAspect                :97   [32mgtcBYJre[0;39m 请求参数: ["o4Ws7LtR",null,null]
+2021-01-31 18:34:28.127 INFO  com.course.server.config.LogAspect                :109  [32mgtcBYJre[0;39m 返回结果: null
+2021-01-31 18:34:28.127 INFO  com.course.server.config.LogAspect                :110  [32mgtcBYJre[0;39m ------------- 结束 耗时：222 ms -------------
+2021-01-31 18:34:33.397 ERROR com.course.server.config.LogAspect                :70   [32m1LHENwh8[0;39m 未获取到业务名称
+2021-01-31 18:34:33.397 INFO  com.course.server.config.LogAspect                :76   [32m1LHENwh8[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:34:33.397 INFO  com.course.server.config.LogAspect                :77   [32m1LHENwh8[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/MkH3SqQs GET
+2021-01-31 18:34:33.397 INFO  com.course.server.config.LogAspect                :78   [32m1LHENwh8[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:34:33.397 INFO  com.course.server.config.LogAspect                :79   [32m1LHENwh8[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:34:33.398 INFO  com.course.server.config.LogAspect                :97   [32m1LHENwh8[0;39m 请求参数: ["MkH3SqQs",null,null]
+2021-01-31 18:34:33.615 INFO  com.course.server.config.LogAspect                :109  [32m1LHENwh8[0;39m 返回结果: null
+2021-01-31 18:34:33.615 INFO  com.course.server.config.LogAspect                :110  [32m1LHENwh8[0;39m ------------- 结束 耗时：219 ms -------------
+2021-01-31 18:34:34.446 ERROR com.course.server.config.LogAspect                :70   [32mWPw6SFfW[0;39m 未获取到业务名称
+2021-01-31 18:34:34.446 INFO  com.course.server.config.LogAspect                :76   [32mWPw6SFfW[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:34:34.447 INFO  com.course.server.config.LogAspect                :77   [32mWPw6SFfW[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/Qf2u7NCS GET
+2021-01-31 18:34:34.447 INFO  com.course.server.config.LogAspect                :78   [32mWPw6SFfW[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:34:34.447 INFO  com.course.server.config.LogAspect                :79   [32mWPw6SFfW[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:34:34.447 INFO  com.course.server.config.LogAspect                :97   [32mWPw6SFfW[0;39m 请求参数: ["Qf2u7NCS",null,null]
+2021-01-31 18:34:34.664 INFO  com.course.server.config.LogAspect                :109  [32mWPw6SFfW[0;39m 返回结果: null
+2021-01-31 18:34:34.665 INFO  com.course.server.config.LogAspect                :110  [32mWPw6SFfW[0;39m ------------- 结束 耗时：219 ms -------------
+2021-01-31 18:34:39.419 ERROR com.course.server.config.LogAspect                :70   [32m6rPX2Ira[0;39m 未获取到业务名称
+2021-01-31 18:34:39.419 INFO  com.course.server.config.LogAspect                :76   [32m6rPX2Ira[0;39m ------------- 【】操作开始 -------------
+2021-01-31 18:34:39.419 INFO  com.course.server.config.LogAspect                :77   [32m6rPX2Ira[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/xXrxJN1x GET
+2021-01-31 18:34:39.420 INFO  com.course.server.config.LogAspect                :78   [32m6rPX2Ira[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:34:39.420 INFO  com.course.server.config.LogAspect                :79   [32m6rPX2Ira[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:34:39.420 INFO  com.course.server.config.LogAspect                :97   [32m6rPX2Ira[0;39m 请求参数: ["xXrxJN1x",null,null]
+2021-01-31 18:34:39.641 INFO  com.course.server.config.LogAspect                :109  [32m6rPX2Ira[0;39m 返回结果: null
+2021-01-31 18:34:39.641 INFO  com.course.server.config.LogAspect                :110  [32m6rPX2Ira[0;39m ------------- 结束 耗时：222 ms -------------
+2021-01-31 18:34:44.346 INFO  com.course.server.config.LogAspect                :76   [32mThp1MVzR[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 18:34:44.347 INFO  com.course.server.config.LogAspect                :77   [32mThp1MVzR[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 18:34:44.347 INFO  com.course.server.config.LogAspect                :78   [32mThp1MVzR[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 18:34:44.347 INFO  com.course.server.config.LogAspect                :79   [32mThp1MVzR[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:34:44.347 INFO  com.course.server.config.LogAspect                :97   [32mThp1MVzR[0;39m 请求参数: [{"imageCode":"epfy","imageCodeToken":"xXrxJN1x","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-01-31 18:34:44.347 INFO  com.course.system.controller.admin.UserController :85   [32mThp1MVzR[0;39m 用户登录开始
+2021-01-31 18:34:44.553 INFO  com.course.system.controller.admin.UserController :92   [32mThp1MVzR[0;39m 从redis中获取到的验证码：epfy
+2021-01-31 18:34:44.555 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mThp1MVzR[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? ) 
+2021-01-31 18:34:44.555 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mThp1MVzR[0;39m ==> Parameters: yuran(String)
+2021-01-31 18:34:44.556 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mThp1MVzR[0;39m <==    Columns: id, login_name, name, password
+2021-01-31 18:34:44.557 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mThp1MVzR[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-01-31 18:34:44.557 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mThp1MVzR[0;39m <==      Total: 1
+2021-01-31 18:34:44.557 INFO  com.course.server.config.LogAspect                :109  [32mThp1MVzR[0;39m 返回结果: {"content":{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},"success":true}
+2021-01-31 18:34:44.558 INFO  com.course.server.config.LogAspect                :110  [32mThp1MVzR[0;39m ------------- 结束 耗时：212 ms -------------
+2021-01-31 18:36:23.190 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:41:23.173 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:41:23.726 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-01-31 18:41:23.726 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612136483726, current=DOWN, previous=UP]
+2021-01-31 18:41:23.726 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 18:41:23.729 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 18:41:23.730 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 18:41:23.871 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-01-31 18:41:26.873 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-01-31 18:41:26.876 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-01-31 18:41:26.884 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-01-31 18:41:26.885 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-01-31 18:41:26.890 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-01-31 18:44:20.200 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-01-31 18:44:20.203 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-01-31 18:44:20.203 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-31 18:44:20.351 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:44:20.453 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-01-31 18:44:21.046 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-31 18:44:21.049 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-31 18:44:21.070 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2021-01-31 18:44:21.292 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=3716215a-ab90-39f6-a93c-efca3354a74e
+2021-01-31 18:44:21.401 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:44:21.506 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-31 18:44:21.873 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-01-31 18:44:21.882 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-01-31 18:44:21.883 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-01-31 18:44:21.883 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-01-31 18:44:21.964 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-01-31 18:44:21.964 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1494 ms
+2021-01-31 18:44:22.635 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 18:44:22.635 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 18:44:22.638 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-01-31 18:44:22.638 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-31 18:44:22.843 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 18:44:23.272 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-01-31 18:44:23.365 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-01-31 18:44:23.405 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-31 18:44:23.465 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-01-31 18:44:23.485 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-01-31 18:44:23.611 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-01-31 18:44:23.612 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-01-31 18:44:23.692 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-01-31 18:44:23.692 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-01-31 18:44:23.860 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:44:23.871 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-01-31 18:44:23.871 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-01-31 18:44:23.871 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-01-31 18:44:23.871 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-01-31 18:44:23.872 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-01-31 18:44:23.872 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-01-31 18:44:23.872 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-01-31 18:44:23.977 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-01-31 18:44:23.979 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-01-31 18:44:23.980 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-31 18:44:23.983 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612136663983 with initial instances count: 3
+2021-01-31 18:44:23.990 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-01-31 18:44:23.990 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612136663990, current=UP, previous=STARTING]
+2021-01-31 18:44:23.991 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-01-31 18:44:24.000 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-01-31 18:44:24.012 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-01-31 18:44:24.022 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-01-31 18:44:24.023 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-01-31 18:44:24.027 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 4.089 seconds (JVM running for 4.724)
+2021-01-31 18:44:24.029 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-01-31 18:44:24.029 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-01-31 18:44:53.478 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 18:44:53.479 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-01-31 18:44:53.488 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
+2021-01-31 18:44:53.517 INFO  com.course.server.config.LogAspect                :76   [32mjv5TiEni[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:44:53.517 INFO  com.course.server.config.LogAspect                :77   [32mjv5TiEni[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/fAuQE31d GET
+2021-01-31 18:44:53.518 INFO  com.course.server.config.LogAspect                :78   [32mjv5TiEni[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:44:53.518 INFO  com.course.server.config.LogAspect                :79   [32mjv5TiEni[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:44:53.520 INFO  com.course.server.config.LogAspect                :97   [32mjv5TiEni[0;39m 请求参数: ["fAuQE31d",null,null]
+2021-01-31 18:44:53.646 INFO  io.lettuce.core.EpollProvider                     :68   [32mjv5TiEni[0;39m Starting without optional epoll library
+2021-01-31 18:44:53.647 INFO  io.lettuce.core.KqueueProvider                    :70   [32mjv5TiEni[0;39m Starting without optional kqueue library
+2021-01-31 18:44:56.211 INFO  com.course.server.config.LogAspect                :109  [32mjv5TiEni[0;39m 返回结果: null
+2021-01-31 18:44:56.212 INFO  com.course.server.config.LogAspect                :110  [32mjv5TiEni[0;39m ------------- 结束 耗时：2699 ms -------------
+2021-01-31 18:45:01.371 INFO  com.course.server.config.LogAspect                :76   [32mvVVbOyLR[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:45:01.371 INFO  com.course.server.config.LogAspect                :77   [32mvVVbOyLR[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/CXxBktf8 GET
+2021-01-31 18:45:01.372 INFO  com.course.server.config.LogAspect                :78   [32mvVVbOyLR[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:45:01.372 INFO  com.course.server.config.LogAspect                :79   [32mvVVbOyLR[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:45:01.373 INFO  com.course.server.config.LogAspect                :97   [32mvVVbOyLR[0;39m 请求参数: ["CXxBktf8",null,null]
+2021-01-31 18:45:01.874 INFO  com.course.server.config.LogAspect                :76   [32mBfDyA3oO[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:45:01.874 INFO  com.course.server.config.LogAspect                :77   [32mBfDyA3oO[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/i8mPgV0Z GET
+2021-01-31 18:45:01.875 INFO  com.course.server.config.LogAspect                :78   [32mBfDyA3oO[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:45:01.875 INFO  com.course.server.config.LogAspect                :79   [32mBfDyA3oO[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:45:01.875 INFO  com.course.server.config.LogAspect                :97   [32mBfDyA3oO[0;39m 请求参数: ["i8mPgV0Z",null,null]
+2021-01-31 18:45:01.932 INFO  com.course.server.config.LogAspect                :109  [32mvVVbOyLR[0;39m 返回结果: null
+2021-01-31 18:45:01.932 INFO  com.course.server.config.LogAspect                :110  [32mvVVbOyLR[0;39m ------------- 结束 耗时：562 ms -------------
+2021-01-31 18:45:02.150 INFO  com.course.server.config.LogAspect                :109  [32mBfDyA3oO[0;39m 返回结果: null
+2021-01-31 18:45:02.151 INFO  com.course.server.config.LogAspect                :110  [32mBfDyA3oO[0;39m ------------- 结束 耗时：277 ms -------------
+2021-01-31 18:45:02.324 INFO  com.course.server.config.LogAspect                :76   [32mNqNtvJUf[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:45:02.325 INFO  com.course.server.config.LogAspect                :77   [32mNqNtvJUf[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/2kUktqXC GET
+2021-01-31 18:45:02.325 INFO  com.course.server.config.LogAspect                :78   [32mNqNtvJUf[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:45:02.326 INFO  com.course.server.config.LogAspect                :79   [32mNqNtvJUf[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:45:02.326 INFO  com.course.server.config.LogAspect                :97   [32mNqNtvJUf[0;39m 请求参数: ["2kUktqXC",null,null]
+2021-01-31 18:45:02.551 INFO  com.course.server.config.LogAspect                :109  [32mNqNtvJUf[0;39m 返回结果: null
+2021-01-31 18:45:02.551 INFO  com.course.server.config.LogAspect                :110  [32mNqNtvJUf[0;39m ------------- 结束 耗时：227 ms -------------
+2021-01-31 18:45:03.274 INFO  com.course.server.config.LogAspect                :76   [32mA2NjlJFs[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:45:03.274 INFO  com.course.server.config.LogAspect                :77   [32mA2NjlJFs[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/a08Q6iBE GET
+2021-01-31 18:45:03.275 INFO  com.course.server.config.LogAspect                :78   [32mA2NjlJFs[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:45:03.275 INFO  com.course.server.config.LogAspect                :79   [32mA2NjlJFs[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:45:03.275 INFO  com.course.server.config.LogAspect                :97   [32mA2NjlJFs[0;39m 请求参数: ["a08Q6iBE",null,null]
+2021-01-31 18:45:03.502 INFO  com.course.server.config.LogAspect                :109  [32mA2NjlJFs[0;39m 返回结果: null
+2021-01-31 18:45:03.502 INFO  com.course.server.config.LogAspect                :110  [32mA2NjlJFs[0;39m ------------- 结束 耗时：228 ms -------------
+2021-01-31 18:45:08.198 INFO  com.course.server.config.LogAspect                :76   [32mJKGbR98A[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 18:45:08.198 INFO  com.course.server.config.LogAspect                :77   [32mJKGbR98A[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 18:45:08.199 INFO  com.course.server.config.LogAspect                :78   [32mJKGbR98A[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 18:45:08.199 INFO  com.course.server.config.LogAspect                :79   [32mJKGbR98A[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:45:08.207 INFO  com.course.server.config.LogAspect                :97   [32mJKGbR98A[0;39m 请求参数: [{"imageCode":"8eww","imageCodeToken":"a08Q6iBE","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-01-31 18:45:08.210 INFO  com.course.system.controller.admin.UserController :88   [32mJKGbR98A[0;39m 用户登录开始
+2021-01-31 18:45:08.435 INFO  com.course.system.controller.admin.UserController :95   [32mJKGbR98A[0;39m 从redis中获取到的验证码：8eww
+2021-01-31 18:45:08.796 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mJKGbR98A[0;39m HikariPool-1 - Starting...
+2021-01-31 18:45:08.799 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mJKGbR98A[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-31 18:45:08.967 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mJKGbR98A[0;39m HikariPool-1 - Start completed.
+2021-01-31 18:45:08.972 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mJKGbR98A[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? ) 
+2021-01-31 18:45:08.993 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mJKGbR98A[0;39m ==> Parameters: yuran(String)
+2021-01-31 18:45:09.011 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mJKGbR98A[0;39m <==    Columns: id, login_name, name, password
+2021-01-31 18:45:09.012 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mJKGbR98A[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-01-31 18:45:09.013 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mJKGbR98A[0;39m <==      Total: 1
+2021-01-31 18:45:09.251 INFO  com.course.server.config.LogAspect                :109  [32mJKGbR98A[0;39m 返回结果: {"content":{"id":"iQo2vRvN","loginName":"yuran","name":"yuran","token":"R79bJk0y"},"success":true}
+2021-01-31 18:45:09.252 INFO  com.course.server.config.LogAspect                :110  [32mJKGbR98A[0;39m ------------- 结束 耗时：1055 ms -------------
+2021-01-31 18:49:23.881 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:51:40.691 INFO  com.course.server.config.LogAspect                :76   [32mDDfB84XZ[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:51:40.692 INFO  com.course.server.config.LogAspect                :77   [32mDDfB84XZ[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/dkA5dVLa GET
+2021-01-31 18:51:40.692 INFO  com.course.server.config.LogAspect                :78   [32mDDfB84XZ[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:51:40.693 INFO  com.course.server.config.LogAspect                :79   [32mDDfB84XZ[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:51:40.693 INFO  com.course.server.config.LogAspect                :97   [32mDDfB84XZ[0;39m 请求参数: ["dkA5dVLa",null,null]
+2021-01-31 18:51:40.922 INFO  com.course.server.config.LogAspect                :109  [32mDDfB84XZ[0;39m 返回结果: null
+2021-01-31 18:51:40.922 INFO  com.course.server.config.LogAspect                :110  [32mDDfB84XZ[0;39m ------------- 结束 耗时：231 ms -------------
+2021-01-31 18:51:42.818 INFO  com.course.server.config.LogAspect                :76   [32mWhi10pmt[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:51:42.819 INFO  com.course.server.config.LogAspect                :77   [32mWhi10pmt[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/zlSmUbFg GET
+2021-01-31 18:51:42.819 INFO  com.course.server.config.LogAspect                :78   [32mWhi10pmt[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:51:42.819 INFO  com.course.server.config.LogAspect                :79   [32mWhi10pmt[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:51:42.819 INFO  com.course.server.config.LogAspect                :97   [32mWhi10pmt[0;39m 请求参数: ["zlSmUbFg",null,null]
+2021-01-31 18:51:43.062 INFO  com.course.server.config.LogAspect                :109  [32mWhi10pmt[0;39m 返回结果: null
+2021-01-31 18:51:43.062 INFO  com.course.server.config.LogAspect                :110  [32mWhi10pmt[0;39m ------------- 结束 耗时：244 ms -------------
+2021-01-31 18:51:44.240 INFO  com.course.server.config.LogAspect                :76   [32mnaAHiAO6[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:51:44.240 INFO  com.course.server.config.LogAspect                :77   [32mnaAHiAO6[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/Tm81BKeX GET
+2021-01-31 18:51:44.241 INFO  com.course.server.config.LogAspect                :78   [32mnaAHiAO6[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:51:44.241 INFO  com.course.server.config.LogAspect                :79   [32mnaAHiAO6[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:51:44.241 INFO  com.course.server.config.LogAspect                :97   [32mnaAHiAO6[0;39m 请求参数: ["Tm81BKeX",null,null]
+2021-01-31 18:51:44.473 INFO  com.course.server.config.LogAspect                :109  [32mnaAHiAO6[0;39m 返回结果: null
+2021-01-31 18:51:44.473 INFO  com.course.server.config.LogAspect                :110  [32mnaAHiAO6[0;39m ------------- 结束 耗时：233 ms -------------
+2021-01-31 18:51:48.046 INFO  com.course.server.config.LogAspect                :76   [32mY4Jfa2SS[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:51:48.046 INFO  com.course.server.config.LogAspect                :77   [32mY4Jfa2SS[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/17VQMoWO GET
+2021-01-31 18:51:48.046 INFO  com.course.server.config.LogAspect                :78   [32mY4Jfa2SS[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:51:48.047 INFO  com.course.server.config.LogAspect                :79   [32mY4Jfa2SS[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:51:48.047 INFO  com.course.server.config.LogAspect                :97   [32mY4Jfa2SS[0;39m 请求参数: ["17VQMoWO",null,null]
+2021-01-31 18:51:48.282 INFO  com.course.server.config.LogAspect                :109  [32mY4Jfa2SS[0;39m 返回结果: null
+2021-01-31 18:51:48.283 INFO  com.course.server.config.LogAspect                :110  [32mY4Jfa2SS[0;39m ------------- 结束 耗时：237 ms -------------
+2021-01-31 18:51:48.964 INFO  com.course.server.config.LogAspect                :76   [32mwSdd1Jq4[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:51:48.964 INFO  com.course.server.config.LogAspect                :77   [32mwSdd1Jq4[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/RJ195unM GET
+2021-01-31 18:51:48.964 INFO  com.course.server.config.LogAspect                :78   [32mwSdd1Jq4[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:51:48.964 INFO  com.course.server.config.LogAspect                :79   [32mwSdd1Jq4[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:51:48.964 INFO  com.course.server.config.LogAspect                :97   [32mwSdd1Jq4[0;39m 请求参数: ["RJ195unM",null,null]
+2021-01-31 18:51:49.209 INFO  com.course.server.config.LogAspect                :109  [32mwSdd1Jq4[0;39m 返回结果: null
+2021-01-31 18:51:49.209 INFO  com.course.server.config.LogAspect                :110  [32mwSdd1Jq4[0;39m ------------- 结束 耗时：246 ms -------------
+2021-01-31 18:51:52.986 INFO  com.course.server.config.LogAspect                :76   [32mPQ9AYBw6[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 18:51:52.986 INFO  com.course.server.config.LogAspect                :77   [32mPQ9AYBw6[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-01-31 18:51:52.987 INFO  com.course.server.config.LogAspect                :78   [32mPQ9AYBw6[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-01-31 18:51:52.987 INFO  com.course.server.config.LogAspect                :79   [32mPQ9AYBw6[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:51:52.988 INFO  com.course.server.config.LogAspect                :97   [32mPQ9AYBw6[0;39m 请求参数: [{"imageCode":"bbng","imageCodeToken":"RJ195unM","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-01-31 18:51:52.988 INFO  com.course.system.controller.admin.UserController :88   [32mPQ9AYBw6[0;39m 用户登录开始
+2021-01-31 18:51:53.203 INFO  com.course.system.controller.admin.UserController :95   [32mPQ9AYBw6[0;39m 从redis中获取到的验证码：bbng
+2021-01-31 18:51:53.424 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mPQ9AYBw6[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? ) 
+2021-01-31 18:51:53.425 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mPQ9AYBw6[0;39m ==> Parameters: yuran(String)
+2021-01-31 18:51:53.426 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mPQ9AYBw6[0;39m <==    Columns: id, login_name, name, password
+2021-01-31 18:51:53.426 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mPQ9AYBw6[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-01-31 18:51:53.426 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mPQ9AYBw6[0;39m <==      Total: 1
+2021-01-31 18:51:53.855 INFO  com.course.server.config.LogAspect                :109  [32mPQ9AYBw6[0;39m 返回结果: {"content":{"id":"iQo2vRvN","loginName":"yuran","name":"yuran","token":"AB1fPnAF"},"success":true}
+2021-01-31 18:51:53.856 INFO  com.course.server.config.LogAspect                :110  [32mPQ9AYBw6[0;39m ------------- 结束 耗时：870 ms -------------
+2021-01-31 18:53:55.185 INFO  com.course.server.config.LogAspect                :76   [32mButOzyZl[0;39m ------------- 【用户】操作开始 -------------
+2021-01-31 18:53:55.186 INFO  com.course.server.config.LogAspect                :77   [32mButOzyZl[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/logout/AB1fPnAF GET
+2021-01-31 18:53:55.186 INFO  com.course.server.config.LogAspect                :78   [32mButOzyZl[0;39m 类名方法: com.course.system.controller.admin.UserController.logout
+2021-01-31 18:53:55.186 INFO  com.course.server.config.LogAspect                :79   [32mButOzyZl[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:53:55.186 INFO  com.course.server.config.LogAspect                :97   [32mButOzyZl[0;39m 请求参数: ["AB1fPnAF"]
+2021-01-31 18:53:55.520 INFO  com.course.system.controller.admin.UserController :130  [32mButOzyZl[0;39m 从redis中删除token:AB1fPnAF
+2021-01-31 18:53:55.520 INFO  com.course.server.config.LogAspect                :109  [32mButOzyZl[0;39m 返回结果: {"success":true}
+2021-01-31 18:53:55.520 INFO  com.course.server.config.LogAspect                :110  [32mButOzyZl[0;39m ------------- 结束 耗时：335 ms -------------
+2021-01-31 18:53:55.547 INFO  com.course.server.config.LogAspect                :76   [32mwlEHElFL[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-01-31 18:53:55.547 INFO  com.course.server.config.LogAspect                :77   [32mwlEHElFL[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/uQsC29P6 GET
+2021-01-31 18:53:55.547 INFO  com.course.server.config.LogAspect                :78   [32mwlEHElFL[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-01-31 18:53:55.547 INFO  com.course.server.config.LogAspect                :79   [32mwlEHElFL[0;39m 远程地址: 127.0.0.1
+2021-01-31 18:53:55.547 INFO  com.course.server.config.LogAspect                :97   [32mwlEHElFL[0;39m 请求参数: ["uQsC29P6",null,null]
+2021-01-31 18:53:55.758 INFO  com.course.server.config.LogAspect                :109  [32mwlEHElFL[0;39m 返回结果: null
+2021-01-31 18:53:55.758 INFO  com.course.server.config.LogAspect                :110  [32mwlEHElFL[0;39m ------------- 结束 耗时：212 ms -------------
+2021-01-31 18:54:23.891 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-01-31 18:59:23.888 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
