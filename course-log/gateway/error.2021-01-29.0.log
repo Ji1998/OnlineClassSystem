@@ -1,10 +1,10 @@
-2021-01-31 16:23:47.305 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [eafff4c0]  500 Server Error for HTTP GET "/system/admin/kaptcha/image-code/l8hvRDtG"
+2021-01-29 00:16:50.147 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [ffe8e254]  500 Server Error for HTTP POST "/system/admin/user/list"
 io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
 Error has been observed at the following site(s):
 	|_ checkpoint ⇢ org.springframework.web.cors.reactive.CorsWebFilter [DefaultWebFilterChain]
 	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	|_ checkpoint ⇢ HTTP GET "/system/admin/kaptcha/image-code/l8hvRDtG" [ExceptionHandlingWebHandler]
+	|_ checkpoint ⇢ HTTP POST "/system/admin/user/list" [ExceptionHandlingWebHandler]
 Stack trace:
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
@@ -20,13 +20,13 @@ Caused by: java.net.ConnectException: Connection refused
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2021-01-31 16:23:48.660 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [eafff4c0]  500 Server Error for HTTP GET "/system/admin/kaptcha/image-code/nV0RQZ5p"
+2021-01-29 00:17:01.248 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [ffe8e254]  500 Server Error for HTTP POST "/system/admin/user/save"
 io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
 Error has been observed at the following site(s):
 	|_ checkpoint ⇢ org.springframework.web.cors.reactive.CorsWebFilter [DefaultWebFilterChain]
 	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	|_ checkpoint ⇢ HTTP GET "/system/admin/kaptcha/image-code/nV0RQZ5p" [ExceptionHandlingWebHandler]
+	|_ checkpoint ⇢ HTTP POST "/system/admin/user/save" [ExceptionHandlingWebHandler]
 Stack trace:
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
@@ -42,51 +42,7 @@ Caused by: java.net.ConnectException: Connection refused
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2021-01-31 16:23:49.130 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [eafff4c0]  500 Server Error for HTTP GET "/system/admin/kaptcha/image-code/Po2dVwVC"
-io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	|_ checkpoint ⇢ org.springframework.web.cors.reactive.CorsWebFilter [DefaultWebFilterChain]
-	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	|_ checkpoint ⇢ HTTP GET "/system/admin/kaptcha/image-code/Po2dVwVC" [ExceptionHandlingWebHandler]
-Stack trace:
-Caused by: java.net.ConnectException: Connection refused
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
-	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:839)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:688)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-2021-01-31 16:23:49.534 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [eafff4c0]  500 Server Error for HTTP GET "/system/admin/kaptcha/image-code/2l1pQef0"
-io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	|_ checkpoint ⇢ org.springframework.web.cors.reactive.CorsWebFilter [DefaultWebFilterChain]
-	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	|_ checkpoint ⇢ HTTP GET "/system/admin/kaptcha/image-code/2l1pQef0" [ExceptionHandlingWebHandler]
-Stack trace:
-Caused by: java.net.ConnectException: Connection refused
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
-	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:839)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:688)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-2021-01-31 16:24:13.543 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :91   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+2021-01-29 18:05:10.321 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :91   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -135,7 +91,7 @@ Caused by: java.net.ConnectException: Connection refused
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 28 common frames omitted
-2021-01-31 16:24:13.546 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+2021-01-29 18:05:10.323 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -170,7 +126,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
 	at java.base/java.net.Socket.connect(Socket.java:648)
@@ -185,7 +141,7 @@ Caused by: java.net.ConnectException: Connection refused
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 29 common frames omitted
-2021-01-31 16:24:18.628 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+2021-01-29 18:05:15.415 ERROR c.n.d.s.t.decorator.RedirectingEurekaHttpClient   :83   [32m        [0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -233,7 +189,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 Caused by: java.net.ConnectException: Connection refused
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
 	at java.base/java.net.Socket.connect(Socket.java:648)
@@ -248,7 +204,7 @@ Caused by: java.net.ConnectException: Connection refused
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 42 common frames omitted
-2021-01-31 16:24:18.629 ERROR com.netflix.discovery.DiscoveryClient             :944  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.11:gateway:9000 - de-registration failedCannot execute request on any known server
+2021-01-29 18:05:15.416 ERROR com.netflix.discovery.DiscoveryClient             :944  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.11:gateway:9000 - de-registration failedCannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
