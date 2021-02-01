@@ -1029,3 +1029,46 @@
 2021-02-01 14:33:57.324 INFO  com.course.server.config.LogAspect                :109  [32mVyPXMlXL[0;39m 返回结果: {"content":[{"children":[{"children":[{"id":"010101","name":"保存","parent":"0101","request":"[\"/system/admin/user/list\",\"/system/admin/user/save\"]"},{"id":"010102","name":"删除","parent":"0101","request":"[\"/system/admin/user/delete\"]"},{"id":"010103","name":"重置密码","parent":"0101","request":"[\"/system/admin/user/save-password\"]"}],"id":"0101","name":"用户管理","page":"/system/user","parent":"01"},{"children":[{"id":"010201","name":"保存/显示","parent":"0102","request":"[\"/system/admin/resource\"]"}],"id":"0102","name":"资源管理","page":"/system/resource","parent":"01"},{"children":[{"id":"010301","name":"角色/权限管理","parent":"0103","request":"[\"/system/admin/role\"]"}],"id":"0103","name":"角色管理","page":"/system/role","parent":"01"}],"id":"01","name":"系统管理","parent":""},{"children":[{"children":[{"id":"020101","name":"增册改查","parent":"0201","request":"[\"/business/admin/category\"]"}],"id":"0201","name":"分类管理","page":"/business/category","parent":"02"},{"children":[{"id":"020201","name":"增册改查","parent":"0202","request":"[\"/business/admin/course\",\"/business/admin/category/all\"]"}],"id":"0202","name":"课程管理","page":"/business/course","parent":"02"},{"children":[{"id":"020301","name":"增册改查","parent":"0203","request":"[\"/business/admin/teacher\"]"}],"id":"0203","name":"讲师管理","page":"/business/teacher","parent":"02"}],"id":"02","name":"业务管理","parent":""},{"children":[{"children":[{"id":"030101","name":"文件管理","parent":"0301","request":"[\"/file/admin/file\"]"}],"id":"0301","name":"文件管理","page":"/file/file","parent":"03"}],"id":"03","name":"文件管理","parent":""}],"success":true}
 2021-02-01 14:33:57.324 INFO  com.course.server.config.LogAspect                :110  [32mVyPXMlXL[0;39m ------------- 结束 耗时：8 ms -------------
 2021-02-01 14:38:36.760 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-01 14:43:10.206 INFO  com.course.server.config.LogAspect                :76   [32mOPtXxnwQ[0;39m ------------- 【角色】查询开始 -------------
+2021-02-01 14:43:10.206 INFO  com.course.server.config.LogAspect                :77   [32mOPtXxnwQ[0;39m 请求地址: http://127.0.0.1:9001/system/admin/role/list POST
+2021-02-01 14:43:10.206 INFO  com.course.server.config.LogAspect                :78   [32mOPtXxnwQ[0;39m 类名方法: com.course.system.controller.admin.RoleController.list
+2021-02-01 14:43:10.206 INFO  com.course.server.config.LogAspect                :79   [32mOPtXxnwQ[0;39m 远程地址: 127.0.0.1
+2021-02-01 14:43:10.206 INFO  com.course.server.config.LogAspect                :97   [32mOPtXxnwQ[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-02-01 14:43:10.207 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mOPtXxnwQ[0;39m ==>  Preparing: SELECT count(0) FROM role 
+2021-02-01 14:43:10.207 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mOPtXxnwQ[0;39m ==> Parameters: 
+2021-02-01 14:43:10.208 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mOPtXxnwQ[0;39m <==    Columns: count(0)
+2021-02-01 14:43:10.208 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mOPtXxnwQ[0;39m <==        Row: 3
+2021-02-01 14:43:10.209 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mOPtXxnwQ[0;39m <==      Total: 1
+2021-02-01 14:43:10.209 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mOPtXxnwQ[0;39m ==>  Preparing: select id, `name`, `desc` from role LIMIT ? 
+2021-02-01 14:43:10.209 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mOPtXxnwQ[0;39m ==> Parameters: 5(Integer)
+2021-02-01 14:43:10.210 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mOPtXxnwQ[0;39m <==    Columns: id, name, desc
+2021-02-01 14:43:10.210 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mOPtXxnwQ[0;39m <==        Row: 00000000, 系统管理员, 管理用户、角色权限
+2021-02-01 14:43:10.210 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mOPtXxnwQ[0;39m <==        Row: 00000001, 开发, 维护资源
+2021-02-01 14:43:10.210 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mOPtXxnwQ[0;39m <==        Row: 00000002, 业务管理员, 负责业务管理
+2021-02-01 14:43:10.211 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mOPtXxnwQ[0;39m <==      Total: 3
+2021-02-01 14:43:10.211 INFO  com.course.server.config.LogAspect                :109  [32mOPtXxnwQ[0;39m 返回结果: {"content":{"list":[{"desc":"管理用户、角色权限","id":"00000000","name":"系统管理员"},{"desc":"维护资源","id":"00000001","name":"开发"},{"desc":"负责业务管理","id":"00000002","name":"业务管理员"}],"page":1,"size":5,"total":3},"success":true}
+2021-02-01 14:43:10.211 INFO  com.course.server.config.LogAspect                :110  [32mOPtXxnwQ[0;39m ------------- 结束 耗时：5 ms -------------
+2021-02-01 14:43:36.775 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-01 14:48:36.787 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-01 14:53:36.788 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-01 14:55:30.130 INFO  com.course.server.config.LogAspect                :76   [32mjhSQUDfA[0;39m ------------- 【角色】查询开始 -------------
+2021-02-01 14:55:30.130 INFO  com.course.server.config.LogAspect                :77   [32mjhSQUDfA[0;39m 请求地址: http://127.0.0.1:9001/system/admin/role/list POST
+2021-02-01 14:55:30.130 INFO  com.course.server.config.LogAspect                :78   [32mjhSQUDfA[0;39m 类名方法: com.course.system.controller.admin.RoleController.list
+2021-02-01 14:55:30.130 INFO  com.course.server.config.LogAspect                :79   [32mjhSQUDfA[0;39m 远程地址: 127.0.0.1
+2021-02-01 14:55:30.131 INFO  com.course.server.config.LogAspect                :97   [32mjhSQUDfA[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-02-01 14:55:30.131 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mjhSQUDfA[0;39m ==>  Preparing: SELECT count(0) FROM role 
+2021-02-01 14:55:30.132 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mjhSQUDfA[0;39m ==> Parameters: 
+2021-02-01 14:55:30.133 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mjhSQUDfA[0;39m <==    Columns: count(0)
+2021-02-01 14:55:30.133 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mjhSQUDfA[0;39m <==        Row: 3
+2021-02-01 14:55:30.134 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mjhSQUDfA[0;39m <==      Total: 1
+2021-02-01 14:55:30.134 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mjhSQUDfA[0;39m ==>  Preparing: select id, `name`, `desc` from role LIMIT ? 
+2021-02-01 14:55:30.134 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mjhSQUDfA[0;39m ==> Parameters: 5(Integer)
+2021-02-01 14:55:30.135 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mjhSQUDfA[0;39m <==    Columns: id, name, desc
+2021-02-01 14:55:30.135 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mjhSQUDfA[0;39m <==        Row: 00000000, 系统管理员, 管理用户、角色权限
+2021-02-01 14:55:30.135 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mjhSQUDfA[0;39m <==        Row: 00000001, 开发, 维护资源
+2021-02-01 14:55:30.135 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mjhSQUDfA[0;39m <==        Row: 00000002, 业务管理员, 负责业务管理
+2021-02-01 14:55:30.135 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mjhSQUDfA[0;39m <==      Total: 3
+2021-02-01 14:55:30.136 INFO  com.course.server.config.LogAspect                :109  [32mjhSQUDfA[0;39m 返回结果: {"content":{"list":[{"desc":"管理用户、角色权限","id":"00000000","name":"系统管理员"},{"desc":"维护资源","id":"00000001","name":"开发"},{"desc":"负责业务管理","id":"00000002","name":"业务管理员"}],"page":1,"size":5,"total":3},"success":true}
+2021-02-01 14:55:30.136 INFO  com.course.server.config.LogAspect                :110  [32mjhSQUDfA[0;39m ------------- 结束 耗时：6 ms -------------
+2021-02-01 14:58:36.802 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-01 15:03:36.815 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
