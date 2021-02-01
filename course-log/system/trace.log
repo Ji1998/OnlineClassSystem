@@ -1926,3 +1926,451 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.course.serve
 2021-02-01 15:24:59.855 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mM3kDNJaV[0;39m <==      Total: 5
 2021-02-01 15:24:59.856 INFO  com.course.server.config.LogAspect                :109  [32mM3kDNJaV[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
 2021-02-01 15:24:59.856 INFO  com.course.server.config.LogAspect                :110  [32mM3kDNJaV[0;39m ------------- 结束 耗时：9 ms -------------
+2021-02-01 15:28:21.989 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-01 15:28:32.631 INFO  com.course.server.config.LogAspect                :76   [32mZEydgPP4[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:28:32.632 INFO  com.course.server.config.LogAspect                :77   [32mZEydgPP4[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:28:32.632 INFO  com.course.server.config.LogAspect                :78   [32mZEydgPP4[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:28:32.632 INFO  com.course.server.config.LogAspect                :79   [32mZEydgPP4[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:28:32.632 INFO  com.course.server.config.LogAspect                :97   [32mZEydgPP4[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:28:32.633 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mZEydgPP4[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:28:32.634 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mZEydgPP4[0;39m ==> Parameters: 
+2021-02-01 15:28:32.635 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mZEydgPP4[0;39m <==    Columns: count(0)
+2021-02-01 15:28:32.635 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mZEydgPP4[0;39m <==        Row: 5
+2021-02-01 15:28:32.635 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mZEydgPP4[0;39m <==      Total: 1
+2021-02-01 15:28:32.636 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mZEydgPP4[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:28:32.636 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mZEydgPP4[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:28:32.637 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mZEydgPP4[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:28:32.637 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mZEydgPP4[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:28:32.637 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mZEydgPP4[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:28:32.637 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mZEydgPP4[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:28:32.638 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mZEydgPP4[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:28:32.638 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mZEydgPP4[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:28:32.638 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mZEydgPP4[0;39m <==      Total: 5
+2021-02-01 15:28:32.638 INFO  com.course.server.config.LogAspect                :109  [32mZEydgPP4[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:28:32.639 INFO  com.course.server.config.LogAspect                :110  [32mZEydgPP4[0;39m ------------- 结束 耗时：8 ms -------------
+2021-02-01 15:28:34.756 INFO  com.course.server.config.LogAspect                :76   [32mrPlvIUlM[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:28:34.756 INFO  com.course.server.config.LogAspect                :77   [32mrPlvIUlM[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:28:34.756 INFO  com.course.server.config.LogAspect                :78   [32mrPlvIUlM[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:28:34.756 INFO  com.course.server.config.LogAspect                :79   [32mrPlvIUlM[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:28:34.756 INFO  com.course.server.config.LogAspect                :97   [32mrPlvIUlM[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:28:34.757 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mrPlvIUlM[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:28:34.758 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mrPlvIUlM[0;39m ==> Parameters: 
+2021-02-01 15:28:34.759 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mrPlvIUlM[0;39m <==    Columns: count(0)
+2021-02-01 15:28:34.759 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mrPlvIUlM[0;39m <==        Row: 5
+2021-02-01 15:28:34.759 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mrPlvIUlM[0;39m <==      Total: 1
+2021-02-01 15:28:34.759 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mrPlvIUlM[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:28:34.760 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mrPlvIUlM[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:28:34.760 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrPlvIUlM[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:28:34.761 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrPlvIUlM[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:28:34.761 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrPlvIUlM[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:28:34.762 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrPlvIUlM[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:28:34.762 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrPlvIUlM[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:28:34.762 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrPlvIUlM[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:28:34.762 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mrPlvIUlM[0;39m <==      Total: 5
+2021-02-01 15:28:34.764 INFO  com.course.server.config.LogAspect                :109  [32mrPlvIUlM[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:28:34.764 INFO  com.course.server.config.LogAspect                :110  [32mrPlvIUlM[0;39m ------------- 结束 耗时：8 ms -------------
+2021-02-01 15:28:37.286 INFO  com.course.server.config.LogAspect                :76   [32m28Oe3QHY[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:28:37.286 INFO  com.course.server.config.LogAspect                :77   [32m28Oe3QHY[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:28:37.287 INFO  com.course.server.config.LogAspect                :78   [32m28Oe3QHY[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:28:37.287 INFO  com.course.server.config.LogAspect                :79   [32m28Oe3QHY[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:28:37.287 INFO  com.course.server.config.LogAspect                :97   [32m28Oe3QHY[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:28:37.289 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32m28Oe3QHY[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:28:37.289 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32m28Oe3QHY[0;39m ==> Parameters: 
+2021-02-01 15:28:37.290 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32m28Oe3QHY[0;39m <==    Columns: count(0)
+2021-02-01 15:28:37.290 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32m28Oe3QHY[0;39m <==        Row: 5
+2021-02-01 15:28:37.290 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32m28Oe3QHY[0;39m <==      Total: 1
+2021-02-01 15:28:37.291 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32m28Oe3QHY[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:28:37.291 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32m28Oe3QHY[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:28:37.291 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32m28Oe3QHY[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:28:37.292 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32m28Oe3QHY[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:28:37.292 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32m28Oe3QHY[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:28:37.292 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32m28Oe3QHY[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:28:37.292 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32m28Oe3QHY[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:28:37.292 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32m28Oe3QHY[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:28:37.293 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32m28Oe3QHY[0;39m <==      Total: 5
+2021-02-01 15:28:37.293 INFO  com.course.server.config.LogAspect                :109  [32m28Oe3QHY[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:28:37.293 INFO  com.course.server.config.LogAspect                :110  [32m28Oe3QHY[0;39m ------------- 结束 耗时：7 ms -------------
+2021-02-01 15:29:37.673 INFO  com.course.server.config.LogAspect                :76   [32mEiyt6IYm[0;39m ------------- 【角色】查询开始 -------------
+2021-02-01 15:29:37.674 INFO  com.course.server.config.LogAspect                :77   [32mEiyt6IYm[0;39m 请求地址: http://127.0.0.1:9001/system/admin/role/list POST
+2021-02-01 15:29:37.674 INFO  com.course.server.config.LogAspect                :78   [32mEiyt6IYm[0;39m 类名方法: com.course.system.controller.admin.RoleController.list
+2021-02-01 15:29:37.674 INFO  com.course.server.config.LogAspect                :79   [32mEiyt6IYm[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:29:37.674 INFO  com.course.server.config.LogAspect                :97   [32mEiyt6IYm[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-02-01 15:29:37.675 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mEiyt6IYm[0;39m ==>  Preparing: SELECT count(0) FROM role 
+2021-02-01 15:29:37.676 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mEiyt6IYm[0;39m ==> Parameters: 
+2021-02-01 15:29:37.677 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mEiyt6IYm[0;39m <==    Columns: count(0)
+2021-02-01 15:29:37.677 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mEiyt6IYm[0;39m <==        Row: 3
+2021-02-01 15:29:37.677 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mEiyt6IYm[0;39m <==      Total: 1
+2021-02-01 15:29:37.678 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mEiyt6IYm[0;39m ==>  Preparing: select id, `name`, `desc` from role LIMIT ? 
+2021-02-01 15:29:37.678 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mEiyt6IYm[0;39m ==> Parameters: 5(Integer)
+2021-02-01 15:29:37.679 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mEiyt6IYm[0;39m <==    Columns: id, name, desc
+2021-02-01 15:29:37.679 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mEiyt6IYm[0;39m <==        Row: 00000000, 系统管理员, 管理用户、角色权限
+2021-02-01 15:29:37.679 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mEiyt6IYm[0;39m <==        Row: 00000001, 开发, 维护资源
+2021-02-01 15:29:37.680 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mEiyt6IYm[0;39m <==        Row: 00000002, 业务管理员, 负责业务管理
+2021-02-01 15:29:37.680 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mEiyt6IYm[0;39m <==      Total: 3
+2021-02-01 15:29:37.680 INFO  com.course.server.config.LogAspect                :109  [32mEiyt6IYm[0;39m 返回结果: {"content":{"list":[{"desc":"管理用户、角色权限","id":"00000000","name":"系统管理员"},{"desc":"维护资源","id":"00000001","name":"开发"},{"desc":"负责业务管理","id":"00000002","name":"业务管理员"}],"page":1,"size":5,"total":3},"success":true}
+2021-02-01 15:29:37.680 INFO  com.course.server.config.LogAspect                :110  [32mEiyt6IYm[0;39m ------------- 结束 耗时：7 ms -------------
+2021-02-01 15:31:02.935 INFO  com.course.server.config.LogAspect                :76   [32mEfNfNrb1[0;39m ------------- 【角色】查询开始 -------------
+2021-02-01 15:31:02.936 INFO  com.course.server.config.LogAspect                :77   [32mEfNfNrb1[0;39m 请求地址: http://127.0.0.1:9001/system/admin/role/list POST
+2021-02-01 15:31:02.936 INFO  com.course.server.config.LogAspect                :78   [32mEfNfNrb1[0;39m 类名方法: com.course.system.controller.admin.RoleController.list
+2021-02-01 15:31:02.936 INFO  com.course.server.config.LogAspect                :79   [32mEfNfNrb1[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:31:02.936 INFO  com.course.server.config.LogAspect                :97   [32mEfNfNrb1[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-02-01 15:31:02.938 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mEfNfNrb1[0;39m ==>  Preparing: SELECT count(0) FROM role 
+2021-02-01 15:31:02.938 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mEfNfNrb1[0;39m ==> Parameters: 
+2021-02-01 15:31:02.940 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mEfNfNrb1[0;39m <==    Columns: count(0)
+2021-02-01 15:31:02.940 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mEfNfNrb1[0;39m <==        Row: 3
+2021-02-01 15:31:02.940 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mEfNfNrb1[0;39m <==      Total: 1
+2021-02-01 15:31:02.941 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mEfNfNrb1[0;39m ==>  Preparing: select id, `name`, `desc` from role LIMIT ? 
+2021-02-01 15:31:02.941 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mEfNfNrb1[0;39m ==> Parameters: 5(Integer)
+2021-02-01 15:31:02.942 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mEfNfNrb1[0;39m <==    Columns: id, name, desc
+2021-02-01 15:31:02.943 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mEfNfNrb1[0;39m <==        Row: 00000000, 系统管理员, 管理用户、角色权限
+2021-02-01 15:31:02.943 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mEfNfNrb1[0;39m <==        Row: 00000001, 开发, 维护资源
+2021-02-01 15:31:02.943 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mEfNfNrb1[0;39m <==        Row: 00000002, 业务管理员, 负责业务管理
+2021-02-01 15:31:02.943 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mEfNfNrb1[0;39m <==      Total: 3
+2021-02-01 15:31:02.944 INFO  com.course.server.config.LogAspect                :109  [32mEfNfNrb1[0;39m 返回结果: {"content":{"list":[{"desc":"管理用户、角色权限","id":"00000000","name":"系统管理员"},{"desc":"维护资源","id":"00000001","name":"开发"},{"desc":"负责业务管理","id":"00000002","name":"业务管理员"}],"page":1,"size":5,"total":3},"success":true}
+2021-02-01 15:31:02.944 INFO  com.course.server.config.LogAspect                :110  [32mEfNfNrb1[0;39m ------------- 结束 耗时：9 ms -------------
+2021-02-01 15:31:04.580 INFO  com.course.server.config.LogAspect                :76   [32mXDrdzENd[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:31:04.581 INFO  com.course.server.config.LogAspect                :77   [32mXDrdzENd[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:31:04.581 INFO  com.course.server.config.LogAspect                :78   [32mXDrdzENd[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:31:04.581 INFO  com.course.server.config.LogAspect                :79   [32mXDrdzENd[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:31:04.581 INFO  com.course.server.config.LogAspect                :97   [32mXDrdzENd[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:31:04.582 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mXDrdzENd[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:31:04.582 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mXDrdzENd[0;39m ==> Parameters: 
+2021-02-01 15:31:04.584 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mXDrdzENd[0;39m <==    Columns: count(0)
+2021-02-01 15:31:04.584 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mXDrdzENd[0;39m <==        Row: 5
+2021-02-01 15:31:04.584 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mXDrdzENd[0;39m <==      Total: 1
+2021-02-01 15:31:04.584 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mXDrdzENd[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:31:04.585 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mXDrdzENd[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:31:04.585 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mXDrdzENd[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:31:04.585 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mXDrdzENd[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:31:04.586 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mXDrdzENd[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:31:04.586 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mXDrdzENd[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:31:04.586 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mXDrdzENd[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:31:04.586 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mXDrdzENd[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:31:04.586 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mXDrdzENd[0;39m <==      Total: 5
+2021-02-01 15:31:04.587 INFO  com.course.server.config.LogAspect                :109  [32mXDrdzENd[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:31:04.587 INFO  com.course.server.config.LogAspect                :110  [32mXDrdzENd[0;39m ------------- 结束 耗时：7 ms -------------
+2021-02-01 15:31:06.678 INFO  com.course.server.config.LogAspect                :76   [32mthC8uUS5[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:31:06.679 INFO  com.course.server.config.LogAspect                :77   [32mthC8uUS5[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:31:06.679 INFO  com.course.server.config.LogAspect                :78   [32mthC8uUS5[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:31:06.679 INFO  com.course.server.config.LogAspect                :79   [32mthC8uUS5[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:31:06.679 INFO  com.course.server.config.LogAspect                :97   [32mthC8uUS5[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:31:06.680 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mthC8uUS5[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:31:06.681 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mthC8uUS5[0;39m ==> Parameters: 
+2021-02-01 15:31:06.682 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mthC8uUS5[0;39m <==    Columns: count(0)
+2021-02-01 15:31:06.682 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mthC8uUS5[0;39m <==        Row: 5
+2021-02-01 15:31:06.682 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mthC8uUS5[0;39m <==      Total: 1
+2021-02-01 15:31:06.683 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mthC8uUS5[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:31:06.683 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mthC8uUS5[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:31:06.684 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mthC8uUS5[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:31:06.684 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mthC8uUS5[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:31:06.684 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mthC8uUS5[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:31:06.684 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mthC8uUS5[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:31:06.684 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mthC8uUS5[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:31:06.684 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mthC8uUS5[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:31:06.685 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mthC8uUS5[0;39m <==      Total: 5
+2021-02-01 15:31:06.685 INFO  com.course.server.config.LogAspect                :109  [32mthC8uUS5[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:31:06.685 INFO  com.course.server.config.LogAspect                :110  [32mthC8uUS5[0;39m ------------- 结束 耗时：7 ms -------------
+2021-02-01 15:31:08.549 INFO  com.course.server.config.LogAspect                :76   [32mhZbVr9J3[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:31:08.549 INFO  com.course.server.config.LogAspect                :77   [32mhZbVr9J3[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:31:08.549 INFO  com.course.server.config.LogAspect                :78   [32mhZbVr9J3[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:31:08.549 INFO  com.course.server.config.LogAspect                :79   [32mhZbVr9J3[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:31:08.549 INFO  com.course.server.config.LogAspect                :97   [32mhZbVr9J3[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:31:08.552 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mhZbVr9J3[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:31:08.553 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mhZbVr9J3[0;39m ==> Parameters: 
+2021-02-01 15:31:08.553 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mhZbVr9J3[0;39m <==    Columns: count(0)
+2021-02-01 15:31:08.554 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mhZbVr9J3[0;39m <==        Row: 5
+2021-02-01 15:31:08.554 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mhZbVr9J3[0;39m <==      Total: 1
+2021-02-01 15:31:08.554 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mhZbVr9J3[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:31:08.554 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mhZbVr9J3[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:31:08.555 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mhZbVr9J3[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:31:08.555 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mhZbVr9J3[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:31:08.555 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mhZbVr9J3[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:31:08.556 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mhZbVr9J3[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:31:08.556 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mhZbVr9J3[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:31:08.556 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mhZbVr9J3[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:31:08.556 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mhZbVr9J3[0;39m <==      Total: 5
+2021-02-01 15:31:08.557 INFO  com.course.server.config.LogAspect                :109  [32mhZbVr9J3[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:31:08.557 INFO  com.course.server.config.LogAspect                :110  [32mhZbVr9J3[0;39m ------------- 结束 耗时：9 ms -------------
+2021-02-01 15:31:10.486 INFO  com.course.server.config.LogAspect                :76   [32mibEkOyiV[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:31:10.486 INFO  com.course.server.config.LogAspect                :77   [32mibEkOyiV[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:31:10.486 INFO  com.course.server.config.LogAspect                :78   [32mibEkOyiV[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:31:10.486 INFO  com.course.server.config.LogAspect                :79   [32mibEkOyiV[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:31:10.487 INFO  com.course.server.config.LogAspect                :97   [32mibEkOyiV[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:31:10.488 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mibEkOyiV[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:31:10.488 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mibEkOyiV[0;39m ==> Parameters: 
+2021-02-01 15:31:10.489 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mibEkOyiV[0;39m <==    Columns: count(0)
+2021-02-01 15:31:10.489 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mibEkOyiV[0;39m <==        Row: 5
+2021-02-01 15:31:10.490 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mibEkOyiV[0;39m <==      Total: 1
+2021-02-01 15:31:10.490 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mibEkOyiV[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:31:10.490 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mibEkOyiV[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:31:10.491 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mibEkOyiV[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:31:10.491 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mibEkOyiV[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:31:10.491 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mibEkOyiV[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:31:10.492 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mibEkOyiV[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:31:10.492 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mibEkOyiV[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:31:10.492 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mibEkOyiV[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:31:10.492 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mibEkOyiV[0;39m <==      Total: 5
+2021-02-01 15:31:10.493 INFO  com.course.server.config.LogAspect                :109  [32mibEkOyiV[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:31:10.493 INFO  com.course.server.config.LogAspect                :110  [32mibEkOyiV[0;39m ------------- 结束 耗时：7 ms -------------
+2021-02-01 15:31:34.349 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-02-01 15:31:34.350 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612211494350, current=DOWN, previous=UP]
+2021-02-01 15:31:34.350 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-02-01 15:31:34.354 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-02-01 15:31:34.356 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-01 15:31:34.481 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-01 15:31:37.482 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-02-01 15:31:37.485 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-02-01 15:31:37.493 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-01 15:31:37.494 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-02-01 15:31:37.500 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-02-01 15:31:43.893 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-01 15:31:43.895 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-01 15:31:43.895 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-01 15:31:44.052 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 15:31:44.159 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-01 15:31:44.782 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-01 15:31:44.785 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-01 15:31:44.808 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2021-02-01 15:31:45.073 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=506aa21b-6ce7-3f9d-a976-1cf77e27d3c8
+2021-02-01 15:31:45.196 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 15:31:45.307 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-01 15:31:45.707 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-02-01 15:31:45.714 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-01 15:31:45.715 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-01 15:31:45.715 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-01 15:31:45.796 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-01 15:31:45.796 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1621 ms
+2021-02-01 15:31:46.576 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-01 15:31:46.576 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-01 15:31:46.578 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-01 15:31:46.579 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-01 15:31:46.809 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-01 15:31:47.304 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-02-01 15:31:47.417 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-02-01 15:31:47.457 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-01 15:31:47.522 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-01 15:31:47.544 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-01 15:31:47.656 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-02-01 15:31:47.656 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-02-01 15:31:47.728 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-02-01 15:31:47.728 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-02-01 15:31:47.884 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-01 15:31:47.895 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-02-01 15:31:47.895 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-02-01 15:31:47.895 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-02-01 15:31:47.895 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-02-01 15:31:47.895 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-02-01 15:31:47.896 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-02-01 15:31:47.896 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-01 15:31:47.994 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-02-01 15:31:47.996 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-01 15:31:47.998 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-01 15:31:48.001 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612211508000 with initial instances count: 4
+2021-02-01 15:31:48.007 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-02-01 15:31:48.007 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612211508007, current=UP, previous=STARTING]
+2021-02-01 15:31:48.009 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-02-01 15:31:48.018 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-02-01 15:31:48.030 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-02-01 15:31:48.039 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-02-01 15:31:48.040 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-02-01 15:31:48.045 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 4.44 seconds (JVM running for 5.078)
+2021-02-01 15:31:48.046 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m 启动成功！！
+2021-02-01 15:31:48.047 INFO  com.course.system.SystemApplication               :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-02-01 15:32:06.016 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-01 15:32:06.017 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-02-01 15:32:06.028 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 11 ms
+2021-02-01 15:32:06.055 INFO  com.course.server.config.LogAspect                :76   [32mTo8WGv3n[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-02-01 15:32:06.056 INFO  com.course.server.config.LogAspect                :77   [32mTo8WGv3n[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/m5Jjw999 GET
+2021-02-01 15:32:06.056 INFO  com.course.server.config.LogAspect                :78   [32mTo8WGv3n[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-02-01 15:32:06.057 INFO  com.course.server.config.LogAspect                :79   [32mTo8WGv3n[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:06.059 INFO  com.course.server.config.LogAspect                :97   [32mTo8WGv3n[0;39m 请求参数: ["m5Jjw999",null,null]
+2021-02-01 15:32:06.171 INFO  io.lettuce.core.EpollProvider                     :68   [32mTo8WGv3n[0;39m Starting without optional epoll library
+2021-02-01 15:32:06.172 INFO  io.lettuce.core.KqueueProvider                    :70   [32mTo8WGv3n[0;39m Starting without optional kqueue library
+2021-02-01 15:32:08.667 INFO  com.course.server.config.LogAspect                :109  [32mTo8WGv3n[0;39m 返回结果: null
+2021-02-01 15:32:08.668 INFO  com.course.server.config.LogAspect                :110  [32mTo8WGv3n[0;39m ------------- 结束 耗时：2617 ms -------------
+2021-02-01 15:32:17.703 INFO  com.course.server.config.LogAspect                :76   [32mVD2t9MfJ[0;39m ------------- 【用户】操作开始 -------------
+2021-02-01 15:32:17.703 INFO  com.course.server.config.LogAspect                :77   [32mVD2t9MfJ[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-02-01 15:32:17.703 INFO  com.course.server.config.LogAspect                :78   [32mVD2t9MfJ[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-02-01 15:32:17.704 INFO  com.course.server.config.LogAspect                :79   [32mVD2t9MfJ[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:17.712 INFO  com.course.server.config.LogAspect                :97   [32mVD2t9MfJ[0;39m 请求参数: [{"imageCode":"2a7b","imageCodeToken":"m5Jjw999","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-02-01 15:32:17.714 INFO  com.course.system.controller.admin.UserController :88   [32mVD2t9MfJ[0;39m 用户登录开始
+2021-02-01 15:32:17.949 INFO  com.course.system.controller.admin.UserController :95   [32mVD2t9MfJ[0;39m 从redis中获取到的验证码：2a7b
+2021-02-01 15:32:18.219 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mVD2t9MfJ[0;39m HikariPool-1 - Starting...
+2021-02-01 15:32:18.221 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mVD2t9MfJ[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-02-01 15:32:18.404 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mVD2t9MfJ[0;39m HikariPool-1 - Start completed.
+2021-02-01 15:32:18.409 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mVD2t9MfJ[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? ) 
+2021-02-01 15:32:18.429 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mVD2t9MfJ[0;39m ==> Parameters: yuran(String)
+2021-02-01 15:32:18.444 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mVD2t9MfJ[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:32:18.445 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mVD2t9MfJ[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:32:18.445 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mVD2t9MfJ[0;39m <==      Total: 1
+2021-02-01 15:32:18.454 INFO  com.course.system.controller.admin.UserController :116  [32mVD2t9MfJ[0;39m 用户登陆TOKE：
+2021-02-01 15:32:18.764 INFO  com.course.server.config.LogAspect                :109  [32mVD2t9MfJ[0;39m 返回结果: {"content":{"id":"iQo2vRvN","loginName":"yuran","name":"yuran","token":"uv1UCstl"},"success":true}
+2021-02-01 15:32:18.764 INFO  com.course.server.config.LogAspect                :110  [32mVD2t9MfJ[0;39m ------------- 结束 耗时：1061 ms -------------
+2021-02-01 15:32:22.335 INFO  com.course.server.config.LogAspect                :76   [32mk298WFzA[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:32:22.336 INFO  com.course.server.config.LogAspect                :77   [32mk298WFzA[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:32:22.336 INFO  com.course.server.config.LogAspect                :78   [32mk298WFzA[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:32:22.336 INFO  com.course.server.config.LogAspect                :79   [32mk298WFzA[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:22.339 INFO  com.course.server.config.LogAspect                :97   [32mk298WFzA[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-02-01 15:32:22.364 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mk298WFzA[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:32:22.365 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mk298WFzA[0;39m ==> Parameters: 
+2021-02-01 15:32:22.366 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mk298WFzA[0;39m <==    Columns: count(0)
+2021-02-01 15:32:22.366 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mk298WFzA[0;39m <==        Row: 5
+2021-02-01 15:32:22.367 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mk298WFzA[0;39m <==      Total: 1
+2021-02-01 15:32:22.369 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mk298WFzA[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:32:22.369 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mk298WFzA[0;39m ==> Parameters: 5(Integer)
+2021-02-01 15:32:22.370 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mk298WFzA[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:32:22.371 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mk298WFzA[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:32:22.371 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mk298WFzA[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:32:22.371 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mk298WFzA[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:32:22.372 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mk298WFzA[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:32:22.373 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mk298WFzA[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:32:22.373 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mk298WFzA[0;39m <==      Total: 5
+2021-02-01 15:32:22.376 INFO  com.course.server.config.LogAspect                :109  [32mk298WFzA[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":5,"total":5},"success":true}
+2021-02-01 15:32:22.376 INFO  com.course.server.config.LogAspect                :110  [32mk298WFzA[0;39m ------------- 结束 耗时：41 ms -------------
+2021-02-01 15:32:24.386 INFO  com.course.server.config.LogAspect                :76   [32mdFYkPYRy[0;39m ------------- 【资源】操作开始 -------------
+2021-02-01 15:32:24.387 INFO  com.course.server.config.LogAspect                :77   [32mdFYkPYRy[0;39m 请求地址: http://127.0.0.1:9001/system/admin/resource/load-tree GET
+2021-02-01 15:32:24.387 INFO  com.course.server.config.LogAspect                :78   [32mdFYkPYRy[0;39m 类名方法: com.course.system.controller.admin.ResourceController.loadTree
+2021-02-01 15:32:24.387 INFO  com.course.server.config.LogAspect                :79   [32mdFYkPYRy[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:24.388 INFO  com.course.server.config.LogAspect                :97   [32mdFYkPYRy[0;39m 请求参数: []
+2021-02-01 15:32:24.395 DEBUG c.c.server.mapper.ResourceMapper.selectByExample  :159  [32mdFYkPYRy[0;39m ==>  Preparing: select id, `name`, page, request, parent from resource order by id asc 
+2021-02-01 15:32:24.395 DEBUG c.c.server.mapper.ResourceMapper.selectByExample  :159  [32mdFYkPYRy[0;39m ==> Parameters: 
+2021-02-01 15:32:24.397 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==    Columns: id, name, page, request, parent
+2021-02-01 15:32:24.397 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 01, 系统管理, null, null, 
+2021-02-01 15:32:24.397 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 0101, 用户管理, /system/user, null, 01
+2021-02-01 15:32:24.398 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 010101, 保存, null, ["/system/admin/user/list","/system/admin/user/save"], 0101
+2021-02-01 15:32:24.398 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 010102, 删除, null, ["/system/admin/user/delete"], 0101
+2021-02-01 15:32:24.399 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 010103, 重置密码, null, ["/system/admin/user/save-password"], 0101
+2021-02-01 15:32:24.399 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 0102, 资源管理, /system/resource, null, 01
+2021-02-01 15:32:24.399 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 010201, 保存/显示, null, ["/system/admin/resource"], 0102
+2021-02-01 15:32:24.400 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 0103, 角色管理, /system/role, null, 01
+2021-02-01 15:32:24.400 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 010301, 角色/权限管理, null, ["/system/admin/role"], 0103
+2021-02-01 15:32:24.401 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 02, 业务管理, null, null, 
+2021-02-01 15:32:24.401 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 0201, 分类管理, /business/category, null, 02
+2021-02-01 15:32:24.401 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 020101, 增册改查, null, ["/business/admin/category"], 0201
+2021-02-01 15:32:24.402 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 0202, 课程管理, /business/course, null, 02
+2021-02-01 15:32:24.402 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 020201, 增册改查, null, ["/business/admin/course","/business/admin/category/all"], 0202
+2021-02-01 15:32:24.402 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 0203, 讲师管理, /business/teacher, null, 02
+2021-02-01 15:32:24.403 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 020301, 增册改查, null, ["/business/admin/teacher"], 0203
+2021-02-01 15:32:24.404 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 03, 文件管理, null, null, 
+2021-02-01 15:32:24.405 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 0301, 文件管理, /file/file, null, 03
+2021-02-01 15:32:24.405 TRACE c.c.server.mapper.ResourceMapper.selectByExample  :165  [32mdFYkPYRy[0;39m <==        Row: 030101, 文件管理, null, ["/file/admin/file"], 0301
+2021-02-01 15:32:24.406 DEBUG c.c.server.mapper.ResourceMapper.selectByExample  :159  [32mdFYkPYRy[0;39m <==      Total: 19
+2021-02-01 15:32:24.414 INFO  com.course.server.config.LogAspect                :109  [32mdFYkPYRy[0;39m 返回结果: {"content":[{"children":[{"children":[{"id":"010101","name":"保存","parent":"0101","request":"[\"/system/admin/user/list\",\"/system/admin/user/save\"]"},{"id":"010102","name":"删除","parent":"0101","request":"[\"/system/admin/user/delete\"]"},{"id":"010103","name":"重置密码","parent":"0101","request":"[\"/system/admin/user/save-password\"]"}],"id":"0101","name":"用户管理","page":"/system/user","parent":"01"},{"children":[{"id":"010201","name":"保存/显示","parent":"0102","request":"[\"/system/admin/resource\"]"}],"id":"0102","name":"资源管理","page":"/system/resource","parent":"01"},{"children":[{"id":"010301","name":"角色/权限管理","parent":"0103","request":"[\"/system/admin/role\"]"}],"id":"0103","name":"角色管理","page":"/system/role","parent":"01"}],"id":"01","name":"系统管理","parent":""},{"children":[{"children":[{"id":"020101","name":"增册改查","parent":"0201","request":"[\"/business/admin/category\"]"}],"id":"0201","name":"分类管理","page":"/business/category","parent":"02"},{"children":[{"id":"020201","name":"增册改查","parent":"0202","request":"[\"/business/admin/course\",\"/business/admin/category/all\"]"}],"id":"0202","name":"课程管理","page":"/business/course","parent":"02"},{"children":[{"id":"020301","name":"增册改查","parent":"0203","request":"[\"/business/admin/teacher\"]"}],"id":"0203","name":"讲师管理","page":"/business/teacher","parent":"02"}],"id":"02","name":"业务管理","parent":""},{"children":[{"children":[{"id":"030101","name":"文件管理","parent":"0301","request":"[\"/file/admin/file\"]"}],"id":"0301","name":"文件管理","page":"/file/file","parent":"03"}],"id":"03","name":"文件管理","parent":""}],"success":true}
+2021-02-01 15:32:24.415 INFO  com.course.server.config.LogAspect                :110  [32mdFYkPYRy[0;39m ------------- 结束 耗时：29 ms -------------
+2021-02-01 15:32:25.750 INFO  com.course.server.config.LogAspect                :76   [32mmByg2G7w[0;39m ------------- 【角色】查询开始 -------------
+2021-02-01 15:32:25.751 INFO  com.course.server.config.LogAspect                :77   [32mmByg2G7w[0;39m 请求地址: http://127.0.0.1:9001/system/admin/role/list POST
+2021-02-01 15:32:25.751 INFO  com.course.server.config.LogAspect                :78   [32mmByg2G7w[0;39m 类名方法: com.course.system.controller.admin.RoleController.list
+2021-02-01 15:32:25.751 INFO  com.course.server.config.LogAspect                :79   [32mmByg2G7w[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:25.751 INFO  com.course.server.config.LogAspect                :97   [32mmByg2G7w[0;39m 请求参数: [{"page":1,"size":5,"total":0}]
+2021-02-01 15:32:25.758 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mmByg2G7w[0;39m ==>  Preparing: SELECT count(0) FROM role 
+2021-02-01 15:32:25.758 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mmByg2G7w[0;39m ==> Parameters: 
+2021-02-01 15:32:25.760 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mmByg2G7w[0;39m <==    Columns: count(0)
+2021-02-01 15:32:25.760 TRACE c.c.server.mapper.RoleMapper.selectByExample_COUNT:165  [32mmByg2G7w[0;39m <==        Row: 3
+2021-02-01 15:32:25.761 DEBUG c.c.server.mapper.RoleMapper.selectByExample_COUNT:159  [32mmByg2G7w[0;39m <==      Total: 1
+2021-02-01 15:32:25.761 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mmByg2G7w[0;39m ==>  Preparing: select id, `name`, `desc` from role LIMIT ? 
+2021-02-01 15:32:25.762 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mmByg2G7w[0;39m ==> Parameters: 5(Integer)
+2021-02-01 15:32:25.763 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mmByg2G7w[0;39m <==    Columns: id, name, desc
+2021-02-01 15:32:25.763 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mmByg2G7w[0;39m <==        Row: 00000000, 系统管理员, 管理用户、角色权限
+2021-02-01 15:32:25.763 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mmByg2G7w[0;39m <==        Row: 00000001, 开发, 维护资源
+2021-02-01 15:32:25.764 TRACE c.course.server.mapper.RoleMapper.selectByExample :165  [32mmByg2G7w[0;39m <==        Row: 00000002, 业务管理员, 负责业务管理
+2021-02-01 15:32:25.764 DEBUG c.course.server.mapper.RoleMapper.selectByExample :159  [32mmByg2G7w[0;39m <==      Total: 3
+2021-02-01 15:32:25.770 INFO  com.course.server.config.LogAspect                :109  [32mmByg2G7w[0;39m 返回结果: {"content":{"list":[{"desc":"管理用户、角色权限","id":"00000000","name":"系统管理员"},{"desc":"维护资源","id":"00000001","name":"开发"},{"desc":"负责业务管理","id":"00000002","name":"业务管理员"}],"page":1,"size":5,"total":3},"success":true}
+2021-02-01 15:32:25.770 INFO  com.course.server.config.LogAspect                :110  [32mmByg2G7w[0;39m ------------- 结束 耗时：20 ms -------------
+2021-02-01 15:32:32.858 INFO  com.course.server.config.LogAspect                :76   [32mgQSflblM[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:32:32.859 INFO  com.course.server.config.LogAspect                :77   [32mgQSflblM[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:32:32.859 INFO  com.course.server.config.LogAspect                :78   [32mgQSflblM[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:32:32.859 INFO  com.course.server.config.LogAspect                :79   [32mgQSflblM[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:32.859 INFO  com.course.server.config.LogAspect                :97   [32mgQSflblM[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:32:32.860 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mgQSflblM[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:32:32.861 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mgQSflblM[0;39m ==> Parameters: 
+2021-02-01 15:32:32.862 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mgQSflblM[0;39m <==    Columns: count(0)
+2021-02-01 15:32:32.862 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mgQSflblM[0;39m <==        Row: 5
+2021-02-01 15:32:32.863 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mgQSflblM[0;39m <==      Total: 1
+2021-02-01 15:32:32.863 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mgQSflblM[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:32:32.863 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mgQSflblM[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:32:32.864 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mgQSflblM[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:32:32.864 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mgQSflblM[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:32:32.865 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mgQSflblM[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:32:32.865 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mgQSflblM[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:32:32.865 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mgQSflblM[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:32:32.865 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mgQSflblM[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:32:32.866 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mgQSflblM[0;39m <==      Total: 5
+2021-02-01 15:32:32.866 INFO  com.course.server.config.LogAspect                :109  [32mgQSflblM[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:32:32.867 INFO  com.course.server.config.LogAspect                :110  [32mgQSflblM[0;39m ------------- 结束 耗时：9 ms -------------
+2021-02-01 15:32:32.875 INFO  com.course.server.config.LogAspect                :76   [32mVi832NPf[0;39m ------------- 【角色】查询开始 -------------
+2021-02-01 15:32:32.875 INFO  com.course.server.config.LogAspect                :77   [32mVi832NPf[0;39m 请求地址: http://127.0.0.1:9001/system/admin/role/list-user/00000000 GET
+2021-02-01 15:32:32.875 INFO  com.course.server.config.LogAspect                :78   [32mVi832NPf[0;39m 类名方法: com.course.system.controller.admin.RoleController.listUser
+2021-02-01 15:32:32.875 INFO  com.course.server.config.LogAspect                :79   [32mVi832NPf[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:32.875 INFO  com.course.server.config.LogAspect                :97   [32mVi832NPf[0;39m 请求参数: ["00000000"]
+2021-02-01 15:32:32.875 INFO  com.course.system.controller.admin.RoleController :107  [32mVi832NPf[0;39m 加载用户开始
+2021-02-01 15:32:32.879 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mVi832NPf[0;39m ==>  Preparing: select id, role_id, user_id from role_user WHERE ( role_id = ? ) 
+2021-02-01 15:32:32.879 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mVi832NPf[0;39m ==> Parameters: 00000000(String)
+2021-02-01 15:32:32.880 TRACE c.c.server.mapper.RoleUserMapper.selectByExample  :165  [32mVi832NPf[0;39m <==    Columns: id, role_id, user_id
+2021-02-01 15:32:32.881 TRACE c.c.server.mapper.RoleUserMapper.selectByExample  :165  [32mVi832NPf[0;39m <==        Row: GykKLqRo, 00000000, iQo2vRvN
+2021-02-01 15:32:32.881 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mVi832NPf[0;39m <==      Total: 1
+2021-02-01 15:32:32.881 INFO  com.course.server.config.LogAspect                :109  [32mVi832NPf[0;39m 返回结果: {"content":["iQo2vRvN"],"success":true}
+2021-02-01 15:32:32.882 INFO  com.course.server.config.LogAspect                :110  [32mVi832NPf[0;39m ------------- 结束 耗时：8 ms -------------
+2021-02-01 15:32:34.796 INFO  com.course.server.config.LogAspect                :76   [32mAJR9C89Q[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:32:34.796 INFO  com.course.server.config.LogAspect                :77   [32mAJR9C89Q[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:32:34.796 INFO  com.course.server.config.LogAspect                :78   [32mAJR9C89Q[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:32:34.796 INFO  com.course.server.config.LogAspect                :79   [32mAJR9C89Q[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:34.797 INFO  com.course.server.config.LogAspect                :97   [32mAJR9C89Q[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:32:34.798 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mAJR9C89Q[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:32:34.799 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mAJR9C89Q[0;39m ==> Parameters: 
+2021-02-01 15:32:34.800 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mAJR9C89Q[0;39m <==    Columns: count(0)
+2021-02-01 15:32:34.800 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mAJR9C89Q[0;39m <==        Row: 5
+2021-02-01 15:32:34.801 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mAJR9C89Q[0;39m <==      Total: 1
+2021-02-01 15:32:34.801 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mAJR9C89Q[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:32:34.801 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mAJR9C89Q[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:32:34.802 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mAJR9C89Q[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:32:34.802 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mAJR9C89Q[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:32:34.803 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mAJR9C89Q[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:32:34.803 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mAJR9C89Q[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:32:34.803 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mAJR9C89Q[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:32:34.804 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mAJR9C89Q[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:32:34.804 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mAJR9C89Q[0;39m <==      Total: 5
+2021-02-01 15:32:34.806 INFO  com.course.server.config.LogAspect                :109  [32mAJR9C89Q[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:32:34.806 INFO  com.course.server.config.LogAspect                :110  [32mAJR9C89Q[0;39m ------------- 结束 耗时：10 ms -------------
+2021-02-01 15:32:34.814 INFO  com.course.server.config.LogAspect                :76   [32mZ7fa5YHS[0;39m ------------- 【角色】查询开始 -------------
+2021-02-01 15:32:34.814 INFO  com.course.server.config.LogAspect                :77   [32mZ7fa5YHS[0;39m 请求地址: http://127.0.0.1:9001/system/admin/role/list-user/00000001 GET
+2021-02-01 15:32:34.814 INFO  com.course.server.config.LogAspect                :78   [32mZ7fa5YHS[0;39m 类名方法: com.course.system.controller.admin.RoleController.listUser
+2021-02-01 15:32:34.814 INFO  com.course.server.config.LogAspect                :79   [32mZ7fa5YHS[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:34.814 INFO  com.course.server.config.LogAspect                :97   [32mZ7fa5YHS[0;39m 请求参数: ["00000001"]
+2021-02-01 15:32:34.815 INFO  com.course.system.controller.admin.RoleController :107  [32mZ7fa5YHS[0;39m 加载用户开始
+2021-02-01 15:32:34.815 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mZ7fa5YHS[0;39m ==>  Preparing: select id, role_id, user_id from role_user WHERE ( role_id = ? ) 
+2021-02-01 15:32:34.816 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mZ7fa5YHS[0;39m ==> Parameters: 00000001(String)
+2021-02-01 15:32:34.817 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mZ7fa5YHS[0;39m <==      Total: 0
+2021-02-01 15:32:34.817 INFO  com.course.server.config.LogAspect                :109  [32mZ7fa5YHS[0;39m 返回结果: {"content":[],"success":true}
+2021-02-01 15:32:34.817 INFO  com.course.server.config.LogAspect                :110  [32mZ7fa5YHS[0;39m ------------- 结束 耗时：3 ms -------------
+2021-02-01 15:32:37.044 INFO  com.course.server.config.LogAspect                :76   [32mrfBqcCiy[0;39m ------------- 【用户】查询开始 -------------
+2021-02-01 15:32:37.045 INFO  com.course.server.config.LogAspect                :77   [32mrfBqcCiy[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/list POST
+2021-02-01 15:32:37.045 INFO  com.course.server.config.LogAspect                :78   [32mrfBqcCiy[0;39m 类名方法: com.course.system.controller.admin.UserController.list
+2021-02-01 15:32:37.045 INFO  com.course.server.config.LogAspect                :79   [32mrfBqcCiy[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:37.045 INFO  com.course.server.config.LogAspect                :97   [32mrfBqcCiy[0;39m 请求参数: [{"page":1,"size":9999,"total":0}]
+2021-02-01 15:32:37.046 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mrfBqcCiy[0;39m ==>  Preparing: SELECT count(0) FROM user 
+2021-02-01 15:32:37.047 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mrfBqcCiy[0;39m ==> Parameters: 
+2021-02-01 15:32:37.048 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mrfBqcCiy[0;39m <==    Columns: count(0)
+2021-02-01 15:32:37.048 TRACE c.c.server.mapper.UserMapper.selectByExample_COUNT:165  [32mrfBqcCiy[0;39m <==        Row: 5
+2021-02-01 15:32:37.048 DEBUG c.c.server.mapper.UserMapper.selectByExample_COUNT:159  [32mrfBqcCiy[0;39m <==      Total: 1
+2021-02-01 15:32:37.049 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mrfBqcCiy[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ? 
+2021-02-01 15:32:37.049 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mrfBqcCiy[0;39m ==> Parameters: 9999(Integer)
+2021-02-01 15:32:37.050 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrfBqcCiy[0;39m <==    Columns: id, login_name, name, password
+2021-02-01 15:32:37.050 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrfBqcCiy[0;39m <==        Row: 10000000, test, 测试, 202cb962ac59075b964b07152d234b70
+2021-02-01 15:32:37.051 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrfBqcCiy[0;39m <==        Row: 9YqgFeS5, 111, 111, badac3d021b37a1fc6f4d5c57131a66a
+2021-02-01 15:32:37.051 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrfBqcCiy[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-01 15:32:37.051 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrfBqcCiy[0;39m <==        Row: V6toLJWU, 1, 112, 4e83ed9a9c687040b9ab6320c6d4f0fe
+2021-02-01 15:32:37.051 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mrfBqcCiy[0;39m <==        Row: X8SVzQpN, 1111, 1, dece072884d077ce89565ed1e538fd05
+2021-02-01 15:32:37.052 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mrfBqcCiy[0;39m <==      Total: 5
+2021-02-01 15:32:37.053 INFO  com.course.server.config.LogAspect                :109  [32mrfBqcCiy[0;39m 返回结果: {"content":{"list":[{"id":"10000000","loginName":"test","name":"测试"},{"id":"9YqgFeS5","loginName":"111","name":"111"},{"id":"iQo2vRvN","loginName":"yuran","name":"yuran"},{"id":"V6toLJWU","loginName":"1","name":"112"},{"id":"X8SVzQpN","loginName":"1111","name":"1"}],"page":1,"size":9999,"total":5},"success":true}
+2021-02-01 15:32:37.053 INFO  com.course.server.config.LogAspect                :110  [32mrfBqcCiy[0;39m ------------- 结束 耗时：9 ms -------------
+2021-02-01 15:32:37.060 INFO  com.course.server.config.LogAspect                :76   [32mDPU8Tq5p[0;39m ------------- 【角色】查询开始 -------------
+2021-02-01 15:32:37.061 INFO  com.course.server.config.LogAspect                :77   [32mDPU8Tq5p[0;39m 请求地址: http://127.0.0.1:9001/system/admin/role/list-user/00000002 GET
+2021-02-01 15:32:37.061 INFO  com.course.server.config.LogAspect                :78   [32mDPU8Tq5p[0;39m 类名方法: com.course.system.controller.admin.RoleController.listUser
+2021-02-01 15:32:37.061 INFO  com.course.server.config.LogAspect                :79   [32mDPU8Tq5p[0;39m 远程地址: 127.0.0.1
+2021-02-01 15:32:37.061 INFO  com.course.server.config.LogAspect                :97   [32mDPU8Tq5p[0;39m 请求参数: ["00000002"]
+2021-02-01 15:32:37.061 INFO  com.course.system.controller.admin.RoleController :107  [32mDPU8Tq5p[0;39m 加载用户开始
+2021-02-01 15:32:37.062 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mDPU8Tq5p[0;39m ==>  Preparing: select id, role_id, user_id from role_user WHERE ( role_id = ? ) 
+2021-02-01 15:32:37.063 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mDPU8Tq5p[0;39m ==> Parameters: 00000002(String)
+2021-02-01 15:32:37.064 DEBUG c.c.server.mapper.RoleUserMapper.selectByExample  :159  [32mDPU8Tq5p[0;39m <==      Total: 0
+2021-02-01 15:32:37.064 INFO  com.course.server.config.LogAspect                :109  [32mDPU8Tq5p[0;39m 返回结果: {"content":[],"success":true}
+2021-02-01 15:32:37.064 INFO  com.course.server.config.LogAspect                :110  [32mDPU8Tq5p[0;39m ------------- 结束 耗时：4 ms -------------
