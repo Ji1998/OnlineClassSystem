@@ -90,3 +90,290 @@
 2021-02-03 11:26:47.278 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
 2021-02-03 11:27:47.282 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
 2021-02-03 11:28:47.285 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 11:29:47.289 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:30:47.292 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 11:31:47.294 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 11:32:47.143 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 8
+2021-02-03 11:32:47.299 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:33:47.302 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 11:34:47.306 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:35:47.310 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:36:47.315 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:37:47.319 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:38:47.320 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 11:39:47.321 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 11:40:38.337 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=false)
+2021-02-03 11:40:38.844 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=true)
+2021-02-03 11:40:41.365 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance BUSINESS/192.168.1.11:business:9002 (replication=false)
+2021-02-03 11:40:41.877 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.11:business:9002
+2021-02-03 11:40:41.877 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): BUSINESS - 192.168.1.11:business:9002
+2021-02-03 11:40:41.878 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task BUSINESS/192.168.1.11:business:9002:Cancel@localhost failed with response code 404
+2021-02-03 11:40:41.878 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m BUSINESS/192.168.1.11:business:9002:Cancel@localhost: missing entry.
+2021-02-03 11:40:47.320 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 11:40:51.630 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status UP (replication=false)
+2021-02-03 11:40:52.135 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status UP (replication=true)
+2021-02-03 11:41:47.320 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 11:42:47.324 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 11:42:48.955 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=false)
+2021-02-03 11:42:49.467 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=true)
+2021-02-03 11:42:51.977 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance BUSINESS/192.168.1.11:business:9002 (replication=false)
+2021-02-03 11:42:52.121 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:353  [32m        [0;39m DS: Registry: lease doesn't exist, registering resource: BUSINESS - 192.168.1.11:business:9002
+2021-02-03 11:42:52.122 WARN  com.netflix.eureka.resources.InstanceResource     :116  [32m        [0;39m Not Found (Renew): BUSINESS - 192.168.1.11:business:9002
+2021-02-03 11:42:52.122 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.11:business:9002
+2021-02-03 11:42:52.122 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): BUSINESS - 192.168.1.11:business:9002
+2021-02-03 11:42:52.123 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task BUSINESS/192.168.1.11:business:9002:Heartbeat@localhost failed with response code 404
+2021-02-03 11:42:52.123 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :212  [32m        [0;39m BUSINESS/192.168.1.11:business:9002:Heartbeat@localhost: missing entry.
+2021-02-03 11:42:52.123 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :214  [32m        [0;39m BUSINESS/192.168.1.11:business:9002:Heartbeat@localhost: cannot find instance id 192.168.1.11:business:9002 and hence replicating the instance with status DOWN
+2021-02-03 11:42:52.123 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task BUSINESS/192.168.1.11:business:9002:Cancel@localhost failed with response code 404
+2021-02-03 11:42:52.123 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m BUSINESS/192.168.1.11:business:9002:Cancel@localhost: missing entry.
+2021-02-03 11:42:52.634 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=true)
+2021-02-03 11:43:47.326 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 11:44:47.326 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 11:44:47.326 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:611  [32m        [0;39m Evicting 1 items (expired=1, evictionLimit=1)
+2021-02-03 11:44:47.326 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:623  [32m        [0;39m DS: Registry: expired lease for BUSINESS/192.168.1.11:business:9002
+2021-02-03 11:44:47.327 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance BUSINESS/192.168.1.11:business:9002 (replication=false)
+2021-02-03 11:45:47.331 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:46:47.334 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 11:47:47.145 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 8
+2021-02-03 11:47:47.336 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 15ms
+2021-02-03 11:48:09.818 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status UP (replication=false)
+2021-02-03 11:48:10.330 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status UP (replication=true)
+2021-02-03 11:48:47.342 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 11:49:47.347 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:50:47.348 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 11:51:47.349 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 11:52:47.351 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 11:53:47.356 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 11:54:47.361 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:55:47.365 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 11:56:47.367 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 11:57:47.372 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 11:58:47.373 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 11:59:47.377 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 12:00:47.378 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:01:47.383 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 12:02:47.158 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 12:02:47.386 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 12:03:47.392 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 12:04:47.398 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 12:05:47.401 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 12:06:47.407 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 12:07:47.411 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 12:08:18.849 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=false)
+2021-02-03 12:08:19.352 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=true)
+2021-02-03 12:08:21.867 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status DOWN (replication=false)
+2021-02-03 12:08:21.999 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance BUSINESS/192.168.1.11:business:9002 (replication=false)
+2021-02-03 12:08:22.375 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status DOWN (replication=true)
+2021-02-03 12:08:22.376 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.11:business:9002
+2021-02-03 12:08:22.376 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): BUSINESS - 192.168.1.11:business:9002
+2021-02-03 12:08:22.376 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task BUSINESS/192.168.1.11:business:9002:Cancel@localhost failed with response code 404
+2021-02-03 12:08:22.376 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m BUSINESS/192.168.1.11:business:9002:Cancel@localhost: missing entry.
+2021-02-03 12:08:23.131 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.1.11:system:9001 with status DOWN (replication=false)
+2021-02-03 12:08:23.635 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.1.11:system:9001 with status DOWN (replication=true)
+2021-02-03 12:08:24.889 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance FILE/192.168.1.11:file:9003 (replication=false)
+2021-02-03 12:08:25.391 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: FILE/192.168.1.11:file:9003
+2021-02-03 12:08:25.391 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): FILE - 192.168.1.11:file:9003
+2021-02-03 12:08:25.392 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task FILE/192.168.1.11:file:9003:Cancel@localhost failed with response code 404
+2021-02-03 12:08:25.392 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m FILE/192.168.1.11:file:9003:Cancel@localhost: missing entry.
+2021-02-03 12:08:26.267 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance SYSTEM/192.168.1.11:system:9001 (replication=false)
+2021-02-03 12:08:26.770 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: SYSTEM/192.168.1.11:system:9001
+2021-02-03 12:08:26.771 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): SYSTEM - 192.168.1.11:system:9001
+2021-02-03 12:08:26.771 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task SYSTEM/192.168.1.11:system:9001:Cancel@localhost failed with response code 404
+2021-02-03 12:08:26.771 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m SYSTEM/192.168.1.11:system:9001:Cancel@localhost: missing entry.
+2021-02-03 12:08:47.414 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 12:09:47.419 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 12:09:54.681 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.1.11:system:9001 with status UP (replication=false)
+2021-02-03 12:09:54.758 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.1.11:system:9001 with status UP (replication=true)
+2021-02-03 12:10:03.936 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status UP (replication=false)
+2021-02-03 12:10:04.445 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status UP (replication=true)
+2021-02-03 12:10:13.357 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status UP (replication=false)
+2021-02-03 12:10:13.865 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status UP (replication=true)
+2021-02-03 12:10:47.423 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 12:11:47.425 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:12:47.429 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 12:13:47.431 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:14:47.433 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 12:15:47.435 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:16:47.441 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 12:17:47.180 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 12:17:47.444 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 12:18:47.449 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 12:19:47.450 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 17ms
+2021-02-03 12:20:47.451 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:21:47.456 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 12:22:47.460 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 12:23:47.465 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 12:24:47.469 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 12:25:47.475 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 12:26:47.483 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-02-03 12:27:47.489 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 12:28:47.496 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 12:29:47.506 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 12:30:47.515 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-02-03 12:31:47.524 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 8ms
+2021-02-03 12:32:47.188 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 12:32:47.531 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 12:33:47.539 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-02-03 12:34:47.550 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 10ms
+2021-02-03 12:35:47.557 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:36:47.561 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:37:47.565 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 12:38:47.576 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 12:39:47.582 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 12:40:47.585 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:41:47.596 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 12:42:47.607 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 12:43:47.616 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 12:44:47.628 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 12:45:47.639 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 12:46:47.640 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:47:47.230 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 12:47:47.642 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:48:47.654 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 10ms
+2021-02-03 12:49:47.664 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 8ms
+2021-02-03 12:50:47.671 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 12:51:47.677 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 12:52:47.688 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 12:53:47.692 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 12:54:47.704 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 10ms
+2021-02-03 12:55:47.707 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 12:56:47.714 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 12:57:47.716 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 12:58:47.727 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 12:59:47.730 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 13:00:47.737 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:01:47.748 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 13:02:47.261 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 13:02:47.756 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:03:47.759 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 13:04:47.761 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 13:05:47.765 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 77ms
+2021-02-03 13:06:47.775 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 10ms
+2021-02-03 13:07:47.780 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 13:08:47.790 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 8ms
+2021-02-03 13:09:47.800 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 13:10:47.801 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 13:11:47.812 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 10ms
+2021-02-03 13:12:47.819 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-02-03 13:13:47.827 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:14:47.836 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 13:15:47.841 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 13:16:47.845 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 13:17:47.269 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 13:17:47.855 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 13:18:47.857 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 13:19:47.863 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 13:20:47.923 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 13:21:47.928 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 13:22:47.937 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:23:47.946 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:24:47.952 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 13:25:47.961 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:26:47.968 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:27:47.975 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:28:47.977 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 13:29:47.985 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:30:47.992 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:31:47.999 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:32:47.345 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 13:32:48.008 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:33:48.018 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:34:48.028 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:35:48.038 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:36:48.043 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 13:37:48.055 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 13:38:48.065 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 8ms
+2021-02-03 13:39:48.072 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:40:48.083 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 13:41:48.085 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 13:42:48.092 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:43:48.101 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:44:48.104 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 13:45:48.116 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 13:46:48.123 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:47:47.375 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 13:47:48.132 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:48:48.136 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 13:49:48.146 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:50:48.146 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 13:51:48.146 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 13:52:48.150 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 13:53:48.160 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 8ms
+2021-02-03 13:54:48.170 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 8ms
+2021-02-03 13:55:48.180 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:56:48.189 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:57:48.197 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 13:58:48.206 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 13:59:48.208 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 14:00:48.218 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 7ms
+2021-02-03 14:01:48.224 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 14:02:47.396 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 14:02:48.232 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-02-03 14:03:48.235 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 14:04:48.246 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 9ms
+2021-02-03 14:05:48.247 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 8ms
+2021-02-03 14:06:48.248 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-02-03 14:07:48.253 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 14:08:48.258 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 14:09:48.265 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 14:10:48.268 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 14:11:48.275 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 14:12:48.282 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 14:13:48.284 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 14:14:48.289 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 14:15:48.294 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 14:16:48.301 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 14:17:47.417 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 10
+2021-02-03 14:17:48.304 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 14:18:48.309 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 14:19:48.311 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 14:20:48.312 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 6ms
+2021-02-03 14:21:48.312 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 14:22:48.317 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 14:23:48.322 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 14:24:48.327 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 14:25:48.333 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 14:26:48.340 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 14:27:48.347 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 5ms
+2021-02-03 14:28:48.350 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 14:29:48.352 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 14:30:48.358 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 14:31:48.360 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 0ms
+2021-02-03 14:32:04.185 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.1.11:system:9001 with status DOWN (replication=false)
+2021-02-03 14:32:04.697 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.1.11:system:9001 with status DOWN (replication=true)
+2021-02-03 14:32:06.396 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=false)
+2021-02-03 14:32:06.592 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=true)
+2021-02-03 14:32:06.595 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task BUSINESS/192.168.1.11:business:9002:Heartbeat@localhost failed with response code 409
+2021-02-03 14:32:06.595 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :361  [32m        [0;39m Peer wants us to take the instance information from it, since the timestamp differs,Id : 192.168.1.11:business:9002 My Timestamp : 1612372203915, Peer's timestamp: 1612380726393
+2021-02-03 14:32:06.596 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status DOWN (replication=true)
+2021-02-03 14:32:07.223 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance SYSTEM/192.168.1.11:system:9001 (replication=false)
+2021-02-03 14:32:07.734 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: SYSTEM/192.168.1.11:system:9001
+2021-02-03 14:32:07.734 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): SYSTEM - 192.168.1.11:system:9001
+2021-02-03 14:32:07.735 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task SYSTEM/192.168.1.11:system:9001:Cancel@localhost failed with response code 404
+2021-02-03 14:32:07.735 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m SYSTEM/192.168.1.11:system:9001:Cancel@localhost: missing entry.
+2021-02-03 14:32:08.410 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status DOWN (replication=false)
+2021-02-03 14:32:08.918 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status DOWN (replication=true)
+2021-02-03 14:32:09.532 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance BUSINESS/192.168.1.11:business:9002 (replication=false)
+2021-02-03 14:32:10.034 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: BUSINESS/192.168.1.11:business:9002
+2021-02-03 14:32:10.034 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): BUSINESS - 192.168.1.11:business:9002
+2021-02-03 14:32:10.034 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task BUSINESS/192.168.1.11:business:9002:Cancel@localhost failed with response code 404
+2021-02-03 14:32:10.034 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m BUSINESS/192.168.1.11:business:9002:Cancel@localhost: missing entry.
+2021-02-03 14:32:11.444 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance FILE/192.168.1.11:file:9003 (replication=false)
+2021-02-03 14:32:11.947 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: FILE/192.168.1.11:file:9003
+2021-02-03 14:32:11.947 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): FILE - 192.168.1.11:file:9003
+2021-02-03 14:32:11.947 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task FILE/192.168.1.11:file:9003:Cancel@localhost failed with response code 404
+2021-02-03 14:32:11.948 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m FILE/192.168.1.11:file:9003:Cancel@localhost: missing entry.
+2021-02-03 14:32:47.429 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :539  [32m        [0;39m Current renewal threshold is : 5
+2021-02-03 14:32:48.367 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 4ms
+2021-02-03 14:33:19.627 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status UP (replication=false)
+2021-02-03 14:33:20.138 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance BUSINESS/192.168.1.11:business:9002 with status UP (replication=true)
+2021-02-03 14:33:28.854 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status UP (replication=false)
+2021-02-03 14:33:29.360 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance FILE/192.168.1.11:file:9003 with status UP (replication=true)
+2021-02-03 14:33:36.234 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.1.11:system:9001 with status UP (replication=false)
+2021-02-03 14:33:36.744 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.1.11:system:9001 with status UP (replication=true)
+2021-02-03 14:33:48.371 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2021-02-03 14:34:48.376 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 14:35:48.385 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 14:36:48.392 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
+2021-02-03 14:37:48.397 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2021-02-03 14:38:48.403 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
