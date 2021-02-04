@@ -3,10 +3,15 @@
 
     <section class="jumbotron text-center">
       <div class="container">
-        <h1>在线视频课程平台</h1>
+        <h1>友情提示</h1>
         <p class="lead text-muted m-3">
-          知识付费时代刚刚起步，在这个领域有很多的发展机会。整个课程以实战为基础，手把手从零开始，一步一步搭建一个完整的企业级开发架构。不讲废话，只讲干货。
+          本项目的全套视频课程<a href="https://coding.imooc.com/class/416.html" target="_blank"><b> 点击获取</b></a>，手把手从框架搭建到部署上线
         </p>
+        <p class="lead text-muted m-3">
+          控台：<a href="http://admin.courseimooc.com" target="_blank"><b>admin.courseimooc.com</b></a>，用户名密码test/test
+        </p>
+        <p class="lead text-muted m-3">
+          公众号：<b>甲蛙全栈</b>，图文+视频，分享12年实战经验
         <p>
           <router-link to="/list" class="btn btn-primary my-2 p-3 font-weight-bold">点击进入所有课程</router-link>
         </p>
@@ -57,11 +62,22 @@ export default {
      */
     listNew() {
       let _this = this;
+
+      // 新上好课不经常变，又经常被访问，适合用缓存
+      // 判断是否有缓存
+      let news = SessionStorage.get("news");
+      if (!Tool.isEmpty(news)) {
+        _this.news = news;
+        return;
+      }
+
       _this.$ajax.get(process.env.VUE_APP_SERVER + '/business/web/course/list-new').then((response)=>{
         console.log("查询新上好课结果：", response);
         let resp = response.data;
         if (resp.success) {
           _this.news = resp.content;
+          // 保存到缓存
+          SessionStorage.set("news", _this.news);
         }
       }).catch((response)=>{
         console.log("error：", response);
