@@ -11,7 +11,6 @@
 		<module>business</module>
 		<module>generator</module>
 		<module>file</module>
-		<module>file</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -109,22 +108,11 @@
 							<artifactId>kaptcha</artifactId>
 							<version>2.3.2</version>
 						</dependency>
-			<dependency>
-								<groupId>com.alibaba</groupId>
-								<artifactId>fastjson</artifactId>
-								<version>1.2.60</version>
-							</dependency>
-
 		</dependencies>
 	</dependencyManagement>
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-
 			<!-- mybatis generator 自动生成代码插件 -->
 			<plugin>
 				<groupId>org.mybatis.generator</groupId>
