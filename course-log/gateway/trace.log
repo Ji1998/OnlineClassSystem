@@ -986,3 +986,11 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-02-04 23:09:02.255 INFO  c.n.loadbalancer.DynamicServerListLoadBalancer    :150  [32m        [0;39m DynamicServerListLoadBalancer for client business initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=business,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@564bd8f
 2021-02-04 23:09:33.275 INFO  com.netflix.config.ChainedDynamicProperty         :115  [32m        [0;39m Flipping property: business.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
 2021-02-04 23:13:05.379 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:18:05.389 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:23:05.399 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:28:05.327 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:33:05.331 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:38:05.336 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:39:24.912 INFO  com.course.gateway.filter.LoginAdminGatewayFilter :39   [32m        [0;39m 不需要控台登录验证：/system/admin/kaptcha/image-code/rqsn9r4L
+2021-02-04 23:39:31.384 INFO  com.course.gateway.filter.LoginAdminGatewayFilter :39   [32m        [0;39m 不需要控台登录验证：/system/admin/kaptcha/image-code/ge3zhVIw
+2021-02-04 23:39:34.544 INFO  com.course.gateway.filter.LoginAdminGatewayFilter :39   [32m        [0;39m 不需要控台登录验证：/system/admin/user/login

@@ -3319,3 +3319,4 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2021-02-04 23:09:45.707 ERROR com.course.server.config.LogAspect                :70   [32mUmGMLptL[0;39m 未获取到业务名称

@@ -2830,3 +2830,133 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-02-04 23:08:44.141 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
 2021-02-04 23:08:44.167 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
 2021-02-04 23:13:14.063 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:18:14.076 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:23:14.089 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:28:14.013 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:33:14.022 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:38:14.026 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:38:44.830 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-02-04 23:38:44.831 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612499924831, current=DOWN, previous=UP]
+2021-02-04 23:38:44.832 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-02-04 23:38:44.837 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-02-04 23:38:44.840 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-04 23:38:44.860 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-04 23:38:47.864 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-02-04 23:38:47.868 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - deregister  status: 200
+2021-02-04 23:38:47.884 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-04 23:38:48.144 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-04 23:38:48.202 INFO  com.course.system.config.SystemApplication        :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-04 23:38:48.674 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-04 23:38:48.675 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-04 23:38:48.677 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2021-02-04 23:38:48.827 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=eaa104e5-9856-39e5-a7cc-3fa9bc7e17b9
+2021-02-04 23:38:48.861 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-04 23:38:48.876 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-04 23:38:48.972 WARN  org.apache.tomcat.util.modeler.Registry           :173  [32m        [0;39m The MBean registry cannot be disabled because it has already been initialised
+2021-02-04 23:38:48.999 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-02-04 23:38:49.000 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-04 23:38:49.000 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-04 23:38:49.000 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-04 23:38:49.031 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-04 23:38:49.032 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 825 ms
+2021-02-04 23:38:49.633 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-04 23:38:49.634 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-04 23:38:49.928 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-04 23:38:50.698 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-02-04 23:38:50.944 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-02-04 23:38:50.998 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-04 23:38:51.084 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-04 23:38:51.114 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-04 23:38:51.121 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-02-04 23:38:51.122 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-02-04 23:38:51.123 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-02-04 23:38:51.123 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-02-04 23:38:51.288 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-04 23:38:51.294 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-02-04 23:38:51.295 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-02-04 23:38:51.295 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-02-04 23:38:51.296 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-02-04 23:38:51.296 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-02-04 23:38:51.296 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-02-04 23:38:51.297 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-04 23:38:51.308 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-02-04 23:38:51.310 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-04 23:38:51.311 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-04 23:38:51.313 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612499931313 with initial instances count: 3
+2021-02-04 23:38:51.325 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-02-04 23:38:51.325 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612499931325, current=UP, previous=STARTING]
+2021-02-04 23:38:51.326 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001: registering service...
+2021-02-04 23:38:51.334 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.11:system:9001 - registration status: 204
+2021-02-04 23:38:51.340 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-02-04 23:38:51.344 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-02-04 23:38:51.345 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
+2021-02-04 23:38:51.351 INFO  com.course.system.config.SystemApplication        :61   [32m        [0;39m Started SystemApplication in 3.329 seconds (JVM running for 1842.427)
+2021-02-04 23:38:51.355 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-02-04 23:38:51.356 INFO  com.course.system.config.SystemApplication        :24   [32m        [0;39m 启动成功！！
+2021-02-04 23:38:51.356 INFO  com.course.system.config.SystemApplication        :25   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-02-04 23:39:24.988 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-04 23:39:24.989 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-02-04 23:39:25.004 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 14 ms
+2021-02-04 23:39:25.051 INFO  com.course.server.config.LogAspect                :76   [32mAo05qhaP[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-02-04 23:39:25.051 INFO  com.course.server.config.LogAspect                :77   [32mAo05qhaP[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/rqsn9r4L GET
+2021-02-04 23:39:25.052 INFO  com.course.server.config.LogAspect                :78   [32mAo05qhaP[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-02-04 23:39:25.052 INFO  com.course.server.config.LogAspect                :79   [32mAo05qhaP[0;39m 远程地址: 127.0.0.1
+2021-02-04 23:39:25.056 INFO  com.course.server.config.LogAspect                :97   [32mAo05qhaP[0;39m 请求参数: ["rqsn9r4L",null,null]
+2021-02-04 23:39:25.260 INFO  io.lettuce.core.EpollProvider                     :68   [32mAo05qhaP[0;39m Starting without optional epoll library
+2021-02-04 23:39:25.263 INFO  io.lettuce.core.KqueueProvider                    :70   [32mAo05qhaP[0;39m Starting without optional kqueue library
+2021-02-04 23:39:29.596 INFO  com.course.server.config.LogAspect                :109  [32mAo05qhaP[0;39m 返回结果: null
+2021-02-04 23:39:29.596 INFO  com.course.server.config.LogAspect                :110  [32mAo05qhaP[0;39m ------------- 结束 耗时：4550 ms -------------
+2021-02-04 23:39:31.391 INFO  com.course.server.config.LogAspect                :76   [32mK22bBKg1[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-02-04 23:39:31.392 INFO  com.course.server.config.LogAspect                :77   [32mK22bBKg1[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/ge3zhVIw GET
+2021-02-04 23:39:31.393 INFO  com.course.server.config.LogAspect                :78   [32mK22bBKg1[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-02-04 23:39:31.393 INFO  com.course.server.config.LogAspect                :79   [32mK22bBKg1[0;39m 远程地址: 127.0.0.1
+2021-02-04 23:39:31.394 INFO  com.course.server.config.LogAspect                :97   [32mK22bBKg1[0;39m 请求参数: ["ge3zhVIw",null,null]
+2021-02-04 23:39:31.620 INFO  com.course.server.config.LogAspect                :109  [32mK22bBKg1[0;39m 返回结果: null
+2021-02-04 23:39:31.620 INFO  com.course.server.config.LogAspect                :110  [32mK22bBKg1[0;39m ------------- 结束 耗时：229 ms -------------
+2021-02-04 23:39:34.570 INFO  com.course.server.config.LogAspect                :76   [32mo5rfEYtE[0;39m ------------- 【用户】操作开始 -------------
+2021-02-04 23:39:34.571 INFO  com.course.server.config.LogAspect                :77   [32mo5rfEYtE[0;39m 请求地址: http://127.0.0.1:9001/system/admin/user/login POST
+2021-02-04 23:39:34.571 INFO  com.course.server.config.LogAspect                :78   [32mo5rfEYtE[0;39m 类名方法: com.course.system.controller.admin.UserController.login
+2021-02-04 23:39:34.572 INFO  com.course.server.config.LogAspect                :79   [32mo5rfEYtE[0;39m 远程地址: 127.0.0.1
+2021-02-04 23:39:34.578 INFO  com.course.server.config.LogAspect                :97   [32mo5rfEYtE[0;39m 请求参数: [{"imageCode":"dyyx","imageCodeToken":"ge3zhVIw","loginName":"yuran","password":"3a3eb89f53a7a14d9b7289eb3816ecb1"},null]
+2021-02-04 23:39:34.582 INFO  com.course.system.controller.admin.UserController :88   [32mo5rfEYtE[0;39m 用户登录开始
+2021-02-04 23:39:34.813 INFO  com.course.system.controller.admin.UserController :95   [32mo5rfEYtE[0;39m 从redis中获取到的验证码：dyyx
+2021-02-04 23:39:35.182 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mo5rfEYtE[0;39m HikariPool-1 - Starting...
+2021-02-04 23:39:35.183 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mo5rfEYtE[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-02-04 23:39:35.498 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mo5rfEYtE[0;39m HikariPool-1 - Start completed.
+2021-02-04 23:39:35.507 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mo5rfEYtE[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? ) 
+2021-02-04 23:39:35.538 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mo5rfEYtE[0;39m ==> Parameters: yuran(String)
+2021-02-04 23:39:35.565 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mo5rfEYtE[0;39m <==    Columns: id, login_name, name, password
+2021-02-04 23:39:35.565 TRACE c.course.server.mapper.UserMapper.selectByExample :165  [32mo5rfEYtE[0;39m <==        Row: iQo2vRvN, yuran, yuran, 5ebbac3df174b3270e3305b23eb74ca0
+2021-02-04 23:39:35.567 DEBUG c.course.server.mapper.UserMapper.selectByExample :159  [32mo5rfEYtE[0;39m <==      Total: 1
+2021-02-04 23:39:35.583 DEBUG c.c.server.mapper.my.MyUserMapper.findResources   :159  [32mo5rfEYtE[0;39m ==>  Preparing: select distinct r.id, r.`name`, r.page, r.request, r.parent from role_user ru, role_resource rr, resource r where ru.user_id = ? and ru.role_id = rr.role_id and rr.resource_id = r.id order by r.id asc 
+2021-02-04 23:39:35.584 DEBUG c.c.server.mapper.my.MyUserMapper.findResources   :159  [32mo5rfEYtE[0;39m ==> Parameters: iQo2vRvN(String)
+2021-02-04 23:39:35.591 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==    Columns: id, name, page, request, parent
+2021-02-04 23:39:35.591 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 00, 欢迎, welcome, null, 
+2021-02-04 23:39:35.593 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 01, 系统管理, null, null, 
+2021-02-04 23:39:35.594 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0101, 用户管理, system/user, null, 01
+2021-02-04 23:39:35.595 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 010101, 保存, null, ["/system/admin/user/list","/system/admin/user/save"], 0101
+2021-02-04 23:39:35.596 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 010102, 删除, null, ["/system/admin/user/delete"], 0101
+2021-02-04 23:39:35.596 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 010103, 重置密码, null, ["/system/admin/user/save-password"], 0101
+2021-02-04 23:39:35.597 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0102, 资源管理, system/resource, null, 01
+2021-02-04 23:39:35.598 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 010201, 保存/显示, null, ["/system/admin/resource"], 0102
+2021-02-04 23:39:35.598 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0103, 角色管理, system/role, null, 01
+2021-02-04 23:39:35.599 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 010301, 角色/权限管理, null, ["/system/admin/role"], 0103
+2021-02-04 23:39:35.600 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 02, 业务管理, null, null, 
+2021-02-04 23:39:35.600 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0201, 分类管理, business/category, null, 02
+2021-02-04 23:39:35.601 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 020101, 增删改查, null, ["/business/admin/category"], 0201
+2021-02-04 23:39:35.601 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0202, 课程管理, business/course, null, 02
+2021-02-04 23:39:35.602 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 020201, 增删改查, null, ["/business/admin/course","/business/admin/category/all"], 0202
+2021-02-04 23:39:35.602 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0203, 讲师管理, business/teacher, null, 02
+2021-02-04 23:39:35.605 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 020301, 增删改查, null, ["/business/admin/teacher"], 0203
+2021-02-04 23:39:35.605 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0204, 会员管理, business/member, null, 02
+2021-02-04 23:39:35.606 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 020401, 增删改查, null, ["/business/admin/member"], 0204
+2021-02-04 23:39:35.607 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0205, 短信管理, business/sms, null, 02
+2021-02-04 23:39:35.607 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 020501, 增删改查, null, ["/business/admin/sms"], 0205
+2021-02-04 23:39:35.608 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 03, 文件管理, null, null, 
+2021-02-04 23:39:35.608 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 0301, 文件管理, file/file, null, 03
+2021-02-04 23:39:35.609 TRACE c.c.server.mapper.my.MyUserMapper.findResources   :165  [32mo5rfEYtE[0;39m <==        Row: 030101, 文件管理, null, ["/file/admin/file"], 0301
+2021-02-04 23:39:35.609 DEBUG c.c.server.mapper.my.MyUserMapper.findResources   :159  [32mo5rfEYtE[0;39m <==      Total: 24
+2021-02-04 23:39:35.622 INFO  com.course.server.service.UserService             :162  [32mo5rfEYtE[0;39m 有权限的请求：[/system/admin/user/save, /business/admin/teacher, /system/admin/user/save-password, /system/admin/role, /business/admin/sms, /system/admin/user/delete, /business/admin/category/all, /business/admin/category, /business/admin/course, /business/admin/member, /system/admin/user/list, /system/admin/resource, /file/admin/file]
+2021-02-04 23:39:35.623 INFO  com.course.system.controller.admin.UserController :116  [32mo5rfEYtE[0;39m 用户登陆TOKE：
+2021-02-04 23:39:36.129 INFO  com.course.server.config.LogAspect                :109  [32mo5rfEYtE[0;39m 返回结果: {"content":{"id":"iQo2vRvN","loginName":"yuran","name":"yuran","requests":["/system/admin/user/save","/business/admin/teacher","/system/admin/user/save-password","/system/admin/role","/business/admin/sms","/system/admin/user/delete","/business/admin/category/all","/business/admin/category","/business/admin/course","/business/admin/member","/system/admin/user/list","/system/admin/resource","/file/admin/file"],"resources":[{"id":"00","name":"欢迎","page":"welcome","parent":""},{"id":"01","name":"系统管理","parent":""},{"id":"0101","name":"用户管理","page":"system/user","parent":"01"},{"id":"010101","name":"保存","parent":"0101","request":"[\"/system/admin/user/list\",\"/system/admin/user/save\"]"},{"id":"010102","name":"删除","parent":"0101","request":"[\"/system/admin/user/delete\"]"},{"id":"010103","name":"重置密码","parent":"0101","request":"[\"/system/admin/user/save-password\"]"},{"id":"0102","name":"资源管理","page":"system/resource","parent":"01"},{"id":"010201","name":"保存/显示","parent":"0102","request":"[\"/system/admin/resource\"]"},{"id":"0103","name":"角色管理","page":"system/role","parent":"01"},{"id":"010301","name":"角色/权限管理","parent":"0103","request":"[\"/system/admin/role\"]"},{"id":"02","name":"业务管理","parent":""},{"id":"0201","name":"分类管理","page":"business/category","parent":"02"},{"id":"020101","name":"增删改查","parent":"0201","request":"[\"/business/admin/category\"]"},{"id":"0202","name":"课程管理","page":"business/course","parent":"02"},{"id":"020201","name":"增删改查","parent":"0202","request":"[\"/business/admin/course\",\"/business/admin/category/all\"]"},{"id":"0203","name":"讲师管理","page":"business/teacher","parent":"02"},{"id":"020301","name":"增删改查","parent":"0203","request":"[\"/business/admin/teacher\"]"},{"id":"0204","name":"会员管理","page":"business/member","parent":"02"},{"id":"020401","name":"增删改查","parent":"0204","request":"[\"/business/admin/member\"]"},{"id":"0205","name":"短信管理","page":"business/sms","parent":"02"},{"id":"020501","name":"增删改查","parent":"0205","request":"[\"/business/admin/sms\"]"},{"id":"03","name":"文件管理","parent":""},{"id":"0301","name":"文件管理","page":"file/file","parent":"03"},{"id":"030101","name":"文件管理","parent":"0301","request":"[\"/file/admin/file\"]"}],"token":"eO0boJGM"},"success":true}
+2021-02-04 23:39:36.130 INFO  com.course.server.config.LogAspect                :110  [32mo5rfEYtE[0;39m ------------- 结束 耗时：1560 ms -------------
