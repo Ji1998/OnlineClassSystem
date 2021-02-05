@@ -231,3 +231,435 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
 2021-02-05 00:01:14.475 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-05 10:58:19.524 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-05 10:58:19.526 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-05 10:58:19.527 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 10:58:19.670 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 10:58:19.769 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 10:58:20.468 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 10:58:20.470 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 10:58:20.495 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2021-02-05 10:58:20.718 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ba63dc6e-654b-3770-889b-0129e34ea086
+2021-02-05 10:58:20.829 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 10:58:20.951 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 10:58:21.378 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-02-05 10:58:21.387 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-02-05 10:58:21.388 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-05 10:58:21.388 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-05 10:58:21.488 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-05 10:58:21.488 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1703 ms
+2021-02-05 10:58:22.106 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 10:58:22.107 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 10:58:22.110 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 10:58:22.110 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 10:58:22.333 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 10:58:22.994 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-02-05 10:58:23.102 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-02-05 10:58:23.148 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-05 10:58:23.218 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-05 10:58:23.249 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-05 10:58:23.386 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-02-05 10:58:23.386 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-02-05 10:58:23.473 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-02-05 10:58:23.474 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-02-05 10:58:23.663 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 10:58:23.677 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-02-05 10:58:23.677 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-02-05 10:58:23.677 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-02-05 10:58:23.677 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-02-05 10:58:23.677 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-02-05 10:58:23.678 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-02-05 10:58:23.678 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-05 10:58:23.769 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-02-05 10:58:23.770 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-05 10:58:23.772 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-05 10:58:23.776 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612540703775 with initial instances count: 0
+2021-02-05 10:58:23.783 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-02-05 10:58:23.784 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612540703784, current=UP, previous=STARTING]
+2021-02-05 10:58:23.785 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-02-05 10:58:23.796 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-02-05 10:58:23.819 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-02-05 10:58:23.820 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-02-05 10:58:23.824 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 4.607 seconds (JVM running for 5.369)
+2021-02-05 10:58:23.826 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-02-05 10:58:23.826 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-02-05 10:58:23.827 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-02-05 10:58:53.775 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-02-05 10:58:53.776 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-02-05 10:58:53.776 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-02-05 10:58:53.776 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-02-05 10:58:53.777 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-02-05 10:58:53.777 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: false
+2021-02-05 10:58:53.777 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-05 10:58:53.805 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-02-05 11:03:23.707 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:08:23.711 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:13:23.717 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:18:23.701 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:23:23.705 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:28:23.709 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:33:23.717 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:38:23.739 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:43:23.746 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:45:29.375 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-02-05 11:45:29.376 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612543529376, current=DOWN, previous=UP]
+2021-02-05 11:45:29.376 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-02-05 11:45:29.381 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-02-05 11:45:29.401 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 11:45:29.404 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-05 11:45:32.410 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-02-05 11:45:32.416 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - deregister  status: 200
+2021-02-05 11:45:32.426 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-05 11:47:47.252 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-05 11:47:47.256 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-05 11:47:47.257 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 11:47:47.490 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 11:47:47.632 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 11:47:48.605 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 11:47:48.611 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 11:47:48.646 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2021-02-05 11:47:48.974 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ba63dc6e-654b-3770-889b-0129e34ea086
+2021-02-05 11:47:49.128 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 11:47:49.277 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 11:47:49.907 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-02-05 11:47:49.921 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-02-05 11:47:49.922 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-05 11:47:49.923 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-05 11:47:50.079 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-05 11:47:50.080 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 2422 ms
+2021-02-05 11:47:51.062 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 11:47:51.063 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 11:47:51.067 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 11:47:51.068 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 11:47:51.439 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 11:47:52.545 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-02-05 11:47:52.686 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-02-05 11:47:52.744 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-05 11:47:52.836 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-05 11:47:52.870 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-05 11:47:53.054 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-02-05 11:47:53.054 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-02-05 11:47:53.165 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-02-05 11:47:53.165 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-02-05 11:47:53.394 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:47:53.410 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-02-05 11:47:53.410 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-02-05 11:47:53.410 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-02-05 11:47:53.411 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-02-05 11:47:53.411 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-02-05 11:47:53.411 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-02-05 11:47:53.411 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-05 11:47:53.564 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-02-05 11:47:53.567 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-05 11:47:53.569 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-05 11:47:53.573 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612543673572 with initial instances count: 3
+2021-02-05 11:47:53.581 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-02-05 11:47:53.581 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612543673581, current=UP, previous=STARTING]
+2021-02-05 11:47:53.583 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-02-05 11:47:53.597 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-02-05 11:47:53.616 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-02-05 11:47:53.630 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-02-05 11:47:53.631 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-02-05 11:47:53.639 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 6.948 seconds (JVM running for 8.16)
+2021-02-05 11:47:53.641 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-02-05 11:47:53.642 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-02-05 11:48:52.315 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 11:48:52.316 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-02-05 11:48:52.330 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 14 ms
+2021-02-05 11:48:52.371 INFO  com.course.server.config.LogAspect                :76   [32mK0ysSGiA[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 11:48:52.372 INFO  com.course.server.config.LogAspect                :77   [32mK0ysSGiA[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/24sqZX2QGIiSY2448Ymw6y GET
+2021-02-05 11:48:52.372 INFO  com.course.server.config.LogAspect                :78   [32mK0ysSGiA[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-02-05 11:48:52.373 INFO  com.course.server.config.LogAspect                :79   [32mK0ysSGiA[0;39m 远程地址: 192.168.1.11
+2021-02-05 11:48:52.376 INFO  com.course.server.config.LogAspect                :97   [32mK0ysSGiA[0;39m 请求参数: ["24sqZX2QGIiSY2448Ymw6y"]
+2021-02-05 11:48:52.379 INFO  com.course.file.controller.admin.UploadController :150  [32mK0ysSGiA[0;39m 检查上传分片开始：24sqZX2QGIiSY2448Ymw6y
+2021-02-05 11:48:52.442 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mK0ysSGiA[0;39m HikariPool-1 - Starting...
+2021-02-05 11:48:52.445 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mK0ysSGiA[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-02-05 11:48:52.745 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mK0ysSGiA[0;39m HikariPool-1 - Start completed.
+2021-02-05 11:48:52.753 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mK0ysSGiA[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 11:48:52.781 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mK0ysSGiA[0;39m ==> Parameters: 24sqZX2QGIiSY2448Ymw6y(String)
+2021-02-05 11:48:52.805 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mK0ysSGiA[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-02-05 11:48:52.807 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mK0ysSGiA[0;39m <==        Row: Xr7T3O1V, course/24sqZX2QGIiSY2448Ymw6y.jpg, course_demo.JPG, jpg, 26405, C, 2021-02-01 22:12:51.843, 2021-02-01 22:12:51.843, 1, 51200, 1, 24sqZX2QGIiSY2448Ymw6y, null
+2021-02-05 11:48:52.809 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mK0ysSGiA[0;39m <==      Total: 1
+2021-02-05 11:48:52.840 INFO  com.course.server.config.LogAspect                :109  [32mK0ysSGiA[0;39m 返回结果: {"content":{"createdAt":1612235571843,"id":"Xr7T3O1V","key":"24sqZX2QGIiSY2448Ymw6y","name":"course_demo.JPG","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/course/24sqZX2QGIiSY2448Ymw6y.jpg","shardIndex":1,"shardSize":51200,"shardTotal":1,"size":26405,"suffix":"jpg","updatedAt":1612235571843,"use":"C"},"success":true}
+2021-02-05 11:48:52.841 INFO  com.course.server.config.LogAspect                :110  [32mK0ysSGiA[0;39m ------------- 结束 耗时：475 ms -------------
+2021-02-05 11:52:53.418 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 11:57:35.192 INFO  com.course.server.config.LogAspect                :76   [32m6Um0YT2s[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 11:57:35.194 INFO  com.course.server.config.LogAspect                :77   [32m6Um0YT2s[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/6BcckyDFw4I26awGIe0i0U GET
+2021-02-05 11:57:35.194 INFO  com.course.server.config.LogAspect                :78   [32m6Um0YT2s[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-02-05 11:57:35.194 INFO  com.course.server.config.LogAspect                :79   [32m6Um0YT2s[0;39m 远程地址: 192.168.1.11
+2021-02-05 11:57:35.195 INFO  com.course.server.config.LogAspect                :97   [32m6Um0YT2s[0;39m 请求参数: ["6BcckyDFw4I26awGIe0i0U"]
+2021-02-05 11:57:35.195 INFO  com.course.file.controller.admin.UploadController :150  [32m6Um0YT2s[0;39m 检查上传分片开始：6BcckyDFw4I26awGIe0i0U
+2021-02-05 11:57:35.197 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m6Um0YT2s[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 11:57:35.197 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m6Um0YT2s[0;39m ==> Parameters: 6BcckyDFw4I26awGIe0i0U(String)
+2021-02-05 11:57:35.198 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m6Um0YT2s[0;39m <==      Total: 0
+2021-02-05 11:57:35.199 INFO  com.course.server.config.LogAspect                :109  [32m6Um0YT2s[0;39m 返回结果: {"success":true}
+2021-02-05 11:57:35.199 INFO  com.course.server.config.LogAspect                :110  [32m6Um0YT2s[0;39m ------------- 结束 耗时：7 ms -------------
+2021-02-05 11:57:53.429 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:00:48.067 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-02-05 12:00:48.067 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612544448067, current=DOWN, previous=UP]
+2021-02-05 12:00:48.068 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-02-05 12:00:48.071 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-02-05 12:00:48.086 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 12:00:48.088 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-05 12:00:51.093 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-02-05 12:00:51.096 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - deregister  status: 200
+2021-02-05 12:00:51.104 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-05 12:00:51.104 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-02-05 12:00:51.110 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-02-05 12:01:52.968 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-05 12:01:52.970 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-05 12:01:52.971 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 12:01:53.146 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 12:01:53.248 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 12:01:53.905 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 12:01:53.907 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 12:01:53.929 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2021-02-05 12:01:54.132 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ba63dc6e-654b-3770-889b-0129e34ea086
+2021-02-05 12:01:54.233 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 12:01:54.346 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 12:01:54.731 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-02-05 12:01:54.739 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-02-05 12:01:54.739 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-05 12:01:54.740 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-05 12:01:54.832 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-05 12:01:54.833 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1566 ms
+2021-02-05 12:01:55.398 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 12:01:55.399 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 12:01:55.402 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 12:01:55.402 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 12:01:55.614 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 12:01:56.357 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-02-05 12:01:56.462 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-02-05 12:01:56.504 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-05 12:01:56.578 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-05 12:01:56.603 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-05 12:01:56.726 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-02-05 12:01:56.727 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-02-05 12:01:56.810 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-02-05 12:01:56.811 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-02-05 12:01:56.982 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:01:56.994 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-02-05 12:01:56.994 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-02-05 12:01:56.995 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-02-05 12:01:56.995 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-02-05 12:01:56.995 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-02-05 12:01:56.995 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-02-05 12:01:56.995 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-05 12:01:57.118 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-02-05 12:01:57.120 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-05 12:01:57.122 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-05 12:01:57.124 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612544517124 with initial instances count: 3
+2021-02-05 12:01:57.130 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-02-05 12:01:57.131 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612544517131, current=UP, previous=STARTING]
+2021-02-05 12:01:57.132 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-02-05 12:01:57.141 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-02-05 12:01:57.154 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-02-05 12:01:57.171 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-02-05 12:01:57.172 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-02-05 12:01:57.176 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 4.548 seconds (JVM running for 5.291)
+2021-02-05 12:01:57.177 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-02-05 12:01:57.178 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-02-05 12:02:44.471 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 12:02:44.471 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-02-05 12:02:44.479 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 8 ms
+2021-02-05 12:02:44.506 INFO  com.course.server.config.LogAspect                :76   [32mZ03I5NZY[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 12:02:44.507 INFO  com.course.server.config.LogAspect                :77   [32mZ03I5NZY[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/350xENzv4kkIwGUI4OyQc GET
+2021-02-05 12:02:44.507 INFO  com.course.server.config.LogAspect                :78   [32mZ03I5NZY[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-02-05 12:02:44.508 INFO  com.course.server.config.LogAspect                :79   [32mZ03I5NZY[0;39m 远程地址: 192.168.1.11
+2021-02-05 12:02:44.509 INFO  com.course.server.config.LogAspect                :97   [32mZ03I5NZY[0;39m 请求参数: ["350xENzv4kkIwGUI4OyQc"]
+2021-02-05 12:02:44.512 INFO  com.course.file.controller.admin.UploadController :150  [32mZ03I5NZY[0;39m 检查上传分片开始：350xENzv4kkIwGUI4OyQc
+2021-02-05 12:02:44.554 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mZ03I5NZY[0;39m HikariPool-1 - Starting...
+2021-02-05 12:02:44.556 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mZ03I5NZY[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-02-05 12:02:44.749 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mZ03I5NZY[0;39m HikariPool-1 - Start completed.
+2021-02-05 12:02:44.755 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mZ03I5NZY[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 12:02:44.772 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mZ03I5NZY[0;39m ==> Parameters: 350xENzv4kkIwGUI4OyQc(String)
+2021-02-05 12:02:44.787 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mZ03I5NZY[0;39m <==      Total: 0
+2021-02-05 12:02:44.801 INFO  com.course.server.config.LogAspect                :109  [32mZ03I5NZY[0;39m 返回结果: {"success":true}
+2021-02-05 12:02:44.801 INFO  com.course.server.config.LogAspect                :110  [32mZ03I5NZY[0;39m ------------- 结束 耗时：299 ms -------------
+2021-02-05 12:02:45.483 INFO  com.course.server.config.LogAspect                :76   [32mEsoZuisK[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 12:02:45.483 INFO  com.course.server.config.LogAspect                :77   [32mEsoZuisK[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-02-05 12:02:45.483 INFO  com.course.server.config.LogAspect                :78   [32mEsoZuisK[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-02-05 12:02:45.483 INFO  com.course.server.config.LogAspect                :79   [32mEsoZuisK[0;39m 远程地址: 192.168.1.11
+2021-02-05 12:02:45.487 INFO  com.course.server.config.LogAspect                :97   [32mEsoZuisK[0;39m 请求参数: [{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","shardIndex":1,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"}]
+2021-02-05 12:02:45.490 INFO  com.course.file.controller.admin.FileController   :53   [32mEsoZuisK[0;39m 上传文件开始
+2021-02-05 12:02:45.942 INFO  com.course.file.controller.admin.FileController   :133  [32mEsoZuisK[0;39m 保存文件记录开始
+2021-02-05 12:02:45.948 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mEsoZuisK[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 12:02:45.948 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mEsoZuisK[0;39m ==> Parameters: 350xENzv4kkIwGUI4OyQc(String)
+2021-02-05 12:02:45.949 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mEsoZuisK[0;39m <==      Total: 0
+2021-02-05 12:02:45.950 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32mEsoZuisK[0;39m ==>  Preparing: insert into file (id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2021-02-05 12:02:45.951 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32mEsoZuisK[0;39m ==> Parameters: HSu3cv1I(String), teacher/350xENzv4kkIwGUI4OyQc.png(String), Screen Shot 2021-01-31 at 20.54.49.png(String), png(String), 300502(Integer), T(String), 2021-02-05 12:02:45.95(Timestamp), 2021-02-05 12:02:45.95(Timestamp), 1(Integer), 51200(Integer), 6(Integer), 350xENzv4kkIwGUI4OyQc(String), null
+2021-02-05 12:02:45.954 DEBUG com.course.server.mapper.FileMapper.insert        :159  [32mEsoZuisK[0;39m <==    Updates: 1
+2021-02-05 12:02:45.955 INFO  com.course.server.config.LogAspect                :109  [32mEsoZuisK[0;39m 返回结果: {"content":{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/teacher/350xENzv4kkIwGUI4OyQc.png","shardIndex":1,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"},"success":true}
+2021-02-05 12:02:45.955 INFO  com.course.server.config.LogAspect                :110  [32mEsoZuisK[0;39m ------------- 结束 耗时：473 ms -------------
+2021-02-05 12:02:46.690 INFO  com.course.server.config.LogAspect                :76   [32miNU2ZwMv[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 12:02:46.690 INFO  com.course.server.config.LogAspect                :77   [32miNU2ZwMv[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-02-05 12:02:46.691 INFO  com.course.server.config.LogAspect                :78   [32miNU2ZwMv[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-02-05 12:02:46.691 INFO  com.course.server.config.LogAspect                :79   [32miNU2ZwMv[0;39m 远程地址: 192.168.1.11
+2021-02-05 12:02:46.691 INFO  com.course.server.config.LogAspect                :97   [32miNU2ZwMv[0;39m 请求参数: [{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","shardIndex":2,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"}]
+2021-02-05 12:02:46.691 INFO  com.course.file.controller.admin.FileController   :53   [32miNU2ZwMv[0;39m 上传文件开始
+2021-02-05 12:02:46.834 INFO  com.course.file.controller.admin.FileController   :133  [32miNU2ZwMv[0;39m 保存文件记录开始
+2021-02-05 12:02:46.836 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32miNU2ZwMv[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 12:02:46.836 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32miNU2ZwMv[0;39m ==> Parameters: 350xENzv4kkIwGUI4OyQc(String)
+2021-02-05 12:02:46.837 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32miNU2ZwMv[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-02-05 12:02:46.839 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32miNU2ZwMv[0;39m <==        Row: HSu3cv1I, teacher/350xENzv4kkIwGUI4OyQc.png, Screen Shot 2021-01-31 at 20.54.49.png, png, 300502, T, 2021-02-05 12:02:45.950, 2021-02-05 12:02:45.950, 1, 51200, 6, 350xENzv4kkIwGUI4OyQc, null
+2021-02-05 12:02:46.840 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32miNU2ZwMv[0;39m <==      Total: 1
+2021-02-05 12:02:46.841 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32miNU2ZwMv[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ?, vod = ? where id = ? 
+2021-02-05 12:02:46.842 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32miNU2ZwMv[0;39m ==> Parameters: teacher/350xENzv4kkIwGUI4OyQc.png(String), Screen Shot 2021-01-31 at 20.54.49.png(String), png(String), 300502(Integer), T(String), 2021-02-05 12:02:45.95(Timestamp), 2021-02-05 12:02:46.841(Timestamp), 2(Integer), 51200(Integer), 6(Integer), 350xENzv4kkIwGUI4OyQc(String), null, HSu3cv1I(String)
+2021-02-05 12:02:46.844 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32miNU2ZwMv[0;39m <==    Updates: 1
+2021-02-05 12:02:46.845 INFO  com.course.server.config.LogAspect                :109  [32miNU2ZwMv[0;39m 返回结果: {"content":{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/teacher/350xENzv4kkIwGUI4OyQc.png","shardIndex":2,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"},"success":true}
+2021-02-05 12:02:46.845 INFO  com.course.server.config.LogAspect                :110  [32miNU2ZwMv[0;39m ------------- 结束 耗时：155 ms -------------
+2021-02-05 12:02:47.608 INFO  com.course.server.config.LogAspect                :76   [32mMk1fyFRw[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 12:02:47.608 INFO  com.course.server.config.LogAspect                :77   [32mMk1fyFRw[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-02-05 12:02:47.608 INFO  com.course.server.config.LogAspect                :78   [32mMk1fyFRw[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-02-05 12:02:47.609 INFO  com.course.server.config.LogAspect                :79   [32mMk1fyFRw[0;39m 远程地址: 192.168.1.11
+2021-02-05 12:02:47.609 INFO  com.course.server.config.LogAspect                :97   [32mMk1fyFRw[0;39m 请求参数: [{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","shardIndex":3,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"}]
+2021-02-05 12:02:47.609 INFO  com.course.file.controller.admin.FileController   :53   [32mMk1fyFRw[0;39m 上传文件开始
+2021-02-05 12:02:47.759 INFO  com.course.file.controller.admin.FileController   :133  [32mMk1fyFRw[0;39m 保存文件记录开始
+2021-02-05 12:02:47.760 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mMk1fyFRw[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 12:02:47.761 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mMk1fyFRw[0;39m ==> Parameters: 350xENzv4kkIwGUI4OyQc(String)
+2021-02-05 12:02:47.762 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mMk1fyFRw[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-02-05 12:02:47.763 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mMk1fyFRw[0;39m <==        Row: HSu3cv1I, teacher/350xENzv4kkIwGUI4OyQc.png, Screen Shot 2021-01-31 at 20.54.49.png, png, 300502, T, 2021-02-05 12:02:45.950, 2021-02-05 12:02:46.841, 2, 51200, 6, 350xENzv4kkIwGUI4OyQc, null
+2021-02-05 12:02:47.763 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mMk1fyFRw[0;39m <==      Total: 1
+2021-02-05 12:02:47.764 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mMk1fyFRw[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ?, vod = ? where id = ? 
+2021-02-05 12:02:47.765 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mMk1fyFRw[0;39m ==> Parameters: teacher/350xENzv4kkIwGUI4OyQc.png(String), Screen Shot 2021-01-31 at 20.54.49.png(String), png(String), 300502(Integer), T(String), 2021-02-05 12:02:45.95(Timestamp), 2021-02-05 12:02:47.764(Timestamp), 3(Integer), 51200(Integer), 6(Integer), 350xENzv4kkIwGUI4OyQc(String), null, HSu3cv1I(String)
+2021-02-05 12:02:47.767 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mMk1fyFRw[0;39m <==    Updates: 1
+2021-02-05 12:02:47.768 INFO  com.course.server.config.LogAspect                :109  [32mMk1fyFRw[0;39m 返回结果: {"content":{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/teacher/350xENzv4kkIwGUI4OyQc.png","shardIndex":3,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"},"success":true}
+2021-02-05 12:02:47.768 INFO  com.course.server.config.LogAspect                :110  [32mMk1fyFRw[0;39m ------------- 结束 耗时：160 ms -------------
+2021-02-05 12:02:48.527 INFO  com.course.server.config.LogAspect                :76   [32m7yxrWXX5[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 12:02:48.528 INFO  com.course.server.config.LogAspect                :77   [32m7yxrWXX5[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-02-05 12:02:48.528 INFO  com.course.server.config.LogAspect                :78   [32m7yxrWXX5[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-02-05 12:02:48.528 INFO  com.course.server.config.LogAspect                :79   [32m7yxrWXX5[0;39m 远程地址: 192.168.1.11
+2021-02-05 12:02:48.528 INFO  com.course.server.config.LogAspect                :97   [32m7yxrWXX5[0;39m 请求参数: [{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","shardIndex":4,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"}]
+2021-02-05 12:02:48.528 INFO  com.course.file.controller.admin.FileController   :53   [32m7yxrWXX5[0;39m 上传文件开始
+2021-02-05 12:02:48.666 INFO  com.course.file.controller.admin.FileController   :133  [32m7yxrWXX5[0;39m 保存文件记录开始
+2021-02-05 12:02:48.668 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m7yxrWXX5[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 12:02:48.668 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m7yxrWXX5[0;39m ==> Parameters: 350xENzv4kkIwGUI4OyQc(String)
+2021-02-05 12:02:48.669 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32m7yxrWXX5[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-02-05 12:02:48.670 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32m7yxrWXX5[0;39m <==        Row: HSu3cv1I, teacher/350xENzv4kkIwGUI4OyQc.png, Screen Shot 2021-01-31 at 20.54.49.png, png, 300502, T, 2021-02-05 12:02:45.950, 2021-02-05 12:02:47.764, 3, 51200, 6, 350xENzv4kkIwGUI4OyQc, null
+2021-02-05 12:02:48.670 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32m7yxrWXX5[0;39m <==      Total: 1
+2021-02-05 12:02:48.671 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32m7yxrWXX5[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ?, vod = ? where id = ? 
+2021-02-05 12:02:48.672 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32m7yxrWXX5[0;39m ==> Parameters: teacher/350xENzv4kkIwGUI4OyQc.png(String), Screen Shot 2021-01-31 at 20.54.49.png(String), png(String), 300502(Integer), T(String), 2021-02-05 12:02:45.95(Timestamp), 2021-02-05 12:02:48.671(Timestamp), 4(Integer), 51200(Integer), 6(Integer), 350xENzv4kkIwGUI4OyQc(String), null, HSu3cv1I(String)
+2021-02-05 12:02:48.676 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32m7yxrWXX5[0;39m <==    Updates: 1
+2021-02-05 12:02:48.677 INFO  com.course.server.config.LogAspect                :109  [32m7yxrWXX5[0;39m 返回结果: {"content":{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/teacher/350xENzv4kkIwGUI4OyQc.png","shardIndex":4,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"},"success":true}
+2021-02-05 12:02:48.677 INFO  com.course.server.config.LogAspect                :110  [32m7yxrWXX5[0;39m ------------- 结束 耗时：150 ms -------------
+2021-02-05 12:02:49.591 INFO  com.course.server.config.LogAspect                :76   [32moJPfdjAc[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 12:02:49.591 INFO  com.course.server.config.LogAspect                :77   [32moJPfdjAc[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-02-05 12:02:49.591 INFO  com.course.server.config.LogAspect                :78   [32moJPfdjAc[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-02-05 12:02:49.591 INFO  com.course.server.config.LogAspect                :79   [32moJPfdjAc[0;39m 远程地址: 192.168.1.11
+2021-02-05 12:02:49.592 INFO  com.course.server.config.LogAspect                :97   [32moJPfdjAc[0;39m 请求参数: [{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","shardIndex":5,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"}]
+2021-02-05 12:02:49.592 INFO  com.course.file.controller.admin.FileController   :53   [32moJPfdjAc[0;39m 上传文件开始
+2021-02-05 12:02:49.735 INFO  com.course.file.controller.admin.FileController   :133  [32moJPfdjAc[0;39m 保存文件记录开始
+2021-02-05 12:02:49.736 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32moJPfdjAc[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 12:02:49.737 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32moJPfdjAc[0;39m ==> Parameters: 350xENzv4kkIwGUI4OyQc(String)
+2021-02-05 12:02:49.738 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32moJPfdjAc[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-02-05 12:02:49.738 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32moJPfdjAc[0;39m <==        Row: HSu3cv1I, teacher/350xENzv4kkIwGUI4OyQc.png, Screen Shot 2021-01-31 at 20.54.49.png, png, 300502, T, 2021-02-05 12:02:45.950, 2021-02-05 12:02:48.671, 4, 51200, 6, 350xENzv4kkIwGUI4OyQc, null
+2021-02-05 12:02:49.739 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32moJPfdjAc[0;39m <==      Total: 1
+2021-02-05 12:02:49.740 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32moJPfdjAc[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ?, vod = ? where id = ? 
+2021-02-05 12:02:49.740 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32moJPfdjAc[0;39m ==> Parameters: teacher/350xENzv4kkIwGUI4OyQc.png(String), Screen Shot 2021-01-31 at 20.54.49.png(String), png(String), 300502(Integer), T(String), 2021-02-05 12:02:45.95(Timestamp), 2021-02-05 12:02:49.74(Timestamp), 5(Integer), 51200(Integer), 6(Integer), 350xENzv4kkIwGUI4OyQc(String), null, HSu3cv1I(String)
+2021-02-05 12:02:49.742 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32moJPfdjAc[0;39m <==    Updates: 1
+2021-02-05 12:02:49.742 INFO  com.course.server.config.LogAspect                :109  [32moJPfdjAc[0;39m 返回结果: {"content":{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/teacher/350xENzv4kkIwGUI4OyQc.png","shardIndex":5,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"},"success":true}
+2021-02-05 12:02:49.743 INFO  com.course.server.config.LogAspect                :110  [32moJPfdjAc[0;39m ------------- 结束 耗时：152 ms -------------
+2021-02-05 12:02:51.197 INFO  com.course.server.config.LogAspect                :76   [32mKeKoLd8I[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 12:02:51.198 INFO  com.course.server.config.LogAspect                :77   [32mKeKoLd8I[0;39m 请求地址: http://192.168.1.11:9003/file/admin/oss-append POST
+2021-02-05 12:02:51.198 INFO  com.course.server.config.LogAspect                :78   [32mKeKoLd8I[0;39m 类名方法: com.course.file.controller.admin.OssController.fileUpload
+2021-02-05 12:02:51.198 INFO  com.course.server.config.LogAspect                :79   [32mKeKoLd8I[0;39m 远程地址: 192.168.1.11
+2021-02-05 12:02:51.198 INFO  com.course.server.config.LogAspect                :97   [32mKeKoLd8I[0;39m 请求参数: [{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","shardIndex":6,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"}]
+2021-02-05 12:02:51.198 INFO  com.course.file.controller.admin.FileController   :53   [32mKeKoLd8I[0;39m 上传文件开始
+2021-02-05 12:02:51.323 INFO  com.course.file.controller.admin.FileController   :133  [32mKeKoLd8I[0;39m 保存文件记录开始
+2021-02-05 12:02:51.324 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mKeKoLd8I[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 12:02:51.324 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mKeKoLd8I[0;39m ==> Parameters: 350xENzv4kkIwGUI4OyQc(String)
+2021-02-05 12:02:51.325 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mKeKoLd8I[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-02-05 12:02:51.326 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mKeKoLd8I[0;39m <==        Row: HSu3cv1I, teacher/350xENzv4kkIwGUI4OyQc.png, Screen Shot 2021-01-31 at 20.54.49.png, png, 300502, T, 2021-02-05 12:02:45.950, 2021-02-05 12:02:49.740, 5, 51200, 6, 350xENzv4kkIwGUI4OyQc, null
+2021-02-05 12:02:51.326 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mKeKoLd8I[0;39m <==      Total: 1
+2021-02-05 12:02:51.327 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKeKoLd8I[0;39m ==>  Preparing: update file set `path` = ?, `name` = ?, suffix = ?, `size` = ?, `use` = ?, created_at = ?, updated_at = ?, shard_index = ?, shard_size = ?, shard_total = ?, `key` = ?, vod = ? where id = ? 
+2021-02-05 12:02:51.327 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKeKoLd8I[0;39m ==> Parameters: teacher/350xENzv4kkIwGUI4OyQc.png(String), Screen Shot 2021-01-31 at 20.54.49.png(String), png(String), 300502(Integer), T(String), 2021-02-05 12:02:45.95(Timestamp), 2021-02-05 12:02:51.327(Timestamp), 6(Integer), 51200(Integer), 6(Integer), 350xENzv4kkIwGUI4OyQc(String), null, HSu3cv1I(String)
+2021-02-05 12:02:51.330 DEBUG c.c.server.mapper.FileMapper.updateByPrimaryKey   :159  [32mKeKoLd8I[0;39m <==    Updates: 1
+2021-02-05 12:02:51.330 INFO  com.course.server.config.LogAspect                :109  [32mKeKoLd8I[0;39m 返回结果: {"content":{"key":"350xENzv4kkIwGUI4OyQc","name":"Screen Shot 2021-01-31 at 20.54.49.png","path":"http://imooc-courseji.oss-us-east-1.aliyuncs.com/teacher/350xENzv4kkIwGUI4OyQc.png","shardIndex":6,"shardSize":51200,"shardTotal":6,"size":300502,"suffix":"png","use":"T"},"success":true}
+2021-02-05 12:02:51.330 INFO  com.course.server.config.LogAspect                :110  [32mKeKoLd8I[0;39m ------------- 结束 耗时：133 ms -------------
+2021-02-05 12:06:57.007 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:11:57.018 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:16:57.043 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:21:27.366 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m        [0;39m Unregistering application FILE with eureka with status DOWN
+2021-02-05 12:21:27.367 WARN  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612545687367, current=DOWN, previous=UP]
+2021-02-05 12:21:27.367 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-02-05 12:21:27.370 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-02-05 12:21:27.387 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 12:21:27.389 INFO  com.netflix.discovery.DiscoveryClient             :906  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-05 12:21:30.394 INFO  com.netflix.discovery.DiscoveryClient             :940  [32m        [0;39m Unregistering ...
+2021-02-05 12:21:30.397 INFO  com.netflix.discovery.DiscoveryClient             :942  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - deregister  status: 200
+2021-02-05 12:21:30.405 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-05 12:21:30.405 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2021-02-05 12:21:30.410 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2021-02-05 12:26:22.842 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-05 12:26:22.845 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-05 12:26:22.846 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 12:26:23.030 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 12:26:23.139 INFO  com.course.file.config.FileApplication            :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 12:26:23.815 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 12:26:23.818 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 12:26:23.841 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2021-02-05 12:26:24.064 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=ba63dc6e-654b-3770-889b-0129e34ea086
+2021-02-05 12:26:24.169 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 12:26:24.284 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 12:26:24.698 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9003 (http)
+2021-02-05 12:26:24.706 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9003"]
+2021-02-05 12:26:24.706 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-05 12:26:24.706 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-05 12:26:24.795 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-05 12:26:24.796 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1636 ms
+2021-02-05 12:26:25.354 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 12:26:25.354 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 12:26:25.356 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 12:26:25.357 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 12:26:25.571 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 12:26:26.243 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-02-05 12:26:26.350 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:106  [32m        [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-02-05 12:26:26.403 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m        [0;39m Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-02-05 12:26:26.468 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-05 12:26:26.498 INFO  com.netflix.discovery.DiscoveryClient             :365  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-05 12:26:26.638 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2021-02-05 12:26:26.638 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2021-02-05 12:26:26.720 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2021-02-05 12:26:26.721 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2021-02-05 12:26:26.900 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:26:26.913 INFO  com.netflix.discovery.DiscoveryClient             :976  [32m        [0;39m Disable delta property : false
+2021-02-05 12:26:26.913 INFO  com.netflix.discovery.DiscoveryClient             :977  [32m        [0;39m Single vip registry refresh property : null
+2021-02-05 12:26:26.913 INFO  com.netflix.discovery.DiscoveryClient             :978  [32m        [0;39m Force full registry fetch : false
+2021-02-05 12:26:26.914 INFO  com.netflix.discovery.DiscoveryClient             :979  [32m        [0;39m Application is null : false
+2021-02-05 12:26:26.914 INFO  com.netflix.discovery.DiscoveryClient             :980  [32m        [0;39m Registered Applications size is zero : true
+2021-02-05 12:26:26.914 INFO  com.netflix.discovery.DiscoveryClient             :982  [32m        [0;39m Application version is -1: true
+2021-02-05 12:26:26.914 INFO  com.netflix.discovery.DiscoveryClient             :1065 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-05 12:26:27.032 INFO  com.netflix.discovery.DiscoveryClient             :1074 [32m        [0;39m The response status is 200
+2021-02-05 12:26:27.034 INFO  com.netflix.discovery.DiscoveryClient             :1288 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-05 12:26:27.036 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-05 12:26:27.040 INFO  com.netflix.discovery.DiscoveryClient             :465  [32m        [0;39m Discovery Client initialized at timestamp 1612545987039 with initial instances count: 2
+2021-02-05 12:26:27.046 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application FILE with eureka with status UP
+2021-02-05 12:26:27.046 INFO  com.netflix.discovery.DiscoveryClient             :1323 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1612545987046, current=UP, previous=STARTING]
+2021-02-05 12:26:27.047 INFO  com.netflix.discovery.DiscoveryClient             :844  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003: registering service...
+2021-02-05 12:26:27.058 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9003"]
+2021-02-05 12:26:27.072 INFO  com.netflix.discovery.DiscoveryClient             :853  [32m        [0;39m DiscoveryClient_FILE/192.168.1.11:file:9003 - registration status: 204
+2021-02-05 12:26:27.079 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9003 (http) with context path '/file'
+2021-02-05 12:26:27.080 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9003
+2021-02-05 12:26:27.085 INFO  com.course.file.config.FileApplication            :61   [32m        [0;39m Started FileApplication in 4.608 seconds (JVM running for 5.331)
+2021-02-05 12:26:27.086 INFO  com.course.file.config.FileApplication            :23   [32m        [0;39m 启动成功！！
+2021-02-05 12:26:27.087 INFO  com.course.file.config.FileApplication            :24   [32m        [0;39m File地址: http://127.0.0.1:9003
+2021-02-05 12:28:28.530 INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/file]:173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 12:28:28.531 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-02-05 12:28:28.540 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 9 ms
+2021-02-05 12:28:28.565 INFO  com.course.server.config.LogAspect                :76   [32mnyz8i0bs[0;39m ------------- 【文件上传】操作开始 -------------
+2021-02-05 12:28:28.565 INFO  com.course.server.config.LogAspect                :77   [32mnyz8i0bs[0;39m 请求地址: http://192.168.1.11:9003/file/admin/check/1qXx1b8WAEI4kKWUAoQueK GET
+2021-02-05 12:28:28.566 INFO  com.course.server.config.LogAspect                :78   [32mnyz8i0bs[0;39m 类名方法: com.course.file.controller.admin.UploadController.check
+2021-02-05 12:28:28.566 INFO  com.course.server.config.LogAspect                :79   [32mnyz8i0bs[0;39m 远程地址: 192.168.1.11
+2021-02-05 12:28:28.568 INFO  com.course.server.config.LogAspect                :97   [32mnyz8i0bs[0;39m 请求参数: ["1qXx1b8WAEI4kKWUAoQueK"]
+2021-02-05 12:28:28.570 INFO  com.course.file.controller.admin.UploadController :150  [32mnyz8i0bs[0;39m 检查上传分片开始：1qXx1b8WAEI4kKWUAoQueK
+2021-02-05 12:28:28.612 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32mnyz8i0bs[0;39m HikariPool-1 - Starting...
+2021-02-05 12:28:28.614 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32mnyz8i0bs[0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-02-05 12:28:28.829 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32mnyz8i0bs[0;39m HikariPool-1 - Start completed.
+2021-02-05 12:28:28.834 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mnyz8i0bs[0;39m ==>  Preparing: select id, `path`, `name`, suffix, `size`, `use`, created_at, updated_at, shard_index, shard_size, shard_total, `key`, vod from file WHERE ( `key` = ? ) 
+2021-02-05 12:28:28.854 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mnyz8i0bs[0;39m ==> Parameters: 1qXx1b8WAEI4kKWUAoQueK(String)
+2021-02-05 12:28:28.871 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mnyz8i0bs[0;39m <==    Columns: id, path, name, suffix, size, use, created_at, updated_at, shard_index, shard_size, shard_total, key, vod
+2021-02-05 12:28:28.873 TRACE c.course.server.mapper.FileMapper.selectByExample :165  [32mnyz8i0bs[0;39m <==        Row: 9hKmYub2, course/1qXx1b8WAEI4kKWUAoQueK.mp4, zoom_0.mp4, mp4, 109698, C, 2021-01-28 23:22:48.091, 2021-01-28 23:22:48.091, 1, 1048576000, 1, 1qXx1b8WAEI4kKWUAoQueK, b53ab3ba0f574bdcab594a991ae0a771
+2021-02-05 12:28:28.874 DEBUG c.course.server.mapper.FileMapper.selectByExample :159  [32mnyz8i0bs[0;39m <==      Total: 1
+2021-02-05 12:28:30.014 INFO  com.course.server.config.LogAspect                :109  [32mnyz8i0bs[0;39m 返回结果: {"content":{"createdAt":1611894168091,"id":"9hKmYub2","key":"1qXx1b8WAEI4kKWUAoQueK","name":"zoom_0.mp4","path":"https://outin-25ea2190612411ebae8900163e1a625e.oss-cn-shanghai.aliyuncs.com/customerTrans/5bfbed5620f8cbb2ce057dac368b80e5/1a91bbff-1774c610cd1-0003-bd58-43c-459f5.mp4?Expires=1612549709&OSSAccessKeyId=LTAIxSaOfEzCnBOj&Signature=hOMueyyET%2By%2FUq0vackOmjaC7Xw%3D","shardIndex":1,"shardSize":1048576000,"shardTotal":1,"size":109698,"suffix":"mp4","updatedAt":1611894168091,"use":"C","vod":"b53ab3ba0f574bdcab594a991ae0a771"},"success":true}
+2021-02-05 12:28:30.014 INFO  com.course.server.config.LogAspect                :110  [32mnyz8i0bs[0;39m ------------- 结束 耗时：1452 ms -------------
+2021-02-05 12:31:26.924 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
