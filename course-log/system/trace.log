@@ -611,3 +611,34 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-02-05 12:27:01.526 INFO  com.course.server.config.LogAspect                :110  [32mWNiei8Nq[0;39m ------------- 结束 耗时：1128 ms -------------
 2021-02-05 12:28:46.708 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
 2021-02-05 12:33:46.717 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:38:46.730 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:43:46.740 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:48:46.741 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:53:46.754 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 12:58:46.766 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:03:46.795 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:08:46.804 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:13:46.821 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:18:46.797 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:23:46.810 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:28:46.826 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:33:46.851 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:38:46.870 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:43:46.885 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:48:46.849 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:53:46.865 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 13:58:46.880 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 14:03:46.863 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 14:08:46.881 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 14:13:46.895 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 14:18:46.795 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 14:23:46.798 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 14:27:37.263 INFO  com.course.server.config.LogAspect                :76   [32mRG016upo[0;39m ------------- 【图片验证码】操作开始 -------------
+2021-02-05 14:27:37.264 INFO  com.course.server.config.LogAspect                :77   [32mRG016upo[0;39m 请求地址: http://127.0.0.1:9001/system/admin/kaptcha/image-code/Xcpf1LQs GET
+2021-02-05 14:27:37.264 INFO  com.course.server.config.LogAspect                :78   [32mRG016upo[0;39m 类名方法: com.course.system.controller.admin.KaptchaController.imageCode
+2021-02-05 14:27:37.264 INFO  com.course.server.config.LogAspect                :79   [32mRG016upo[0;39m 远程地址: 127.0.0.1
+2021-02-05 14:27:37.264 INFO  com.course.server.config.LogAspect                :97   [32mRG016upo[0;39m 请求参数: ["Xcpf1LQs",null,null]
+2021-02-05 14:27:37.490 INFO  com.course.server.config.LogAspect                :109  [32mRG016upo[0;39m 返回结果: null
+2021-02-05 14:27:37.490 INFO  com.course.server.config.LogAspect                :110  [32mRG016upo[0;39m ------------- 结束 耗时：227 ms -------------
+2021-02-05 14:28:46.805 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-05 14:33:46.859 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
