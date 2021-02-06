@@ -2092,3 +2092,287 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-02-05 22:07:03.330 INFO  com.course.system.config.SystemApplication        :61   [32m        [0;39m Started SystemApplication in 4.599 seconds (JVM running for 5.448)
 2021-02-05 22:07:03.332 INFO  com.course.system.config.SystemApplication        :26   [32m        [0;39m 启动成功！！
 2021-02-05 22:07:03.332 INFO  com.course.system.config.SystemApplication        :27   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-02-05 22:14:51.227 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :208  [32m        [0;39m Shutting down ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 22:14:51.231 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :80   [32m        [0;39m De-registering from Nacos Server now...
+2021-02-05 22:14:51.234 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :100  [32m        [0;39m De-registration finished.
+2021-02-05 22:14:51.235 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:29:48.223 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-05 22:29:48.230 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-05 22:29:48.231 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 22:29:48.599 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:29:48.836 INFO  com.course.system.config.SystemApplication        :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 22:29:50.199 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 22:29:50.204 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 22:29:50.242 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2021-02-05 22:29:50.582 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=547237b8-2f75-35bb-8f39-0d35ec6130f4
+2021-02-05 22:29:50.788 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:29:50.996 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:29:51.809 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-02-05 22:29:51.825 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 22:29:51.826 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-05 22:29:51.826 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-05 22:29:52.018 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-05 22:29:52.019 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 3145 ms
+2021-02-05 22:29:53.728 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 22:29:53.729 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 22:29:53.736 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 22:29:53.737 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 22:29:54.238 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 22:29:54.536 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :171  [32m        [0;39m Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 22:29:55.378 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :61   [32m        [0;39m Unable to start LiveReload server
+2021-02-05 22:29:55.582 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-02-05 22:29:55.622 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-02-05 22:29:55.813 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :65   [32m        [0;39m nacos registry, DEFAULT_GROUP system 192.168.1.11:9001 register finished
+2021-02-05 22:29:55.822 INFO  com.course.system.config.SystemApplication        :61   [32m        [0;39m Started SystemApplication in 8.309 seconds (JVM running for 9.799)
+2021-02-05 22:29:55.825 INFO  com.course.system.config.SystemApplication        :26   [32m        [0;39m 启动成功！！
+2021-02-05 22:29:55.826 INFO  com.course.system.config.SystemApplication        :27   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-02-05 22:30:58.871 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :208  [32m        [0;39m Shutting down ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 22:30:58.876 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :80   [32m        [0;39m De-registering from Nacos Server now...
+2021-02-05 22:30:58.880 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :100  [32m        [0;39m De-registration finished.
+2021-02-05 22:30:58.881 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:11:48.651 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-05 23:11:48.653 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-05 23:11:48.654 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 23:11:48.821 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:11:49.050 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :195  [32m        [0;39m LOCAL_SNAPSHOT_PATH:/Users/Steven/nacos/config
+2021-02-05 23:11:49.071 INFO  com.alibaba.nacos.client.config.impl.Limiter      :53   [32m        [0;39m limitTime:5.0
+2021-02-05 23:11:49.121 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   [32m        [0;39m Ignore the empty nacos configuration and get it based on dataId[system] & group[DEFAULT_GROUP]
+2021-02-05 23:11:49.128 INFO  com.alibaba.nacos.client.config.utils.JVMUtil     :47   [32m        [0;39m isMultiInstance:false
+2021-02-05 23:11:49.132 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :102  [32m        [0;39m Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='system.properties,DEFAULT_GROUP'}, NacosPropertySource {name='system,DEFAULT_GROUP'}]}
+2021-02-05 23:11:49.176 INFO  com.course.system.config.SystemApplication        :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 23:11:49.793 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 23:11:49.795 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 23:11:49.814 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2021-02-05 23:11:49.987 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=09c1e1fd-91f9-3b19-a7c9-131ed61476cf
+2021-02-05 23:11:50.089 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:11:50.186 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:11:50.590 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-02-05 23:11:50.596 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 23:11:50.597 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-05 23:11:50.597 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-05 23:11:50.699 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-05 23:11:50.700 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1506 ms
+2021-02-05 23:11:51.647 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 23:11:51.647 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 23:11:51.650 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 23:11:51.650 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 23:11:51.931 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:11:52.099 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :171  [32m        [0;39m Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 23:11:52.104 INFO  com.alibaba.nacos.client.naming                   :56   [32m        [0;39m initializer namespace from System Property :null
+2021-02-05 23:11:52.105 INFO  com.alibaba.nacos.client.naming                   :65   [32m        [0;39m initializer namespace from System Environment :null
+2021-02-05 23:11:52.105 INFO  com.alibaba.nacos.client.naming                   :75   [32m        [0;39m initializer namespace from System Property :null
+2021-02-05 23:11:52.508 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-02-05 23:11:52.625 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.testController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'system.test' in value "${system.test}"
+2021-02-05 23:11:52.628 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:11:52.647 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-02-05 23:11:52.661 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-05 23:11:52.673 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.testController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'system.test' in value "${system.test}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:359)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:356)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.eagerlyInitialize(RefreshScope.java:134)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.start(RefreshScope.java:125)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:119)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:73)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'system.test' in value "${system.test}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 common frames omitted
+2021-02-05 23:14:19.969 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-05 23:14:19.971 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-05 23:14:19.972 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 23:14:20.146 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:14:20.304 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :195  [32m        [0;39m LOCAL_SNAPSHOT_PATH:/Users/Steven/nacos/config
+2021-02-05 23:14:20.327 INFO  com.alibaba.nacos.client.config.impl.Limiter      :53   [32m        [0;39m limitTime:5.0
+2021-02-05 23:14:20.344 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   [32m        [0;39m Ignore the empty nacos configuration and get it based on dataId[system] & group[DEFAULT_GROUP]
+2021-02-05 23:14:20.347 INFO  com.alibaba.nacos.client.config.utils.JVMUtil     :47   [32m        [0;39m isMultiInstance:false
+2021-02-05 23:14:20.350 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :102  [32m        [0;39m Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='system.properties,DEFAULT_GROUP'}, NacosPropertySource {name='system,DEFAULT_GROUP'}]}
+2021-02-05 23:14:20.380 INFO  com.course.system.config.SystemApplication        :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 23:14:20.805 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 23:14:20.806 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 23:14:20.820 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2021-02-05 23:14:20.977 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=09c1e1fd-91f9-3b19-a7c9-131ed61476cf
+2021-02-05 23:14:21.054 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:14:21.163 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:14:21.607 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-02-05 23:14:21.614 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 23:14:21.615 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-05 23:14:21.615 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-05 23:14:21.715 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-05 23:14:21.715 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1324 ms
+2021-02-05 23:14:22.538 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 23:14:22.538 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 23:14:22.540 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 23:14:22.541 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 23:14:22.754 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:14:22.912 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :171  [32m        [0;39m Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 23:14:22.916 INFO  com.alibaba.nacos.client.naming                   :56   [32m        [0;39m initializer namespace from System Property :null
+2021-02-05 23:14:22.917 INFO  com.alibaba.nacos.client.naming                   :65   [32m        [0;39m initializer namespace from System Environment :null
+2021-02-05 23:14:22.917 INFO  com.alibaba.nacos.client.naming                   :75   [32m        [0;39m initializer namespace from System Property :null
+2021-02-05 23:14:23.274 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-02-05 23:14:23.371 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.testController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'system.test' in value "${system.test}"
+2021-02-05 23:14:23.374 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :208  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:14:23.386 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2021-02-05 23:14:23.396 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-05 23:14:23.403 ERROR org.springframework.boot.SpringApplication        :826  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.testController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'system.test' in value "${system.test}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:359)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:356)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.eagerlyInitialize(RefreshScope.java:134)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.start(RefreshScope.java:125)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:119)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:73)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.course.system.config.SystemApplication.main(SystemApplication.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'system.test' in value "${system.test}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 common frames omitted
+2021-02-05 23:17:47.724 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2021-02-05 23:17:47.727 INFO  o.s.boot.devtools.restart.ChangeableUrls          :225  [32m        [0;39m The Class-Path manifest attribute in /Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-impl-2.3.2.jar referenced one or more files that do not exist: file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jaxb-runtime-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/txw2-2.3.2.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/stax-ex-1.8.1.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/FastInfoset-1.2.16.jar,file:/Users/Steven/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.2/jakarta.activation-api-1.2.1.jar
+2021-02-05 23:17:47.728 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 23:17:47.934 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:17:48.137 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :195  [32m        [0;39m LOCAL_SNAPSHOT_PATH:/Users/Steven/nacos/config
+2021-02-05 23:17:48.171 INFO  com.alibaba.nacos.client.config.impl.Limiter      :53   [32m        [0;39m limitTime:5.0
+2021-02-05 23:17:48.199 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   [32m        [0;39m Ignore the empty nacos configuration and get it based on dataId[system] & group[DEFAULT_GROUP]
+2021-02-05 23:17:48.204 INFO  com.alibaba.nacos.client.config.utils.JVMUtil     :47   [32m        [0;39m isMultiInstance:false
+2021-02-05 23:17:48.207 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :102  [32m        [0;39m Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='system.properties,DEFAULT_GROUP'}, NacosPropertySource {name='system,DEFAULT_GROUP'}]}
+2021-02-05 23:17:48.264 INFO  com.course.system.config.SystemApplication        :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 23:17:48.962 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 23:17:48.964 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 23:17:48.983 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2021-02-05 23:17:49.174 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=09c1e1fd-91f9-3b19-a7c9-131ed61476cf
+2021-02-05 23:17:49.275 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:17:49.374 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 23:17:49.869 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-02-05 23:17:49.876 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-05 23:17:49.877 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-05 23:17:49.877 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-02-05 23:17:49.977 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-05 23:17:49.977 INFO  org.springframework.web.context.ContextLoader     :284  [32m        [0;39m Root WebApplicationContext: initialization completed in 1689 ms
+2021-02-05 23:17:50.940 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 23:17:50.940 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 23:17:50.944 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 23:17:50.944 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 23:17:51.270 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :171  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-05 23:17:51.452 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :171  [32m        [0;39m Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 23:17:51.457 INFO  com.alibaba.nacos.client.naming                   :56   [32m        [0;39m initializer namespace from System Property :null
+2021-02-05 23:17:51.458 INFO  com.alibaba.nacos.client.naming                   :65   [32m        [0;39m initializer namespace from System Environment :null
+2021-02-05 23:17:51.458 INFO  com.alibaba.nacos.client.naming                   :75   [32m        [0;39m initializer namespace from System Property :null
+2021-02-05 23:17:51.891 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-02-05 23:17:52.014 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-02-05 23:17:52.040 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2021-02-05 23:17:52.043 INFO  com.alibaba.nacos.client.naming                   :66   [32m        [0;39m [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.1.11","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":9001,"scheduled":false,"serviceName":"DEFAULT_GROUP@@system","stopped":false,"weight":1.0} to beat map.
+2021-02-05 23:17:52.103 INFO  com.alibaba.nacos.client.naming                   :196  [32m        [0;39m [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@system with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.1.11","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":9001,"weight":1.0}
+2021-02-05 23:17:52.111 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :65   [32m        [0;39m nacos registry, DEFAULT_GROUP system 192.168.1.11:9001 register finished
+2021-02-05 23:17:52.117 INFO  com.course.system.config.SystemApplication        :61   [32m        [0;39m Started SystemApplication in 4.702 seconds (JVM running for 5.505)
+2021-02-05 23:17:52.120 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :197  [32m        [0;39m [fixed-localhost_8848] [subscribe] system.properties+DEFAULT_GROUP
+2021-02-05 23:17:52.120 INFO  com.alibaba.nacos.client.config.impl.CacheData    :92   [32m        [0;39m [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=system.properties, group=DEFAULT_GROUP, cnt=1
+2021-02-05 23:17:52.120 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :197  [32m        [0;39m [fixed-localhost_8848] [subscribe] system+DEFAULT_GROUP
+2021-02-05 23:17:52.121 INFO  com.alibaba.nacos.client.config.impl.CacheData    :92   [32m        [0;39m [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=system, group=DEFAULT_GROUP, cnt=1
+2021-02-05 23:17:52.121 INFO  com.course.system.config.SystemApplication        :26   [32m        [0;39m 启动成功！！
+2021-02-05 23:17:52.121 INFO  com.course.system.config.SystemApplication        :27   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2021-02-05 23:17:52.132 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:18:21.837 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:18:51.342 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:19:20.849 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:19:50.354 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:20:01.734 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 23:20:01.735 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2021-02-05 23:20:01.745 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 10 ms
+2021-02-05 23:20:01.764 ERROR com.course.server.config.LogAspect                :70   [32mSUqjj6OV[0;39m 未获取到业务名称
+2021-02-05 23:20:01.765 INFO  com.course.server.config.LogAspect                :76   [32mSUqjj6OV[0;39m ------------- 【】查询开始 -------------
+2021-02-05 23:20:01.765 INFO  com.course.server.config.LogAspect                :77   [32mSUqjj6OV[0;39m 请求地址: http://127.0.0.1:9001/system/test/list GET
+2021-02-05 23:20:01.766 INFO  com.course.server.config.LogAspect                :78   [32mSUqjj6OV[0;39m 类名方法: com.course.system.controller.TestController.list
+2021-02-05 23:20:01.766 INFO  com.course.server.config.LogAspect                :79   [32mSUqjj6OV[0;39m 远程地址: 127.0.0.1
+2021-02-05 23:20:01.767 INFO  com.course.server.config.LogAspect                :97   [32mSUqjj6OV[0;39m 请求参数: []
+2021-02-05 23:20:01.772 INFO  com.course.server.config.LogAspect                :109  [32mSUqjj6OV[0;39m 返回结果: {"content":"测试","success":true}
+2021-02-05 23:20:01.773 INFO  com.course.server.config.LogAspect                :110  [32mSUqjj6OV[0;39m ------------- 结束 耗时：11 ms -------------
+2021-02-05 23:20:19.863 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:20:49.371 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:21:18.874 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:21:48.382 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:22:17.891 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:22:47.396 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:23:16.904 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:23:46.408 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:24:15.912 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:24:45.420 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:25:14.926 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:25:44.431 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:26:13.936 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:26:43.441 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:27:12.948 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]
+2021-02-05 23:27:42.453 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :522  [32m        [0;39m get changedGroupKeys:[]

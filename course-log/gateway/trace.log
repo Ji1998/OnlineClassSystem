@@ -1965,3 +1965,79 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
 2021-02-05 21:23:08.896 INFO  com.netflix.discovery.DiscoveryClient             :929  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-05 22:25:33.683 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 22:25:33.931 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:25:34.062 INFO  com.course.gateway.GatewayApplication             :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 22:25:34.777 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 22:25:34.780 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 22:25:34.809 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2021-02-05 22:25:34.967 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=23be377c-de20-3525-b4eb-1fff03151833
+2021-02-05 22:25:35.028 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:25:35.030 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:25:35.032 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:25:35.037 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:25:35.403 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 22:25:35.404 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 22:25:35.408 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 22:25:35.409 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 22:25:35.943 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [After]
+2021-02-05 22:25:35.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Before]
+2021-02-05 22:25:35.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Between]
+2021-02-05 22:25:35.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Cookie]
+2021-02-05 22:25:35.944 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Header]
+2021-02-05 22:25:35.945 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Host]
+2021-02-05 22:25:35.945 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Method]
+2021-02-05 22:25:35.945 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Path]
+2021-02-05 22:25:35.945 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Query]
+2021-02-05 22:25:35.945 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2021-02-05 22:25:35.945 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2021-02-05 22:25:35.946 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Weight]
+2021-02-05 22:25:35.946 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-02-05 22:25:36.085 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :171  [32m        [0;39m Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 22:25:36.259 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-02-05 22:25:36.545 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :89   [32m        [0;39m Netty started on port(s): 9000
+2021-02-05 22:25:36.683 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :65   [32m        [0;39m nacos registry, DEFAULT_GROUP gateway 192.168.1.11:9000 register finished
+2021-02-05 22:25:36.690 INFO  com.course.gateway.GatewayApplication             :61   [32m        [0;39m Started GatewayApplication in 3.462 seconds (JVM running for 4.599)
+2021-02-05 22:25:36.692 INFO  com.course.gateway.GatewayApplication             :26   [32m        [0;39m 启动成功！！
+2021-02-05 22:25:36.693 INFO  com.course.gateway.GatewayApplication             :27   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
+2021-02-05 22:26:11.010 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :208  [32m        [0;39m Shutting down ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 22:26:11.013 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :80   [32m        [0;39m De-registering from Nacos Server now...
+2021-02-05 22:26:11.017 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :100  [32m        [0;39m De-registration finished.
+2021-02-05 22:28:32.217 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-05 22:28:32.485 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:28:32.659 INFO  com.course.gateway.GatewayApplication             :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-05 22:28:33.510 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m        [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-05 22:28:33.514 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m        [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-02-05 22:28:33.548 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m        [0;39m Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2021-02-05 22:28:33.727 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=23be377c-de20-3525-b4eb-1fff03151833
+2021-02-05 22:28:33.794 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:28:33.795 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:28:33.796 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:28:33.801 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330  [32m        [0;39m Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-05 22:28:34.267 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 22:28:34.268 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 22:28:34.273 WARN  com.netflix.config.sources.URLConfigurationSource :121  [32m        [0;39m No URLs will be polled as dynamic configuration sources.
+2021-02-05 22:28:34.274 INFO  com.netflix.config.sources.URLConfigurationSource :122  [32m        [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-02-05 22:28:34.961 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [After]
+2021-02-05 22:28:34.962 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Before]
+2021-02-05 22:28:34.962 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Between]
+2021-02-05 22:28:34.962 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Cookie]
+2021-02-05 22:28:34.963 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Header]
+2021-02-05 22:28:34.963 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Host]
+2021-02-05 22:28:34.963 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Method]
+2021-02-05 22:28:34.963 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Path]
+2021-02-05 22:28:34.964 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Query]
+2021-02-05 22:28:34.964 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2021-02-05 22:28:34.964 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2021-02-05 22:28:34.964 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [Weight]
+2021-02-05 22:28:34.965 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m        [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-02-05 22:28:35.138 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :171  [32m        [0;39m Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 22:28:35.344 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-02-05 22:28:35.689 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :89   [32m        [0;39m Netty started on port(s): 9000
+2021-02-05 22:28:35.856 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :65   [32m        [0;39m nacos registry, DEFAULT_GROUP gateway 192.168.1.11:9000 register finished
+2021-02-05 22:28:35.864 INFO  com.course.gateway.GatewayApplication             :61   [32m        [0;39m Started GatewayApplication in 4.129 seconds (JVM running for 5.346)
+2021-02-05 22:28:35.866 INFO  com.course.gateway.GatewayApplication             :26   [32m        [0;39m 启动成功！！
+2021-02-05 22:28:35.867 INFO  com.course.gateway.GatewayApplication             :27   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
+2021-02-05 22:30:58.984 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :208  [32m        [0;39m Shutting down ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-02-05 22:30:58.987 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :80   [32m        [0;39m De-registering from Nacos Server now...
+2021-02-05 22:30:58.991 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :100  [32m        [0;39m De-registration finished.
