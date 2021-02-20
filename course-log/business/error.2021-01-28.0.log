@@ -1,0 +1,15 @@
+2021-01-28 16:03:13.386 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m        [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.course.server.mapper.SectionMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.course.server.mapper.SectionMapper' in your configuration.
+
