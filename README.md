@@ -32,8 +32,8 @@ This project is microservice like architecture. All service run on different ser
 * Gateway Service: responsible for check if the visit is leagle
 * Controller: responsbible for direct REST service URL
 * Front-end: responsible for show user-friendly pages
-<h5></h5>
 <img src="Screen Shot 2021-03-03 at 20.58.22.png" height="450" width="500"/>
+
 
 #### Database Design
 <img src="Screen Shot 2021-03-03 at 00.45.32.png" height="450" width="500"/>
