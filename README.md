@@ -1,4 +1,4 @@
-# Online Class System -- Pro Version
+# Online Class System
 This project is a Coursera like online class project. It is seperated in back-end and front-end. There are two front-end web page for it, one is for admins and
 the other is for normal users. The back-end is developed into microservice archetecture. 
 
@@ -51,6 +51,8 @@ This project is microservice like architecture. All service run on different ser
 * [FreeMarker](https://freemarker.apache.org/): A template to use with My Batis generator to produce front-end, controller and service code
 * [Vue.js](https://vuejs.org/): Front end is built upon Vue.js
 
+## Any Quesions?
+* Email guangsen@usc.edu!
 
 
 
