@@ -45,11 +45,13 @@ This project is microservice like architecture. All service run on different ser
 <img src="Screen Shot 2021-03-03 at 20.38.50.png" height="600" width="400"/>
 
 ### Build With
-[MAVEN](https://maven.apache.org/install.html): Manage dependency
-[Spring Cloud](https://spring.io/projects/spring-cloud): For configuration of each micro service as Spring Boot application and for usage of Gateway
-[My Batis](https://mybatis.org/mybatis-3/): To build mapper for interact with database, and code generation and pagehelper
-[FreeMarker](https://freemarker.apache.org/): A template to use with My Batis generator to produce front-end, controller and service code
-[Vue.js](https://vuejs.org/): Front end is built upon Vue.js
+* [MAVEN](https://maven.apache.org/install.html): Manage dependency
+* [Spring Cloud](https://spring.io/projects/spring-cloud): For configuration of each micro service as Spring Boot application and for usage of Gateway
+* [My Batis](https://mybatis.org/mybatis-3/): To build mapper for interact with database, and code generation and pagehelper
+* [FreeMarker](https://freemarker.apache.org/): A template to use with My Batis generator to produce front-end, controller and service code
+* [Vue.js](https://vuejs.org/): Front end is built upon Vue.js
+
+
 
 
 
