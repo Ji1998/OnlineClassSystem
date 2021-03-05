@@ -23,6 +23,19 @@ the other is for normal users. The back-end is developed into microservice arche
 <img src="Screen Shot 2021-03-03 at 00.43.11.png" width="600"/>
 <img src="Screen Shot 2021-03-03 at 00.44.05.png" width="600"/>
 
+## Getting started
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+#### Prerequisites
+1. Go to [Java SE Downloads](https://www.oracle.com/java/technologies/javase-downloads.html) to download the latest version of JDK
+2. If you prefer, I highly recommend [IntelliJ](https://www.jetbrains.com/idea/) as it can help you build necessary environment
+3. A [MySQL](https://www.mysql.com/) server runnning on your laptop
+4. An [Alibaba](https://us.alibabacloud.com) OOS and VOD account
+5. [Node.js and nmp modules](https://www.npmjs.com/) as for front end.
+
+#### Install and Run
+1. 
+
+
 ## Architecture of it
 #### Basic Archetecture
 This project is microservice like architecture. All service run on different server and registerd on Eureka. The service has different functions
