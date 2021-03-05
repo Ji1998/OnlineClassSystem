@@ -33,8 +33,12 @@ This is an example of how you may give instructions on setting up your project l
 5. [Node.js and nmp modules](https://www.npmjs.com/) as for front end.
 
 #### Install and Run
-1. 
-
+1. Once you have download all files and open them with intelliJ,simple open the back-end applications as Eureka->Gateway->System->Business->File
+1. <img src="Screen Shot 2021-03-05 at 00.18.25.png" height="300" width="400"/>
+2. Then right click package.json->show scripts under web and admin
+2. <img src="Screen Shot 2021-03-05 at 00.19.01.png" height="300" width="400"/>
+3. Bingo, then go to localhost:8080 for admin and localhost:8081 for normal front end
+4. BTW, there is a admin user with name:test, password:test who has all resources. Use this one to login and create as more user as you want...
 
 ## Architecture of it
 #### Basic Archetecture
