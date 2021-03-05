@@ -12,6 +12,8 @@ the other is for normal users. The back-end is developed into microservice arche
 <h5></h5>
 <img src="Screen Shot 2021-03-03 at 00.39.31.png" width="600"/>
 <img src="Screen Shot 2021-03-03 at 00.41.00.png" width="600"/>
+<img src="Screen Shot 2021-03-05 at 00.34.02.png" width="600"/>
+<img src="Screen Shot 2021-03-05 at 00.34.48.png" width="600"/>
 
 #### This is how the normal user front-end look like. It basically support:
 * member register, forget password, login, enroll into class
@@ -37,8 +39,8 @@ This is an example of how you may give instructions on setting up your project l
 1. <img src="Screen Shot 2021-03-05 at 00.18.25.png" height="300" width="400"/>
 2. Then right click package.json->show scripts under web and admin
 2. <img src="Screen Shot 2021-03-05 at 00.19.01.png" height="300" width="400"/>
-3. Bingo, then go to localhost:8080 for admin and localhost:8081 for normal front end
-4. BTW, there is a admin user with name:test, password:test who has all resources. Use this one to login and create as more user as you want...
+3. Bingo, then go to `localhost:8080` for admin and `localhost:8081` for normal front end
+4. BTW, there is a admin user with  `name:test, password:test` who has all resources. Use this one to login and create as more user as you want...
 
 ## Architecture of it
 #### Basic Archetecture
